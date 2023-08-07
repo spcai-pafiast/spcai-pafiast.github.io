@@ -1,0 +1,16 @@
+.input {
+  background-color: var(--ifm-color-gray-100);
+  border-radius: 999rem;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  padding-bottom: 0.75em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.75em;
+  width: 100%;
+}
+
+.inputContainer {
+  margin-bottom: 1em;
+}
