@@ -9,7 +9,7 @@ type FacultyItemProps = {
 
 export default function FacutlyItem({ faculty }: FacultyItemProps) {
   return (
-    <div className="col col--6 padding-horiz--md">
+    <div className="col col--6">
       <div className={styles.innerContainer}>
         <div className="padding-top--md text--center">
           <img alt={faculty.name} className={styles.image} src={faculty.image} />

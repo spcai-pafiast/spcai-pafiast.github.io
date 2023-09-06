@@ -4,6 +4,8 @@
  * work well for content-centric websites.
  */
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #149dcc;
@@ -14,17 +16,23 @@
   --ifm-color-primary-lighter: #26aedf;
   --ifm-color-primary-lightest: #3cc0eb;
   --ifm-code-font-size: 95%;
+  --ifm-font-family-base: Inter, system-ui, -apple-system, "Segoe UI", Roboto;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #149dcc;
   --ifm-color-primary-dark: #1288aa;
   --ifm-color-primary-darker: #107892;
   --ifm-color-primary-darkest: #0d5e77;
   --ifm-color-primary-light: #1caddf;
   --ifm-color-primary-lighter: #27c1e6;
-  --ifm-color-primary-lightest: #5bd7f1;  
+  --ifm-color-primary-lightest: #5bd7f1;
+  --ifm-font-family-base: Inter, system-ui, -apple-system, "Segoe UI", Roboto;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.mdx-page p {
+  text-align: justify;
 }

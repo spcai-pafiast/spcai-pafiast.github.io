@@ -78,26 +78,46 @@ const config = {
         },
         items: [
           {
-            label: "About",
+            label: "Gnosis",
             position: "left",
             items: [
               {
-                to: "/about/mission",
-                label: "Mission",
+                to: "/about",
+                label: "About",
+              },
+              {
+                to: "/members",
+                label: "Members",
+              },
+              {
+                to: "/affiliations",
+                label: "Affiliations",
+              },
+              {
+                to: "/contact",
+                label: "Contact",
               },
             ],
           },
           {
-            label: "People",
+            label: "Research",
             position: "left",
             items: [
               {
-                to: "/people/faculty",
-                label: "Faculty",
+                to: "/research/projects",
+                label: "Projects",
               },
               {
-                to: "/people/members",
-                label: "Members",
+                to: "/research/patents",
+                label: "Patents",
+              },
+              {
+                to: "/research/partners",
+                label: "Partners",
+              },
+              {
+                to: "/research/resources",
+                label: "Resources",
               },
             ],
           },
@@ -109,11 +129,6 @@ const config = {
           {
             to: "/blog",
             label: "Blog",
-            position: "left",
-          },
-          {
-            to: "/contact",
-            label: "Contact",
             position: "left",
           },
           {

@@ -8,6 +8,13 @@ export type Faculty = {
   researchInterests: string[];
 };
 
+export type Project = {
+  title: string;
+  shortDescription: string;
+  link: string;
+  isFeatured?: boolean;
+};
+
 export type PublicationAuthor =
   | "A. Brusilovsky"
   | "A. Daftari"
