@@ -1,11 +1,18 @@
-export type Faculty = {
+type MemberLinkType = "website" | "email" | "github" | "linkedin" | "twitter" | "scholar";
+
+export type Member = {
+  advisor: string;
+  bio?: string;
+  image: string;
+  links?: Record<MemberLinkType, string>;
   name: string;
+  researchInterests?: string[];
   title: string;
+};
+
+export type Faculty = Member & {
   email: string;
   website: string;
-  bio: string;
-  image: string;
-  researchInterests: string[];
 };
 
 export type Project = {
