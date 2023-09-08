@@ -1,4 +1,11 @@
-type MemberLinkType = "website" | "email" | "github" | "linkedin" | "twitter" | "scholar";
+export type Affiliation = {
+  image: string;
+  name: string;
+  type: "laboratory" | "university";
+  url: string;
+};
+
+export type MemberLinkType = "website" | "email" | "github" | "linkedin" | "twitter" | "scholar";
 
 export type Member = {
   advisor: string;

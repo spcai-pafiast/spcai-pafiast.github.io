@@ -2,4 +2,19 @@
 title: Affiliations
 ---
 
+import AffiliationList from "@site/src/components/affiliations/AffiliationList";
+import affiliations from "@site/src/data/affiliations";
+
 # Affiliations
+
+We work with several Universities and Research Labs across the USA and around the world.
+
+Including:
+
+## Universities
+
+<AffiliationList data={affiliations.filter((affiliation) => affiliation.type === "university")} />
+
+## National Labs and Research Centers
+
+<AffiliationList data={affiliations.filter((affiliation) => affiliation.type === "laboratory")} />
