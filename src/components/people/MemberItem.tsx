@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Member } from "@site/src/types";
+import { Member, MemberLinkType } from "@site/src/types";
 import { faEnvelope, faGlobe, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
@@ -13,9 +13,10 @@ type MemberItemProps = {
 export default function MemberItem({ member }: MemberItemProps) {
   const renderLinks = () => {
     return Object.entries(member.links).map((link) => {
-      const href = link[0] === "email" ? `mailto:${link[1]}` : link[1];
+      const linkType = link[0] as MemberLinkType;
+      const href = linkType === "email" ? `mailto:${link[1]}` : link[1];
       let icon = null;
-      switch (link[0]) {
+      switch (linkType) {
         case "email":
           icon = faEnvelope;
           break;
