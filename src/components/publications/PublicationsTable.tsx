@@ -1,8 +1,10 @@
 import DebouncedInput from "@site/src/components/common/DebouncedInput";
-import React, { useMemo, useState } from "react";
+import React, { Fragment, useCallback, useMemo, useState } from "react";
+import clsx from "clsx";
 import {
+  Column,
   ColumnDef,
-  FilterFn,
+  ColumnFiltersState,
   SortingState,
   createColumnHelper,
   flexRender,
@@ -11,27 +13,137 @@ import {
   getSortedRowModel,
   useReactTable,
 } from "@tanstack/react-table";
-import { Publication } from "@site/src/types";
-import { rankItem } from "@tanstack/match-sorter-utils";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Publication, PublicationAuthor, PublicationTag } from "@site/src/types";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 import styles from "./PublicationsTable.module.css";
+
+const ACCESSOR_SEPARATOR = ", ";
 
 type PublicationsTableProps = {
   data: Publication[];
 };
 
-const fuzzyFilter: FilterFn<any> = (row, columnId, value, addMeta) => {
-  // Rank the item
-  const itemRank = rankItem(row.getValue(columnId), value);
+function ActiveColumnFilters({
+  columnFilters,
+  getColumn,
+}: {
+  columnFilters: ColumnFiltersState;
+  getColumn: (columnId: string) => Column<Publication>;
+}) {
+  const removeFilterValue = useCallback(
+    (columnId: string, removedValue: string) => {
+      const column = getColumn(columnId);
+      const filterValue = column.getFilterValue();
+      if (filterValue instanceof Array) {
+        const newFilterValue = filterValue.filter((value) => value !== removedValue);
+        if (newFilterValue.length === 0) {
+          column.setFilterValue(undefined);
+        } else {
+          column.setFilterValue(newFilterValue);
+        }
+      } else {
+        column.setFilterValue(undefined);
+      }
+    },
+    [getColumn]
+  );
+  if (columnFilters.length === 0) return null;
+  columnFilters.sort((a, b) => a.id.localeCompare(b.id));
+  return (
+    <div className={clsx("margin-bottom--md", styles.filters)}>
+      {columnFilters.map((filter) => (
+        <span key={filter.id} className="badge badge--primary margin-right--sm">
+          <span className={styles.filterId}>{`${filter.id}:`}</span>
+          {filter.value instanceof Array
+            ? filter.value.map((value) => (
+                <Fragment key={value}>
+                  <span className="margin-left--sm">{`${value} `}</span>
+                  <FontAwesomeIcon
+                    className={styles.filterRemove}
+                    icon={faXmark}
+                    onClick={() => removeFilterValue(filter.id, value)}
+                  />
+                </Fragment>
+              ))
+            : String(filter.value)}
+        </span>
+      ))}
+    </div>
+  );
+}
 
-  // Store the itemRank info
-  addMeta({
-    itemRank,
-  });
+function Authors({
+  column,
+  data,
+}: {
+  column: Column<Publication, string>;
+  data: PublicationAuthor[];
+}) {
+  const toggleFilter = useCallback(
+    (author: PublicationAuthor) => {
+      const filterValue = (column.getFilterValue() || []) as PublicationAuthor[];
+      if (!filterValue.includes(author)) {
+        column.setFilterValue([...filterValue, author]);
+      }
+    },
+    [column, data]
+  );
+  return data.map((author, i) => (
+    <Fragment key={`author-${i}`}>
+      <span className={styles.author} onClick={() => toggleFilter(author)}>
+        {author}
+      </span>
+      {i !== data.length - 1 && ", "}
+      {i !== data.length - 1 && <br />}
+    </Fragment>
+  ));
+}
 
-  // Return if the item should be filtered in/out
-  return itemRank.passed;
-};
+function Links({ data }: { data: Record<string, string> }) {
+  if (Object.keys(data).length === 0) return "TBA";
+  return (
+    <div className={styles.links}>
+      {Object.entries(data).map(([key, value], i) => (
+        <Fragment key={`link-${i}`}>
+          <a className={styles.link} href={value} target="_blank">
+            {key === "pdf" ? "PDF" : key === "bibtex" ? "BibTeX" : key}
+          </a>
+          {i !== Object.keys(data).length - 1 && ", "}
+          {i !== Object.keys(data).length - 1 && <br />}
+        </Fragment>
+      ))}
+    </div>
+  );
+}
+
+function Tags({ column, data }: { column: Column<Publication, string>; data: PublicationTag[] }) {
+  const toggleFilter = useCallback(
+    (tag: PublicationTag) => {
+      const filterValue = (column.getFilterValue() || []) as PublicationTag[];
+      if (!filterValue.includes(tag)) {
+        column.setFilterValue([...filterValue, tag]);
+      }
+    },
+    [column, data]
+  );
+  if (data.length === 0 || (data[0] as string) === "") return null;
+  return (
+    <div className={styles.tags}>
+      {data.map((tag, i) => (
+        <span
+          key={`tag-${i}`}
+          className={clsx("badge margin-bottom--xs", styles.tag)}
+          onClick={() => toggleFilter(tag)}
+          title={tag}
+        >
+          {tag}
+        </span>
+      ))}
+    </div>
+  );
+}
 
 export default function PublicationsTable({ data }: PublicationsTableProps) {
   const [globalFilter, setGlobalFilter] = useState("");
@@ -40,36 +152,65 @@ export default function PublicationsTable({ data }: PublicationsTableProps) {
   const columns = useMemo<ColumnDef<Publication>[]>(() => {
     const columnHelper = createColumnHelper<Publication>();
     return [
-      columnHelper.accessor("authors", {
-        cell: (info) => info.getValue(),
+      columnHelper.accessor((row) => row.authors.join(ACCESSOR_SEPARATOR), {
+        cell: (info) => (
+          <Authors
+            column={info.column}
+            data={info.getValue().split(ACCESSOR_SEPARATOR) as PublicationAuthor[]}
+          />
+        ),
         enableSorting: false,
+        filterFn: (row, columnId, filterValue: PublicationAuthor[]) => {
+          const rowAuthors = row
+            .getValue<string>(columnId)
+            .split(ACCESSOR_SEPARATOR) as PublicationAuthor[];
+          return filterValue.every((author) => rowAuthors.includes(author));
+        },
         header: "Authors",
+        id: "authors",
       }),
       columnHelper.accessor("title", {
         cell: (info) => info.getValue(),
         header: "Title",
+        id: "title",
       }),
       columnHelper.accessor("venue", {
         cell: (info) => info.getValue(),
         header: "Venue",
+        id: "venue",
       }),
       columnHelper.accessor("type", {
         cell: (info) => info.getValue(),
         header: "Type",
+        id: "type",
       }),
       columnHelper.accessor("date", {
         cell: (info) => info.getValue(),
         header: "Date",
+        id: "date",
       }),
-      columnHelper.accessor("tags", {
-        cell: (info) => info.getValue(),
+      columnHelper.accessor((row) => row.tags.join(ACCESSOR_SEPARATOR), {
+        cell: (info) => (
+          <Tags
+            column={info.column}
+            data={info.getValue().split(ACCESSOR_SEPARATOR) as PublicationTag[]}
+          />
+        ),
         enableSorting: false,
+        filterFn: (row, columnId, filterValue: PublicationAuthor[]) => {
+          const rowTags = row
+            .getValue<string>(columnId)
+            .split(ACCESSOR_SEPARATOR) as PublicationAuthor[];
+          return filterValue.every((tag) => rowTags.includes(tag));
+        },
         header: "Tags",
+        id: "tags",
       }),
-      // columnHelper.accessor("links", {
-      //   cell: (info) => info.getValue(),
-      //   header: "Links",
-      // }),
+      columnHelper.accessor("links", {
+        cell: (info) => <Links data={info.getValue()} />,
+        header: "Links",
+        id: "links",
+      }),
     ];
   }, []);
 
@@ -80,7 +221,6 @@ export default function PublicationsTable({ data }: PublicationsTableProps) {
     getCoreRowModel: getCoreRowModel<Publication>(),
     getFilteredRowModel: getFilteredRowModel<Publication>(),
     getSortedRowModel: getSortedRowModel<Publication>(),
-    // globalFilterFn: fuzzyFilter,
     onGlobalFilterChange: setGlobalFilter,
     onSortingChange: setSorting,
     state: {
@@ -99,7 +239,13 @@ export default function PublicationsTable({ data }: PublicationsTableProps) {
           placeholder="Seach publications"
         />
       </div>
-      <table>
+
+      <ActiveColumnFilters
+        columnFilters={table.getState().columnFilters}
+        getColumn={table.getColumn}
+      />
+
+      <table className={styles.table}>
         <thead>
           {table.getHeaderGroups().map((headerGroup) => (
             <tr key={headerGroup.id}>
@@ -124,16 +270,19 @@ export default function PublicationsTable({ data }: PublicationsTableProps) {
         </thead>
         <tbody>
           {table.getRowModel().rows.map((row) => (
-            <tr key={row.id} className="bg-white border-b hover:bg-gray-50">
+            <tr key={row.id}>
               {row.getVisibleCells().map((cell) => (
-                <td key={cell.id} className="px-6 py-4">
-                  {flexRender(cell.column.columnDef.cell, cell.getContext())}
-                </td>
+                <td key={cell.id}>{flexRender(cell.column.columnDef.cell, cell.getContext())}</td>
               ))}
             </tr>
           ))}
         </tbody>
       </table>
+      <div>
+        <span>
+          Showing {table.getRowModel().rows.length} of {data.length} publications
+        </span>
+      </div>
     </div>
   );
 }

@@ -1,3 +1,28 @@
+.author {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: underline !important;
+  text-decoration-color: var(--ifm-color-gray-600) !important;
+  text-decoration-style: dotted !important;
+  white-space: nowrap;
+}
+
+.author:hover {
+  text-decoration-color: inherit !important;
+}
+
+.filters {
+  display: flex;
+}
+
+.filterId {
+  text-transform: capitalize;
+}
+
+.filterRemove {
+  cursor: pointer;
+}
+
 .input {
   background-color: var(--ifm-color-gray-100);
   border-radius: 999rem;
@@ -13,4 +38,36 @@
 
 .inputContainer {
   margin-bottom: 1em;
+}
+
+.link {
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+.table {
+  font-size: 0.875rem;
+}
+
+.tags {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.tag {
+  --ifm-badge-border-color: var(--ifm-table-border-color);
+  color: var(--ifm-table-cell-color);
+  cursor: pointer;
+  display: inline;
+  font-weight: normal;
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: fit-content;
+  white-space: nowrap;
+}
+
+.tag:hover {
+  --ifm-badge-border-color: var(--ifm-color-emphasis-500);
 }
