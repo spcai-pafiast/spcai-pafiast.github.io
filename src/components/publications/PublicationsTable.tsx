@@ -14,7 +14,7 @@ import {
   useReactTable,
 } from "@tanstack/react-table";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Publication, PublicationAuthor, PublicationTag } from "@site/src/types";
+import { Publication, PublicationAuthor, PublicationTag, PublicationType } from "@site/src/types";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 import styles from "./PublicationsTable.module.css";
@@ -32,7 +32,7 @@ function ActiveColumnFilters({
   columnFilters: ColumnFiltersState;
   getColumn: (columnId: string) => Column<Publication>;
 }) {
-  const removeFilterValue = useCallback(
+  const removeFilter = useCallback(
     (columnId: string, removedValue: string) => {
       const column = getColumn(columnId);
       const filterValue = column.getFilterValue();
@@ -63,7 +63,7 @@ function ActiveColumnFilters({
                   <FontAwesomeIcon
                     className={styles.filterRemove}
                     icon={faXmark}
-                    onClick={() => removeFilterValue(filter.id, value)}
+                    onClick={() => removeFilter(filter.id, value)}
                   />
                 </Fragment>
               ))
@@ -81,7 +81,7 @@ function Authors({
   column: Column<Publication, string>;
   data: PublicationAuthor[];
 }) {
-  const toggleFilter = useCallback(
+  const addFilter = useCallback(
     (author: PublicationAuthor) => {
       const filterValue = (column.getFilterValue() || []) as PublicationAuthor[];
       if (!filterValue.includes(author)) {
@@ -92,7 +92,7 @@ function Authors({
   );
   return data.map((author, i) => (
     <Fragment key={`author-${i}`}>
-      <span className={styles.author} onClick={() => toggleFilter(author)}>
+      <span className={styles.author} onClick={() => addFilter(author)}>
         {author}
       </span>
       {i !== data.length - 1 && ", "}
@@ -119,7 +119,7 @@ function Links({ data }: { data: Record<string, string> }) {
 }
 
 function Tags({ column, data }: { column: Column<Publication, string>; data: PublicationTag[] }) {
-  const toggleFilter = useCallback(
+  const addFilter = useCallback(
     (tag: PublicationTag) => {
       const filterValue = (column.getFilterValue() || []) as PublicationTag[];
       if (!filterValue.includes(tag)) {
@@ -135,13 +135,36 @@ function Tags({ column, data }: { column: Column<Publication, string>; data: Pub
         <span
           key={`tag-${i}`}
           className={clsx("badge margin-bottom--xs", styles.tag)}
-          onClick={() => toggleFilter(tag)}
+          onClick={() => addFilter(tag)}
           title={tag}
         >
           {tag}
         </span>
       ))}
     </div>
+  );
+}
+
+function Type({
+  column,
+  data,
+}: {
+  column: Column<Publication, PublicationType>;
+  data: PublicationType;
+}) {
+  const addFilter = useCallback(
+    (type: PublicationType) => {
+      const filterValue = (column.getFilterValue() || []) as PublicationType[];
+      if (!filterValue.includes(type)) {
+        column.setFilterValue([...filterValue, type]);
+      }
+    },
+    [column, data]
+  );
+  return (
+    <span className={styles.type} onClick={() => addFilter(data)}>
+      {data}
+    </span>
   );
 }
 
@@ -180,7 +203,11 @@ export default function PublicationsTable({ data }: PublicationsTableProps) {
         id: "venue",
       }),
       columnHelper.accessor("type", {
-        cell: (info) => info.getValue(),
+        cell: (info) => <Type column={info.column} data={info.getValue()} />,
+        filterFn: (row, columnId, filterValue: PublicationType[]) => {
+          const rowType = row.getValue<PublicationType>(columnId);
+          return filterValue.includes(rowType);
+        },
         header: "Type",
         id: "type",
       }),
