@@ -39,7 +39,7 @@ export default function MemberItem({ member }: MemberItemProps) {
           icon = null;
       }
       return (
-        <a className="padding-horiz--sm" href={href}>
+        <a key={href} className="padding-horiz--sm" href={href}>
           {icon ? <FontAwesomeIcon icon={icon} /> : link[0]}
         </a>
       );
