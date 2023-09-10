@@ -1,30 +1,11 @@
-import Link from "@docusaurus/Link";
 import React from "react";
-import SectionHeader from "../common/SectionHeader";
 import clsx from "clsx";
-import projects from "@site/src/data/projects";
-import styles from "./HomepageProjects.module.css";
-import { Project } from "@site/src/types";
 
-function ProjectItem({ link, shortDescription, title }: Project) {
-  return (
-    <div className="col col--4">
-      <div className="card text--center">
-        <div className="card__header">
-          <h3>{title}</h3>
-        </div>
-        <div className="card__body">
-          <p>{shortDescription}</p>
-        </div>
-        <div className="card__footer">
-          <Link className="button button--primary button--block" href={link}>
-            Learn more
-          </Link>
-        </div>
-      </div>
-    </div>
-  );
-}
+import ProjectItem from "../projects/ProjectItem";
+import SectionHeader from "../common/SectionHeader";
+import projects from "@site/src/data/projects";
+
+import styles from "./HomepageProjects.module.css";
 
 export default function HomepageProjects({
   className,
