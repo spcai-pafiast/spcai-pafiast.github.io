@@ -13,6 +13,10 @@ import members from "@site/src/data/members";
 
 <br />
 
-## Members
+## Researchers
 
-<MemberList data={members} />
+<MemberList data={members.filter((member) => member.type === "researcher")} />
+
+## Engineers
+
+<MemberList data={members.filter((member) => member.type === "engineer")} />

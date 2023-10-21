@@ -15,6 +15,7 @@ export type Member = {
   name: string;
   researchInterests?: string[];
   title: string;
+  type: "researcher" | "engineer";
 };
 
 export type Faculty = Member & {

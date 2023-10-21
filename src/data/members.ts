@@ -11,6 +11,7 @@ export default [
       website: "http://mypages.iit.edu/~kbateman/",
     },
     researchInterests: ["HPC", "Distributed Storage"],
+    type: "researcher",
   },
   {
     name: "Jaime Cernuda",
@@ -22,15 +23,17 @@ export default [
       website: "http://www.jcernuda.com",
     },
     researchInterests: ["Distributed Systems", "HPC", "Streaming Applications"],
+    type: "researcher",
   },
   {
-    name: "Kun Feng",
-    title: "HPC Researcher",
+    name: "Dr. Kun Feng",
+    title: "Research Software Engineer",
     advisor: "Dr. Xian-He Sun",
     image: require("@site/static/img/members/feng.jpg").default,
     links: {
       email: "kfeng1@iit.edu",
     },
+    type: "engineer",
   },
   {
     name: "Luke Logan",
@@ -49,6 +52,7 @@ export default [
       "Parallel I/O",
       "Operating Systems",
     ],
+    type: "researcher",
   },
   {
     name: "Xiaoyang Lu",
@@ -59,6 +63,7 @@ export default [
       email: "bli70@hawk.iit.edu",
     },
     researchInterests: ["Memory Performance Modeling and Optimization"],
+    type: "researcher",
   },
   {
     name: "Neeraj Rajesh",
@@ -70,16 +75,18 @@ export default [
       website: "https://about.stax.xyz/neeraj",
     },
     researchInterests: ["Parallel and Distributed Systems", "HPC", "ML-Assisted Systems"],
+    type: "researcher",
   },
   {
-    name: "Aparna Sasidharan",
-    title: "HPC Researcher",
+    name: "Dr. Aparna Sasidharan",
+    title: "Research Software Engineer",
     advisor: "Dr. Xian-He Sun",
     image: require("@site/static/img/members/sasidharan.jpg").default,
     links: {
       email: "asasidharan@iit.edu",
       website: "https://sites.google.com/view/aparna-sasidharan/home",
     },
+    type: "engineer",
   },
   {
     name: "Meng Tang",
@@ -90,6 +97,7 @@ export default [
       email: "mtang11@hawk.iit.edu",
     },
     researchInterests: ["Distributed Storage", "Containerization"],
+    type: "researcher",
   },
   {
     name: "Hua Xu",
@@ -100,6 +108,7 @@ export default [
       email: "hxu40@hawk.iit.edu",
     },
     researchInterests: ["HPC", "Distributed Storage"],
+    type: "researcher",
   },
   {
     name: "Jie Ye",
@@ -111,11 +120,12 @@ export default [
       github: "https://github.com/Jye-525",
     },
     researchInterests: ["Distributed Storage", "Parallel and Distributed Systems", "Parallel I/O"],
+    type: "researcher",
   },
 
   {
     name: "Izzet Yildirim",
-    title: "PhD Student",
+    title: "PhD Candidate",
     advisor: "Dr. Xian-He Sun",
     image: require("@site/static/img/members/yildirim.jpg").default,
     links: {
@@ -127,5 +137,6 @@ export default [
       website: "https://izzet.dev/",
     },
     researchInterests: ["HPC", "Distributed Storage", "I/O Characterization", "Containerization"],
+    type: "researcher",
   },
 ] as Member[];
