@@ -1,7 +1,7 @@
 export type Affiliation = {
   image: string;
   name: string;
-  type: "laboratory" | "university";
+  type: "laboratory" | "university" | "company" | "funding";
   url: string;
 };
 

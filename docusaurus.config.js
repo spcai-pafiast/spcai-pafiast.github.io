@@ -90,8 +90,8 @@ const config = {
                 label: "Members",
               },
               {
-                to: "/affiliations",
-                label: "Affiliations",
+                to: "/network",
+                label: "Network",
               },
               {
                 to: "/contact",
@@ -110,10 +110,6 @@ const config = {
               {
                 to: "/research/patents",
                 label: "Patents",
-              },
-              {
-                to: "/research/partners",
-                label: "Partners",
               },
               {
                 to: "/research/resources",

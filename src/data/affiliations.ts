@@ -56,6 +56,18 @@ export default [
     image: require("@site/static/img/affiliations/lbl.jpg").default,
   },
   {
+    name: "Oak Ridge National Laboratory",
+    type: "laboratory",
+    url: "https://www.ornl.gov/group/workflow-systems",
+    image: require("@site/static/img/affiliations/ornl.jpg").default,
+  },
+  {
+    name: "Pacific Northwest National Laboratory",
+    type: "laboratory",
+    url: "https://www.pnnl.gov/high-performance-computing",
+    image: require("@site/static/img/affiliations/pnnl.png").default,
+  },
+  {
     name: "Sandia National Laboratories",
     type: "laboratory",
     url: "https://www.sandia.gov/",
@@ -72,5 +84,35 @@ export default [
     type: "laboratory",
     url: "https://www.nersc.gov/",
     image: require("@site/static/img/affiliations/nersc.jpg").default,
+  },
+  {
+    name: "The HDF Group",
+    type: "company",
+    url: "https://www.hdfgroup.org/",
+    image: require("@site/static/img/affiliations/hdfgroup.jpg").default,
+  },
+  {
+    name: "National Science Foundation",
+    type: "funding",
+    url: "https://www.nsf.gov/",
+    image: require("@site/static/img/affiliations/nsf.png").default,
+  },
+  {
+    name: "Department of Energy",
+    type: "funding",
+    url: "https://www.energy.gov/",
+    image: require("@site/static/img/affiliations/doe.png").default,
+  },
+  {
+    name: "National Institutes of Health",
+    type: "funding",
+    url: "https://www.nih.gov/",
+    image: require("@site/static/img/affiliations/nih.png").default,
+  },
+  {
+    name: "National Aeronautics and Space Administration",
+    type: "funding",
+    url: "https://www.nasa.gov/",
+    image: require("@site/static/img/affiliations/nasa.png").default,
   },
 ] as Affiliation[];
