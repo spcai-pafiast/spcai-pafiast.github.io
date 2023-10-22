@@ -144,6 +144,29 @@ const config = {
         // style: "dark",
         links: [
           {
+            title: GNOSIS_TITLE,
+            items: [
+              {
+                html: `
+                  <p>
+                    Stuart Building <br />
+                    Room 112i and 010 <br />
+                    10 W. 31st Street <br />
+                    Chicago, Illinois 60616
+                  </p>
+                `,
+              },
+              {
+                html: `
+                  <p>
+                    Email: <a href="mailto:grc@iit.edu">grc@iit.edu</a> <br />
+                    Phone: +1 312 567 6885
+                  </p>
+                `,
+              },
+            ],
+          },
+          {
             title: "Docs",
             items: [
               {
