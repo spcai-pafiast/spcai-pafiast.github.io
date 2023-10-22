@@ -9,6 +9,13 @@ export default [
     isFeatured: true,
   },
   {
+    title: "Coeus: Accelerating Scientific Insights Using Enriched Metadata",
+    shortDescription:
+      "In collaboration with Sandia and Oak Ridge National Laboratories, coeus investigate the use of an active storage system to calculate derived quantities and support complex queries on scientific data (simulation and observational) as well as optimizing data placement across the storage hierarchy, with awareness of the resource limitations, to better support the scientific discovery process.",
+    link: "/research/projects/coeus",
+    isFeatured: true,
+  },
+  {
     title:
       "Hermes: Extending the HDF Library to Support Intelligent I/O Buffering for Deep Memory and Storage Hierarchy System",
     shortDescription:
@@ -21,6 +28,6 @@ export default [
     shortDescription:
       "Various storage solutions exist and require specialized APIs and data models in order to use, which binds developers, applications, and entire computing facilities to using certain interfaces. Each storage system is designed and optimized for certain applications but does not perform well for others. IRIS is a unified storage access system that bridges the semantic gap between filesystems and object stores.",
     link: "/research/projects/iris",
-    isFeatured: true,
+    isFeatured: false,
   },
 ] as Project[];

@@ -36,3 +36,7 @@
 .mdx-page p {
   text-align: justify;
 }
+
+.mdx-page center p {
+  text-align: center;
+}

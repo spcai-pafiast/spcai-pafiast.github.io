@@ -131,7 +131,7 @@ export default [
       "The 29th edition of the IEEE International Conference on High Performance Computing, Data, and Analytics (HiPC'22)",
     type: "Conference",
     date: "December, 2022",
-    tags: ["Resource Provisioning", "I/O Behavior", "Storage Auto-tuning"],
+    tags: ["Resource Provisioning", "I/O Behavior", "Storage Auto-tuning", "ChronoLog"],
     links: {
       pdf: "assets/files/bateman2022luxio.pdf",
       bibtex: "assets/files/bateman2022luxio.bib",
@@ -172,7 +172,12 @@ export default [
       "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC'22)",
     type: "Conference",
     date: "November, 2022",
-    tags: ["Clouds and Distributed Computing", "Programming Frameworks", "System Software"],
+    tags: [
+      "Clouds and Distributed Computing",
+      "Programming Frameworks",
+      "System Software",
+      "ChronoLog",
+    ],
     links: {
       pdf: "assets/files/logan2022labstor.pdf",
       slides: "assets/files/logan2022labstor_slides.pdf",
@@ -215,7 +220,7 @@ export default [
       "The 22nd IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID'22), May 16-19, 2022",
     type: "Conference",
     date: "May, 2022",
-    tags: ["HDF5", "TensorFlow", "Decoupled I/O", "I/O acceleration"],
+    tags: ["HDF5", "TensorFlow", "Decoupled I/O", "I/O Acceleration", "Hermes"],
     links: {
       pdf: "assets/files/stimulus2022.pdf",
       bibtex: "assets/files/stimulus2022.bib",
@@ -368,7 +373,7 @@ export default [
       "The 2021 IEEE International Conference on Cluster Computing (CLUSTER'21), September 7-10, 2021",
     type: "Conference",
     date: "September, 2021",
-    tags: [""],
+    tags: ["Hermes"],
     links: {
       pdf: "assets/files/cernuda2021HFlow.pdf",
       bibtex: "assets/files/cernuda2021HFlow.bib",
@@ -418,7 +423,7 @@ export default [
       "The 30th ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC'21), June 21-25, 2021",
     type: "Conference",
     date: "June, 2021",
-    tags: ["HPC", "Machine Learning", "Resource Monitoring"],
+    tags: ["HPC", "Machine Learning", "Resource Monitoring", "Hermes"],
     links: {
       pdf: "assets/files/rajesh2021apollo.pdf",
       bibtex: "assets/files/rajesh2021apollo.bib",
@@ -442,6 +447,7 @@ export default [
       "Characterization",
       "Tensorflow",
       "Data Pipeline",
+      "Hermes",
     ],
     links: {
       pdf: "assets/files/devarajan2021dlio.pdf",
@@ -528,6 +534,7 @@ export default [
       "Cloud Application",
       "Scientific Application",
       "Big Data",
+      "Hermes",
     ],
     links: {
       pdf: "assets/files/devarajan2020HReplica.pdf",
@@ -609,7 +616,7 @@ export default [
       "The International Conference for High Performance Computing, Networking, Storage and Analysis (SC'20)",
     type: "Poster",
     date: "November, 2020",
-    tags: [""],
+    tags: ["Hermes"],
     links: {
       poster: "assets/files/devarajan2020dynamic-poster.pdf",
       "extended abstract": "assets/files/devarajan2020dynamic-abstract.pdf",
@@ -660,7 +667,7 @@ export default [
       "The 36th International Conference on Massive Storage Systems and Technology (MSST'20), Oct. 29-30, 2020",
     type: "Conference",
     date: "October, 2020",
-    tags: ["Distributed Log", "Shared Log", "Tiered Storage"],
+    tags: ["Distributed Log", "Shared Log", "Tiered Storage", "ChronoLog"],
     links: {
       pdf: "assets/files/kougkas2020chronolog.pdf",
       bibtex: "assets/files/chronolog_temp.bib",
@@ -678,6 +685,7 @@ export default [
       "RPC over RDMA",
       "Hybrid Data Access Model",
       "HPC Data Containers",
+      "Hermes",
     ],
     links: {
       pdf: "assets/files/devarajan2020hcl.pdf",
@@ -707,6 +715,7 @@ export default [
       "Data-Aware",
       "Workflow-Aware",
       "Server-Push",
+      "Hermes",
     ],
     links: {
       pdf: "assets/files/hfetch_conference_proceedings.pdf",
@@ -732,6 +741,7 @@ export default [
       "Library",
       "Middleware",
       "Engine",
+      "Hermes",
     ],
     links: {
       pdf: "assets/files/hcompress.pdf",
@@ -793,6 +803,7 @@ export default [
       "Burst Buffers",
       "Hierarchical Data Prefetching",
       "Data-Centric Architecture",
+      "Hermes",
     ],
     links: {
       pdf: "assets/files/IOaccel.pdf",
@@ -846,6 +857,7 @@ export default [
       "Workflow-Aware",
       "Lightweight",
       "Server-Side",
+      "Hermes",
     ],
     links: {
       poster: "assets/files/hetch_poster.pdf",
@@ -909,6 +921,7 @@ export default [
       "Exascale I/O",
       "Energy-Aware I/O",
       "Elastic Storage",
+      "Hermes",
     ],
     links: {
       pdf: "assets/files/kougkas2019labios.pdf",
@@ -924,7 +937,7 @@ export default [
       "IEEE/ACM International Symposium in Cluster, Cloud, and Grid Computing (CCGrid'19), Larnaca, Cyprus2019. pp. 82-91.",
     type: "Conference",
     date: "May, 2019",
-    tags: [""],
+    tags: ["Hermes"],
     links: {
       pdf: "assets/files/devarajan2019intelligent.pdf",
       slides: "assets/files/ares_ccgrid.pdf",
@@ -953,7 +966,7 @@ export default [
       "The IEEE International Conference on High Performance Computing, Data, and Analytics 2018 (HiPC'18), Bengaluru, India2018. pp. 255-264.",
     type: "Conference",
     date: "December, 2018",
-    tags: [""],
+    tags: ["Hermes"],
     links: {
       pdf: "assets/files/devarajan2018vidya_paper.pdf",
       slides: "assets/files/vidya.pdf",
@@ -982,7 +995,7 @@ export default [
       "The IEEE International Conference on Cluster Computing 2018 (Cluster'18), Belfast, UK2018. pp. 290-301.",
     type: "Conference",
     date: "September, 2018",
-    tags: [""],
+    tags: ["Hermes"],
     links: {
       pdf: "assets/files/kougkas2018harmonia.pdf",
       slides: "assets/files/Harmonia_slides.pdf",
@@ -1040,7 +1053,7 @@ export default [
       "The 27th ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC), Tempe, AZ, USA, 2018. pp. 219-230",
     type: "Conference",
     date: "June, 2018",
-    tags: [""],
+    tags: ["Hermes"],
     links: {
       pdf: "assets/files/Hermes.pdf",
       slides: "assets/files/Hermes_slides.pdf",
