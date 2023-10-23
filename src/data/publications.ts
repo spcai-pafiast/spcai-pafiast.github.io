@@ -60,9 +60,9 @@ export default [
       "Phase Change Memory",
     ],
     links: {
-      pdf: "assets/files/logan2023daos.pdf",
-      bibtex: "assets/files/logan2023daos.bib",
-      citation: "assets/files/logan2023daos.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/logan2023daos.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/logan2023daos.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/logan2023daos.txt",
     },
   },
   {
@@ -79,9 +79,9 @@ export default [
       "Data-Centric Design",
     ],
     links: {
-      pdf: "assets/files/sun2023memory.pdf",
-      bibtex: "assets/files/sun2023memory.bib",
-      citation: "assets/files/sun2023memory.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/sun2023memory.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/sun2023memory.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/sun2023memory.txt",
     },
   },
   {
@@ -94,10 +94,10 @@ export default [
     date: "February, 2023",
     tags: [""],
     links: {
-      pdf: "assets/files/chen2023icache.pdf",
-      slides: "assets/files/chen2023icache-slides.pdf",
-      bibtex: "assets/files/chen2023icache.bib",
-      citation: "assets/files/chen2023icache.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/chen2023icache.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/chen2023icache-slides.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/chen2023icache.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/chen2023icache.txt",
     },
   },
   {
@@ -109,10 +109,10 @@ export default [
     date: "February, 2023",
     tags: [""],
     links: {
-      pdf: "assets/files/lu2023care.pdf",
-      slides: "assets/files/lu2023care-slides.pdf",
-      bibtex: "assets/files/lu2023care.bib",
-      citation: "assets/files/lu2023care.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/lu2023care.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/lu2023care-slides.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/lu2023care.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/lu2023care.txt",
     },
   },
   {
@@ -133,9 +133,9 @@ export default [
     date: "December, 2022",
     tags: ["Resource Provisioning", "I/O Behavior", "Storage Auto-tuning", "ChronoLog"],
     links: {
-      pdf: "assets/files/bateman2022luxio.pdf",
-      bibtex: "assets/files/bateman2022luxio.bib",
-      citation: "assets/files/bateman2022luxio.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/bateman2022luxio.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/bateman2022luxio.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/bateman2022luxio.txt",
     },
   },
   {
@@ -146,9 +146,9 @@ export default [
     date: "December, 2022",
     tags: ["DNN", "GPU", "Tensor", "Swapping", "Compression"],
     links: {
-      pdf: "assets/files/chen2022accelerating.pdf",
-      bibtex: "assets/files/chen2022accelerating.bib",
-      citation: "assets/files/chen2022accelerating.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/chen2022accelerating.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/chen2022accelerating.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/chen2022accelerating.txt",
     },
   },
   {
@@ -159,9 +159,9 @@ export default [
     date: "December, 2022",
     tags: ["Hierarchical Memory System", "C-AMAT"],
     links: {
-      pdf: "assets/files/najafi2022generalized.pdf",
-      bibtex: "assets/files/najafi2022generalized.bib",
-      citation: "assets/files/najafi2022generalized.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/najafi2022generalized.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/najafi2022generalized.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/najafi2022generalized.txt",
     },
   },
   {
@@ -179,10 +179,10 @@ export default [
       "ChronoLog",
     ],
     links: {
-      pdf: "assets/files/logan2022labstor.pdf",
-      slides: "assets/files/logan2022labstor_slides.pdf",
-      bibtex: "assets/files/logan2022labstor.bib",
-      citation: "assets/files/logan2022labstor.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/logan2022labstor.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/logan2022labstor_slides.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/logan2022labstor.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/logan2022labstor.txt",
     },
   },
   {
@@ -194,10 +194,10 @@ export default [
     date: "November, 2022",
     tags: ["I/O Characterization", "I/O Bottleneck Detection"],
     links: {
-      poster: "assets/files/yildirim2022iobottlenecks_poster.pdf",
-      "extended abstract": "assets/files/yildirim2022iobottlenecks_abstract.pdf",
-      bibtex: "assets/files/yildirim2022iobottlenecks_poster.bib",
-      citation: "assets/files/yildirim2022iobottlenecks_poster.txt",
+      poster: "http://cs.iit.edu/~scs/assets/files/yildirim2022iobottlenecks_poster.pdf",
+      "extended abstract": "http://cs.iit.edu/~scs/assets/files/yildirim2022iobottlenecks_abstract.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yildirim2022iobottlenecks_poster.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yildirim2022iobottlenecks_poster.txt",
     },
   },
   {
@@ -208,9 +208,9 @@ export default [
     date: "May, 2022",
     tags: [""],
     links: {
-      pdf: "assets/files/zou2022accelerating.pdf",
-      bibtex: "assets/files/zou2022accelerating.bib",
-      citation: "assets/files/zou2022accelerating.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/zou2022accelerating.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/zou2022accelerating.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/zou2022accelerating.txt",
     },
   },
   {
@@ -222,9 +222,9 @@ export default [
     date: "May, 2022",
     tags: ["HDF5", "TensorFlow", "Decoupled I/O", "I/O Acceleration", "Hermes"],
     links: {
-      pdf: "assets/files/stimulus2022.pdf",
-      bibtex: "assets/files/stimulus2022.bib",
-      citation: "assets/files/stimulus2022.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/stimulus2022.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/stimulus2022.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/stimulus2022.txt",
     },
   },
   {
@@ -235,7 +235,7 @@ export default [
     type: "Conference",
     date: "February, 2022",
     tags: [""],
-    links: { citation: "assets/files/dang2021nvalloc.txt" },
+    links: { citation: "http://cs.iit.edu/~scs/assets/files/dang2021nvalloc.txt" },
   },
   {
     authors: [
@@ -254,10 +254,10 @@ export default [
     date: "November, 2021",
     tags: ["Feature Reduction", "Evolutionary Algorithms", "Darshan"],
     links: {
-      poster: "assets/files/rajesh2021features_poster.pdf",
-      "extended abstract": "assets/files/rajesh2021features_abstract.pdf",
-      bibtex: "assets/files/rajesh2021features_poster.bib",
-      citation: "assets/files/rajesh2021features_poster.txt",
+      poster: "http://cs.iit.edu/~scs/assets/files/rajesh2021features_poster.pdf",
+      "extended abstract": "http://cs.iit.edu/~scs/assets/files/rajesh2021features_abstract.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/rajesh2021features_poster.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/rajesh2021features_poster.txt",
     },
   },
   {
@@ -269,10 +269,10 @@ export default [
     date: "November, 2021",
     tags: ["Persistent Memory", "Libraries", "Memory Management", "Memory Mapped I/O"],
     links: {
-      poster: "assets/files/logan2021pmemcpy_poster.pdf",
-      "extended abstract": "assets/files/logan2021pmemcpy_abstract.pdf",
-      bibtex: "assets/files/logan2021pmemcpy_poster.bib",
-      citation: "assets/files/logan2021pmemcpy_poster.txt",
+      poster: "http://cs.iit.edu/~scs/assets/files/logan2021pmemcpy_poster.pdf",
+      "extended abstract": "http://cs.iit.edu/~scs/assets/files/logan2021pmemcpy_abstract.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/logan2021pmemcpy_poster.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/logan2021pmemcpy_poster.txt",
     },
   },
   {
@@ -284,10 +284,10 @@ export default [
     date: "November, 2021",
     tags: ["HPC", "Singularity", "Containers", "Benchmarking"],
     links: {
-      poster: "assets/files/yildirim2021containers_poster.pdf",
-      "extended abstract": "assets/files/yildirim2021containers_abstract.pdf",
-      bibtex: "assets/files/yildirim2021containers_poster.bib",
-      citation: "assets/files/yildirim2021containers_poster.txt",
+      poster: "http://cs.iit.edu/~scs/assets/files/yildirim2021containers_poster.pdf",
+      "extended abstract": "http://cs.iit.edu/~scs/assets/files/yildirim2021containers_abstract.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yildirim2021containers_poster.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yildirim2021containers_poster.txt",
     },
   },
   {
@@ -299,10 +299,10 @@ export default [
     date: "November, 2021",
     tags: ["HDF5", "Apache Arrow", "Column store"],
     links: {
-      poster: "assets/files/ye2021hdf5vol_poster.pdf",
-      "extended abstract": "assets/files/ye2021hdf5vol_abstract.pdf",
-      bibtex: "assets/files/ye2021hdf5vol_poster.bib",
-      citation: "assets/files/ye2021hdf5vol_poster.txt",
+      poster: "http://cs.iit.edu/~scs/assets/files/ye2021hdf5vol_poster.pdf",
+      "extended abstract": "http://cs.iit.edu/~scs/assets/files/ye2021hdf5vol_abstract.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/ye2021hdf5vol_poster.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/ye2021hdf5vol_poster.txt",
     },
   },
   {
@@ -314,9 +314,9 @@ export default [
     date: "October, 2021",
     tags: [""],
     links: {
-      pdf: "assets/files/lu2021premier.pdf",
-      bibtex: "assets/files/lu2021premier.bib",
-      citation: "assets/files/lu2021premier.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/lu2021premier.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/lu2021premier.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/lu2021premier.txt",
     },
   },
   {
@@ -329,9 +329,9 @@ export default [
     date: "September, 2021",
     tags: ["Persistent Memory", "Libraries", "Memory Management", "Memory Mapped I/O"],
     links: {
-      pdf: "assets/files/logan2021pmemcpy.pdf",
-      bibtex: "assets/files/logan2021pmemcpy.bib",
-      citation: "assets/files/logan2021pmemcpy.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/logan2021pmemcpy.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/logan2021pmemcpy.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/logan2021pmemcpy.txt",
     },
   },
   {
@@ -352,9 +352,9 @@ export default [
     date: "September, 2021",
     tags: [""],
     links: {
-      pdf: "assets/files/chen2021CSWAP.pdf",
-      bibtex: "assets/files/chen2021CSWAP.bib",
-      citation: "assets/files/chen2021CSWAP.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/chen2021CSWAP.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/chen2021CSWAP.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/chen2021CSWAP.txt",
     },
   },
   {
@@ -375,9 +375,9 @@ export default [
     date: "September, 2021",
     tags: ["Hermes"],
     links: {
-      pdf: "assets/files/cernuda2021HFlow.pdf",
-      bibtex: "assets/files/cernuda2021HFlow.bib",
-      citation: "assets/files/cernuda2021HFlow.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/cernuda2021HFlow.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/cernuda2021HFlow.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/cernuda2021HFlow.txt",
     },
   },
   {
@@ -389,9 +389,9 @@ export default [
     date: "July, 2021",
     tags: [""],
     links: {
-      pdf: "assets/files/yan2021COPIM.pdf",
-      bibtex: "assets/files/yan2021COPIM.bib",
-      citation: "assets/files/yan2021COPIM.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/yan2021COPIM.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yan2021COPIM.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yan2021COPIM.txt",
     },
   },
   {
@@ -402,9 +402,9 @@ export default [
     date: "June, 2021",
     tags: ["ReRAM-based Accelerator", "Pruning", "Reinforcement Learning"],
     links: {
-      pdf: "assets/files/yang2021autoprune.pdf",
-      bibtex: "assets/files/yang2021autoprune.bib",
-      citation: "assets/files/yang2021autoprune.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/yang2021autoprune.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yang2021autoprune.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yang2021autoprune.txt",
     },
   },
   {
@@ -425,9 +425,9 @@ export default [
     date: "June, 2021",
     tags: ["HPC", "Machine Learning", "Resource Monitoring", "Hermes"],
     links: {
-      pdf: "assets/files/rajesh2021apollo.pdf",
-      bibtex: "assets/files/rajesh2021apollo.bib",
-      citation: "assets/files/rajesh2021apollo.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/rajesh2021apollo.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/rajesh2021apollo.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/rajesh2021apollo.txt",
     },
   },
   {
@@ -450,10 +450,10 @@ export default [
       "Hermes",
     ],
     links: {
-      pdf: "assets/files/devarajan2021dlio.pdf",
+      pdf: "http://cs.iit.edu/~scs/assets/files/devarajan2021dlio.pdf",
       video: "https://youtu.be/_rRhQBaHVs8",
-      bibtex: "assets/files/devarajan2021dlio.bib",
-      citation: "assets/files/devarajan2021dlio.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/devarajan2021dlio.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/devarajan2021dlio.txt",
     },
   },
   {
@@ -470,9 +470,9 @@ export default [
       "History of Computing",
     ],
     links: {
-      pdf: "assets/files/hcda.pdf",
-      bibtex: "assets/files/hcda.bib",
-      citation: "assets/files/hcda.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/hcda.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/hcda.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/hcda.txt",
     },
   },
   {
@@ -489,9 +489,9 @@ export default [
       "Concurrent Average Memory Access Time",
     ],
     links: {
-      pdf: "assets/files/liu2021study.pdf",
-      bibtex: "assets/files/liu2021study.bib",
-      citation: "assets/files/liu2021study.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/liu2021study.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/liu2021study.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/liu2021study.txt",
     },
   },
   {
@@ -511,9 +511,9 @@ export default [
       "Quality of Service",
     ],
     links: {
-      pdf: "assets/files/ye2020sova.pdf",
-      bibtex: "assets/files/sova.bib",
-      citation: "assets/files/Sova.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/ye2020sova.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/sova.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/Sova.txt",
     },
   },
   {
@@ -537,9 +537,9 @@ export default [
       "Hermes",
     ],
     links: {
-      pdf: "assets/files/devarajan2020HReplica.pdf",
-      bibtex: "assets/files/devarajan2020HReplica.bib",
-      citation: "assets/files/devarajan2020HReplica.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/devarajan2020HReplica.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/devarajan2020HReplica.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/devarajan2020HReplica.txt",
     },
   },
   {
@@ -551,10 +551,10 @@ export default [
     date: "November, 2020",
     tags: ["I/O Bottleneck", "Filesystems", "Linux"],
     links: {
-      poster: "assets/files/logan2020quantifying-poster.pdf",
-      "extended abstract": "assets/files/logan2020quantifying-abstract.pdf",
-      bibtex: "assets/files/logan2020quantifying.bib",
-      citation: "assets/files/logan2020quantifying.txt",
+      poster: "http://cs.iit.edu/~scs/assets/files/logan2020quantifying-poster.pdf",
+      "extended abstract": "http://cs.iit.edu/~scs/assets/files/logan2020quantifying-abstract.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/logan2020quantifying.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/logan2020quantifying.txt",
     },
   },
   {
@@ -574,9 +574,9 @@ export default [
       "Elastic Storage",
     ],
     links: {
-      pdf: "assets/files/kougkas2020bridging.pdf",
-      bibtex: "assets/files/kougkas2020bridging.bib",
-      citation: "assets/files/kougkas2020bridging.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/kougkas2020bridging.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/kougkas2020bridging.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/kougkas2020bridging.txt",
     },
   },
   {
@@ -588,10 +588,10 @@ export default [
     date: "November, 2020",
     tags: [""],
     links: {
-      poster: "assets/files/rajesh2020characterizing-poster.pdf",
-      "extended abstract": "assets/files/rajesh2020characterizing-abstract.pdf",
-      bibtex: "assets/files/rajesh2020characterizing.bib",
-      citation: "assets/files/rajesh2020characterizing.txt",
+      poster: "http://cs.iit.edu/~scs/assets/files/rajesh2020characterizing-poster.pdf",
+      "extended abstract": "http://cs.iit.edu/~scs/assets/files/rajesh2020characterizing-abstract.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/rajesh2020characterizing.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/rajesh2020characterizing.txt",
     },
   },
   {
@@ -603,10 +603,10 @@ export default [
     date: "November, 2020",
     tags: [""],
     links: {
-      poster: "assets/files/devarajan2020understanding-poster.pdf",
-      "extended abstract": "assets/files/devarajan2020understanding-abstract.pdf",
-      bibtex: "assets/files/devarajan2020understanding.bib",
-      citation: "assets/files/devarajan2020understanding.txt",
+      poster: "http://cs.iit.edu/~scs/assets/files/devarajan2020understanding-poster.pdf",
+      "extended abstract": "http://cs.iit.edu/~scs/assets/files/devarajan2020understanding-abstract.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/devarajan2020understanding.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/devarajan2020understanding.txt",
     },
   },
   {
@@ -618,11 +618,11 @@ export default [
     date: "November, 2020",
     tags: ["Hermes"],
     links: {
-      poster: "assets/files/devarajan2020dynamic-poster.pdf",
-      "extended abstract": "assets/files/devarajan2020dynamic-abstract.pdf",
-      slides: "assets/files/devarajan2020dynamic-slides.pdf",
-      bibtex: "assets/files/devarajan2020dynamic.bib",
-      citation: "assets/files/devarajan2020dynamic.txt",
+      poster: "http://cs.iit.edu/~scs/assets/files/devarajan2020dynamic-poster.pdf",
+      "extended abstract": "http://cs.iit.edu/~scs/assets/files/devarajan2020dynamic-abstract.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/devarajan2020dynamic-slides.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/devarajan2020dynamic.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/devarajan2020dynamic.txt",
     },
   },
   {
@@ -635,9 +635,9 @@ export default [
     date: "October, 2020",
     tags: ["Prefetch", "Memory Performance Model", "Concurrent Memory Access"],
     links: {
-      pdf: "assets/files/lu2020apac.pdf",
-      bibtex: "assets/files/lu2020apac.bib",
-      citation: "assets/files/lu2020apac.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/lu2020apac.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/lu2020apac.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/lu2020apac.txt",
     },
   },
   {
@@ -655,9 +655,9 @@ export default [
       "RAN",
     ],
     links: {
-      pdf: "assets/files/ning2020dismemsys.pdf",
-      bibtex: "assets/files/dismemsys.bib",
-      citation: "assets/files/dismemsys.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/ning2020dismemsys.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/dismemsys.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/dismemsys.txt",
     },
   },
   {
@@ -669,9 +669,9 @@ export default [
     date: "October, 2020",
     tags: ["Distributed Log", "Shared Log", "Tiered Storage", "ChronoLog"],
     links: {
-      pdf: "assets/files/kougkas2020chronolog.pdf",
-      bibtex: "assets/files/chronolog_temp.bib",
-      citation: "assets/files/chronolog_temp.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/kougkas2020chronolog.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/chronolog_temp.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/chronolog_temp.txt",
     },
   },
   {
@@ -688,10 +688,10 @@ export default [
       "Hermes",
     ],
     links: {
-      pdf: "assets/files/devarajan2020hcl.pdf",
-      slides: "assets/files/hcl-slides.pdf",
-      bibtex: "assets/files/hcl.bib",
-      citation: "assets/files/hcl.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/devarajan2020hcl.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/hcl-slides.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/hcl.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/hcl.txt",
     },
   },
   {
@@ -718,10 +718,10 @@ export default [
       "Hermes",
     ],
     links: {
-      pdf: "assets/files/hfetch_conference_proceedings.pdf",
-      slides: "assets/files/hfetch_ipdps.pdf",
-      bibtex: "http://www.cs.iit.edu/~scs/assets/files/HFetch.bib",
-      citation: "http://www.cs.iit.edu/~scs/assets/files/HFetch.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/hfetch_conference_proceedings.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/hfetch_ipdps.pdf",
+      bibtex: "http://www.cs.iit.edu/~scs/http://cs.iit.edu/~scs/assets/files/HFetch.bib",
+      citation: "http://www.cs.iit.edu/~scs/http://cs.iit.edu/~scs/assets/files/HFetch.txt",
     },
   },
   {
@@ -744,10 +744,10 @@ export default [
       "Hermes",
     ],
     links: {
-      pdf: "assets/files/hcompress.pdf",
-      slides: "assets/files/hcompress_ipdps.pdf",
-      bibtex: "http://www.cs.iit.edu/~scs/assets/files/hcompress2020.bib",
-      citation: "http://www.cs.iit.edu/~scs/assets/files/hcompress2020.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/hcompress.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/hcompress_ipdps.pdf",
+      bibtex: "http://www.cs.iit.edu/~scs/http://cs.iit.edu/~scs/assets/files/hcompress2020.bib",
+      citation: "http://www.cs.iit.edu/~scs/http://cs.iit.edu/~scs/assets/files/hcompress2020.txt",
     },
   },
   {
@@ -765,9 +765,9 @@ export default [
       "Solid State Drive",
     ],
     links: {
-      pdf: "assets/files/he2019holicTPDs.pdf",
-      bibtex: "assets/files/he2019holicTPDS.bib",
-      citation: "assets/files/he2019holicTPDS.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/he2019holicTPDs.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2019holicTPDS.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2019holicTPDS.txt",
     },
   },
   {
@@ -784,9 +784,9 @@ export default [
       "Data Access Pattern",
     ],
     links: {
-      pdf: "assets/files/Opti_parallel_io.pdf",
-      bibtex: "assets/files/he2019opmtiTC.bib",
-      citation: "assets/files/he2019opmtiTC.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/Opti_parallel_io.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2019opmtiTC.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2019opmtiTC.txt",
     },
   },
   {
@@ -806,9 +806,9 @@ export default [
       "Hermes",
     ],
     links: {
-      pdf: "assets/files/IOaccel.pdf",
-      bibtex: "assets/files/IOaccel.bib",
-      citation: "assets/files/IOaccel.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/IOaccel.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/IOaccel.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/IOaccel.txt",
     },
   },
   {
@@ -820,10 +820,10 @@ export default [
     date: "December, 2019",
     tags: ["DRAM", "Locality", "MLP", "Access Pattern", "Data Layout", "Matrix Multiplication"],
     links: {
-      pdf: "assets/files/ISPA2019-ChundianLi.pdf",
-      slides: "assets/files/chundianli-slides.pdf",
-      bibtex: "assets/files/li2019selfadISPA.bib",
-      citation: "assets/files/li2019selfadISPA.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/ISPA2019-ChundianLi.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/chundianli-slides.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/li2019selfadISPA.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/li2019selfadISPA.txt",
     },
   },
   {
@@ -834,9 +834,9 @@ export default [
     date: "December, 2019",
     tags: ["Data Integration", "Integrated Workflow", "Data Aggregation", "KVS", "PFS"],
     links: {
-      pdf: "assets/files/NIOBE_PDF_A.pdf",
-      bibtex: "assets/files/kun2019NIOBE.bib",
-      citation: "assets/files/kun2019NIOBE.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/NIOBE_PDF_A.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/kun2019NIOBE.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/kun2019NIOBE.txt",
     },
   },
   {
@@ -860,11 +860,11 @@ export default [
       "Hermes",
     ],
     links: {
-      poster: "assets/files/hetch_poster.pdf",
-      "extended abstract": "assets/files/hfetch_extended_abstract.pdf",
-      slides: "assets/files/hetch_ppt.pdf",
-      bibtex: "assets/files/hfetchposter2019.bib",
-      citation: "assets/files/hfetchposter2019.txt",
+      poster: "http://cs.iit.edu/~scs/assets/files/hetch_poster.pdf",
+      "extended abstract": "http://cs.iit.edu/~scs/assets/files/hfetch_extended_abstract.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/hetch_ppt.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/hfetchposter2019.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/hfetchposter2019.txt",
     },
   },
   {
@@ -876,10 +876,10 @@ export default [
     date: "November, 2019",
     tags: [""],
     links: {
-      poster: "assets/files/cernuda2019eviction.pdf",
-      "extended abstract": "assets/files/cernuda2019eviction_abstract.pdf",
-      bibtex: "assets/files/cernuda2019eviction.bib",
-      citation: "assets/files/cernuda2019eviction.txt",
+      poster: "http://cs.iit.edu/~scs/assets/files/cernuda2019eviction.pdf",
+      "extended abstract": "http://cs.iit.edu/~scs/assets/files/cernuda2019eviction_abstract.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/cernuda2019eviction.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/cernuda2019eviction.txt",
     },
   },
   {
@@ -899,10 +899,10 @@ export default [
       "Memory Concurrency",
     ],
     links: {
-      pdf: "assets/files/liu2019lpm.pdf",
-      slides: "assets/files/isc-memory.pdf",
-      bibtex: "assets/files/liu2019lpmJ.bib",
-      citation: "assets/files/liu2019lpmJ.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/liu2019lpm.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/isc-memory.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/liu2019lpmJ.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/liu2019lpmJ.txt",
     },
   },
   {
@@ -924,10 +924,10 @@ export default [
       "Hermes",
     ],
     links: {
-      pdf: "assets/files/kougkas2019labios.pdf",
-      slides: "assets/files/labios_slides.pdf",
-      bibtex: "assets/files/kougkas2019labios.bib",
-      citation: "assets/files/kougkas2019labios.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/kougkas2019labios.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/labios_slides.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/kougkas2019labios.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/kougkas2019labios.txt",
     },
   },
   {
@@ -939,10 +939,10 @@ export default [
     date: "May, 2019",
     tags: ["Hermes"],
     links: {
-      pdf: "assets/files/devarajan2019intelligent.pdf",
-      slides: "assets/files/ares_ccgrid.pdf",
-      bibtex: "assets/files/devarajan2019intelligent.bib",
-      citation: "assets/files/devarajan2019intelligent.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/devarajan2019intelligent.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/ares_ccgrid.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/devarajan2019intelligent.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/devarajan2019intelligent.txt",
     },
   },
   {
@@ -954,9 +954,9 @@ export default [
     date: "March, 2019",
     tags: [""],
     links: {
-      pdf: "assets/files/wang2019cost.pdf",
-      bibtex: "assets/files/wang2019cost.bib",
-      citation: "assets/files/wang2019cost.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/wang2019cost.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/wang2019cost.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/wang2019cost.txt",
     },
   },
   {
@@ -968,10 +968,10 @@ export default [
     date: "December, 2018",
     tags: ["Hermes"],
     links: {
-      pdf: "assets/files/devarajan2018vidya_paper.pdf",
-      slides: "assets/files/vidya.pdf",
-      bibtex: "assets/files/devarajan2018vidya.bib",
-      citation: "assets/files/devarajan2018vidya.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/devarajan2018vidya_paper.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/vidya.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/devarajan2018vidya.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/devarajan2018vidya.txt",
     },
   },
   {
@@ -982,9 +982,9 @@ export default [
     date: "October, 2018",
     tags: [""],
     links: {
-      pdf: "assets/files/he2018cost.pdf",
-      bibtex: "assets/files/he2018cost.bib",
-      citation: "assets/files/he2018cost.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/he2018cost.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2018cost.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2018cost.txt",
     },
   },
   {
@@ -997,10 +997,10 @@ export default [
     date: "September, 2018",
     tags: ["Hermes"],
     links: {
-      pdf: "assets/files/kougkas2018harmonia.pdf",
-      slides: "assets/files/Harmonia_slides.pdf",
-      bibtex: "assets/files/kougkas2018harmonia.bib",
-      citation: "assets/files/kougkas2018harmonia.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/kougkas2018harmonia.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/Harmonia_slides.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/kougkas2018harmonia.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/kougkas2018harmonia.txt",
     },
   },
   {
@@ -1012,9 +1012,9 @@ export default [
     date: "September, 2018",
     tags: [""],
     links: {
-      pdf: "assets/files/SciDP_Kun2018.pdf",
-      bibtex: "assets/files/feng2018scidp.bib",
-      citation: "assets/files/feng2018scidp.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/SciDP_Kun2018.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/feng2018scidp.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/feng2018scidp.txt",
     },
   },
   {
@@ -1025,9 +1025,9 @@ export default [
     date: "June, 2018",
     tags: [""],
     links: {
-      pdf: "assets/files/Cal.pdf",
-      bibtex: "assets/files/liu2018cal.bib",
-      citation: "assets/files/liu2018cal.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/Cal.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/liu2018cal.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/liu2018cal.txt",
       doi: "https://doi.org/10.1109/TBDATA.2017.2753825",
     },
   },
@@ -1040,10 +1040,10 @@ export default [
     date: "June, 2018",
     tags: [""],
     links: {
-      pdf: "assets/files/IRIS.pdf",
-      slides: "assets/files/IRIS_slides.pdf",
-      bibtex: "assets/files/kougkas2018iris.bib",
-      citation: "assets/files/kougkas2018iris.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/IRIS.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/IRIS_slides.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/kougkas2018iris.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/kougkas2018iris.txt",
     },
   },
   {
@@ -1055,10 +1055,10 @@ export default [
     date: "June, 2018",
     tags: ["Hermes"],
     links: {
-      pdf: "assets/files/Hermes.pdf",
-      slides: "assets/files/Hermes_slides.pdf",
-      bibtex: "assets/files/kougkas2018hermes.bib",
-      citation: "assets/files/kougkas2018hermes.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/Hermes.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/Hermes_slides.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/kougkas2018hermes.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/kougkas2018hermes.txt",
     },
   },
   {
@@ -1070,9 +1070,9 @@ export default [
     date: "May, 2018",
     tags: [""],
     links: {
-      pdf: "assets/files/shuibing_ipdps2018.pdf",
-      bibtex: "assets/files/he2018migratory.bib",
-      citation: "assets/files/he2018migratory.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/shuibing_ipdps2018.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2018migratory.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2018migratory.txt",
     },
   },
   {
@@ -1085,9 +1085,9 @@ export default [
     date: "May, 2018",
     tags: [""],
     links: {
-      pdf: "assets/files/xingwang_ipdps2018.pdf",
-      bibtex: "assets/files/wang2018trade.bib",
-      citation: "assets/files/wang2018trade.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/xingwang_ipdps2018.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/wang2018trade.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/wang2018trade.txt",
     },
   },
   {
@@ -1099,9 +1099,9 @@ export default [
     date: "May, 2018",
     tags: [""],
     links: {
-      pdf: "assets/files/haider_2018.pdf",
-      bibtex: "assets/files/haider2018horizon.bib",
-      citation: "assets/files/haider2018horizon.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/haider_2018.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/haider2018horizon.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/haider2018horizon.txt",
     },
   },
   {
@@ -1113,10 +1113,10 @@ export default [
     date: "November, 2017",
     tags: [""],
     links: {
-      pdf: "assets/files/Enosis.pdf",
-      slides: "assets/files/Enosis_slides.pdf",
-      bibtex: "assets/files/kougkas2017enosis.bib",
-      citation: "assets/files/kougkas2017enosis.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/Enosis.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/Enosis_slides.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/kougkas2017enosis.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/kougkas2017enosis.txt",
     },
   },
   {
@@ -1128,9 +1128,9 @@ export default [
     date: "November, 2017",
     tags: [""],
     links: {
-      pdf: "assets/files/OED_DataCloud17.pdf",
-      bibtex: "assets/files/devarajan2014open.bib",
-      citation: "assets/files/devarajan2014open.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/OED_DataCloud17.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/devarajan2014open.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/devarajan2014open.txt",
     },
   },
   {
@@ -1142,9 +1142,9 @@ export default [
     date: "November, 2017",
     tags: [""],
     links: {
-      pdf: "assets/files/C-AMAT_GPGPU.pdf",
-      bibtex: "assets/files/zhang2017evaluating.bib",
-      citation: "assets/files/zhang2017evaluating.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/C-AMAT_GPGPU.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/zhang2017evaluating.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/zhang2017evaluating.txt",
     },
   },
   {
@@ -1157,8 +1157,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://dl.acm.org/citation.cfm?id=3158212",
-      bibtex: "assets/files/yan2017principles.bib",
-      citation: "assets/files/yan2017principles.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yan2017principles.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yan2017principles.txt",
     },
   },
   {
@@ -1170,10 +1170,10 @@ export default [
     date: "November, 2017",
     tags: [""],
     links: {
-      pdf: "assets/files/Syndesis.pdf",
-      slides: "assets/files/Syndesis_slides.pdf",
-      bibtex: "assets/files/kougkas2017syndesis.bib",
-      citation: "assets/files/kougkas2017syndesis.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/Syndesis.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/Syndesis_slides.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/kougkas2017syndesis.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/kougkas2017syndesis.txt",
     },
   },
   {
@@ -1187,8 +1187,8 @@ export default [
     tags: [""],
     links: {
       pdf: "http://www.cs.iit.edu/~zlan/publications/cluster17_final.pdf",
-      bibtex: "assets/files/fan2017trade.bib",
-      citation: "assets/files/fan2017trade.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/fan2017trade.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/fan2017trade.txt",
     },
   },
   {
@@ -1202,8 +1202,8 @@ export default [
     tags: [""],
     links: {
       pdf: "http://publish.illinois.edu/science-of-security-lablet/files/2014/05/A-Modeling-and-Simulation-of-Extreme-Scale-Fat-Tree-Networks-for-HPC-Systems-and-Data-Centers.pdf",
-      bibtex: "assets/files/liu2017modeling.bib",
-      citation: "assets/files/liu2017modeling.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/liu2017modeling.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/liu2017modeling.txt",
     },
   },
   {
@@ -1215,9 +1215,9 @@ export default [
     date: "July, 2017",
     tags: [""],
     links: {
-      pdf: "assets/files/Anthony_kvstore_journal.pdf",
-      bibtex: "assets/files/kougkas2017rethinking.bib",
-      citation: "assets/files/kougkas2017rethinking.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/Anthony_kvstore_journal.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/kougkas2017rethinking.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/kougkas2017rethinking.txt",
     },
   },
   {
@@ -1229,9 +1229,9 @@ export default [
     date: "June, 2017",
     tags: [""],
     links: {
-      pdf: "assets/files/Cost-Aware%20Region-Level%20Data%20Placement%20in%20Multi-Tiered%20Parallel%20IO%20Systems.pdf",
-      bibtex: "assets/files/he2017cost.bib",
-      citation: "assets/files/he2017cost.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/Cost-Aware%20Region-Level%20Data%20Placement%20in%20Multi-Tiered%20Parallel%20IO%20Systems.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2017cost.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2017cost.txt",
       doi: "https://doi.org/10.1109/TPDS.2016.2636837",
     },
   },
@@ -1244,9 +1244,9 @@ export default [
     date: "June, 2017",
     tags: [""],
     links: {
-      pdf: "assets/files/Heterogeneity-Aware%20Collective%20IO%20for%20Parallel%20IO%20Systems%20with%20Hybrid%20HDD_SSD%20Servers.pdf",
-      bibtex: "assets/files/he2017heterogeneity.bib",
-      citation: "assets/files/he2017heterogeneity.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/Heterogeneity-Aware%20Collective%20IO%20for%20Parallel%20IO%20Systems%20with%20Hybrid%20HDD_SSD%20Servers.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2017heterogeneity.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2017heterogeneity.txt",
       doi: "https://doi.org/10.1109/TC.2016.2637353",
     },
   },
@@ -1259,9 +1259,9 @@ export default [
     date: "June, 2017",
     tags: [""],
     links: {
-      pdf: "assets/files/HARL%20Optimizing%20Parallel%20File%20Systems%20with%20Heterogeneity-Aware%20Region-Level%20Data%20Layout.pdf",
-      bibtex: "assets/files/he2017harl.bib",
-      citation: "assets/files/he2017harl.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/HARL%20Optimizing%20Parallel%20File%20Systems%20with%20Heterogeneity-Aware%20Region-Level%20Data%20Layout.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2017harl.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2017harl.txt",
       doi: "https://doi.org/10.1109/TC.2016.2637905",
     },
   },
@@ -1274,9 +1274,9 @@ export default [
     date: "May, 2017",
     tags: [""],
     links: {
-      pdf: "assets/files/JSSPP_17.pdf",
-      bibtex: "assets/files/allcock2017experience.bib",
-      citation: "assets/files/allcock2017experience.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/JSSPP_17.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/allcock2017experience.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/allcock2017experience.txt",
     },
   },
   {
@@ -1289,9 +1289,9 @@ export default [
     date: "April, 2017",
     tags: [""],
     links: {
-      pdf: "assets/files/TOMPECS-liu.pdf",
-      bibtex: "assets/files/liu2017evaluating.bib",
-      citation: "assets/files/liu2017evaluating.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/TOMPECS-liu.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/liu2017evaluating.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/liu2017evaluating.txt",
     },
   },
   {
@@ -1303,9 +1303,9 @@ export default [
     date: "April, 2017",
     tags: [""],
     links: {
-      pdf: "assets/files/Sbing_MinMAX-Memory17.pdf",
-      bibtex: "assets/files/he2017using.bib",
-      citation: "assets/files/he2017using.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/Sbing_MinMAX-Memory17.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2017using.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2017using.txt",
       doi: "https://doi.org/10.1109/TPDS.2016.2614294",
     },
   },
@@ -1319,8 +1319,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://www.mcs.anl.gov/~kettimut/publications/BigData16.pdf",
-      bibtex: "assets/files/liu2016towards.bib",
-      citation: "assets/files/liu2016towards.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/liu2016towards.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/liu2016towards.txt",
     },
   },
   {
@@ -1333,9 +1333,9 @@ export default [
     date: "November, 2016",
     tags: [""],
     links: {
-      pdf: "assets/files/TPDS2016-shuibing-02.pdf",
-      bibtex: "assets/files/zhou2015improving.bib",
-      citation: "assets/files/zhou2015improving.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/TPDS2016-shuibing-02.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/zhou2015improving.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/zhou2015improving.txt",
     },
   },
   {
@@ -1349,8 +1349,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel7/71/7563479/07390309.pdf",
-      bibtex: "assets/files/he2016improving.bib",
-      citation: "assets/files/he2016improving.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2016improving.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2016improving.txt",
     },
   },
   {
@@ -1363,8 +1363,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://journals.sagepub.com/doi/pdf/10.1177/1094342016631610",
-      bibtex: "assets/files/he2016enhancing.bib",
-      citation: "assets/files/he2016enhancing.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2016enhancing.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2016enhancing.txt",
     },
   },
   {
@@ -1377,8 +1377,8 @@ export default [
     tags: [""],
     links: {
       pdf: "http://mypages.iit.edu/~xyang56/papers/sc16-bully.pdf",
-      bibtex: "assets/files/yang2016watch.bib",
-      citation: "assets/files/yang2016watch.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yang2016watch.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yang2016watch.txt",
     },
   },
   {
@@ -1398,9 +1398,9 @@ export default [
     date: "November, 2016",
     tags: [""],
     links: {
-      pdf: "assets/files/Wallace_SC_16.pdf",
-      bibtex: "assets/files/wallace2016data.bib",
-      citation: "assets/files/wallace2016data.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/Wallace_SC_16.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/wallace2016data.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/wallace2016data.txt",
     },
   },
   {
@@ -1413,8 +1413,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://dl.acm.org/ft_gateway.cfm?id=2968457&type=pdf",
-      bibtex: "assets/files/li2016efficient.bib",
-      citation: "assets/files/li2016efficient.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/li2016efficient.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/li2016efficient.txt",
     },
   },
   {
@@ -1427,9 +1427,9 @@ export default [
     date: "October, 2016",
     tags: [""],
     links: {
-      pdf: "assets/files/bdcloud16.pdf",
-      bibtex: "assets/files/yang2016visualization.bib",
-      citation: "assets/files/yang2016visualization.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/bdcloud16.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yang2016visualization.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yang2016visualization.txt",
     },
   },
   {
@@ -1449,10 +1449,10 @@ export default [
     date: "October, 2016",
     tags: [""],
     links: {
-      pdf: "assets/files/eScience16.pdf",
-      slides: "assets/files/eScience16_slides.pdf",
-      bibtex: "assets/files/kougkas2016leveraging.bib",
-      citation: "assets/files/kougkas2016leveraging.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/eScience16.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/eScience16_slides.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/kougkas2016leveraging.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/kougkas2016leveraging.txt",
     },
   },
   {
@@ -1465,9 +1465,9 @@ export default [
     date: "September, 2016",
     tags: [""],
     links: {
-      pdf: "assets/files/TPDS2016-shuibing-01.pdf",
-      bibtex: "assets/files/he2016boosting.bib",
-      citation: "assets/files/he2016boosting.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/TPDS2016-shuibing-01.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2016boosting.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2016boosting.txt",
     },
   },
   {
@@ -1478,9 +1478,9 @@ export default [
     date: "September, 2016",
     tags: [""],
     links: {
-      pdf: "assets/files/baoyu.pdf",
-      bibtex: "assets/files/xu2016memory.bib",
-      citation: "assets/files/xu2016memory.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/baoyu.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/xu2016memory.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/xu2016memory.txt",
     },
   },
   {
@@ -1492,9 +1492,9 @@ export default [
     date: "September, 2016",
     tags: [""],
     links: {
-      pdf: "assets/files/sluicegate-c2.pdf",
-      bibtex: "assets/files/sun2016utilizing.bib",
-      citation: "assets/files/sun2016utilizing.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/sluicegate-c2.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/sun2016utilizing.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/sun2016utilizing.txt",
     },
   },
   {
@@ -1508,8 +1508,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://pdfs.semanticscholar.org/19d6/86007a37f599b850bfbca391a5d7d869def8.pdf",
-      bibtex: "assets/files/berrocal2016exploring.bib",
-      citation: "assets/files/berrocal2016exploring.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/berrocal2016exploring.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/berrocal2016exploring.txt",
     },
   },
   {
@@ -1522,9 +1522,9 @@ export default [
     date: "August, 2016",
     tags: [""],
     links: {
-      pdf: "assets/files/Yong_ISPA16.pdf",
-      bibtex: "assets/files/chen2016rethinking.bib",
-      citation: "assets/files/chen2016rethinking.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/Yong_ISPA16.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/chen2016rethinking.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/chen2016rethinking.txt",
     },
   },
   {
@@ -1537,8 +1537,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel7/7529829/7536347/07536575.pdf",
-      bibtex: "assets/files/wang2016minmax.bib",
-      citation: "assets/files/wang2016minmax.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/wang2016minmax.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/wang2016minmax.txt",
     },
   },
   {
@@ -1560,9 +1560,9 @@ export default [
     date: "June, 2016",
     tags: [""],
     links: {
-      pdf: "assets/files/TPDS2016-dongfang.pdf",
-      bibtex: "assets/files/zhao2016towards.bib",
-      citation: "assets/files/zhao2016towards.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/TPDS2016-dongfang.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/zhao2016towards.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/zhao2016towards.txt",
     },
   },
   {
@@ -1573,10 +1573,10 @@ export default [
     date: "January, 2016",
     tags: [""],
     links: {
-      pdf: "assets/files/Anthony_oed_pdsw16.pdf",
-      slides: "assets/files/OED_PDSW16_slides.pdf",
-      bibtex: "assets/files/kougkas2016towards.bib",
-      citation: "assets/files/kougkas2016towards.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/Anthony_oed_pdsw16.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/OED_PDSW16_slides.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/kougkas2016towards.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/kougkas2016towards.txt",
     },
   },
   {
@@ -1588,9 +1588,9 @@ export default [
     date: "December, 2015",
     tags: [""],
     links: {
-      pdf: "assets/files/IC-Data.pdf",
-      bibtex: "assets/files/haider2015ic.bib",
-      citation: "assets/files/haider2015ic.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/IC-Data.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/haider2015ic.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/haider2015ic.txt",
     },
   },
   {
@@ -1602,9 +1602,9 @@ export default [
     date: "December, 2015",
     tags: [""],
     links: {
-      pdf: "assets/files/dominoes.pdf",
-      bibtex: "assets/files/yang2015dominoes.bib",
-      citation: "assets/files/yang2015dominoes.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/dominoes.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yang2015dominoes.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yang2015dominoes.txt",
     },
   },
   {
@@ -1616,9 +1616,9 @@ export default [
     date: "November, 2015",
     tags: [""],
     links: {
-      pdf: "assets/files/SC%20paper-pub.pdf",
-      bibtex: "assets/files/liu2015c.bib",
-      citation: "assets/files/liu2015c.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/SC%20paper-pub.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/liu2015c.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/liu2015c.txt",
     },
   },
   {
@@ -1642,8 +1642,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://dl.acm.org/ft_gateway.cfm?ftid=1643727&id=2831249",
-      bibtex: "assets/files/eslami2015efficient.bib",
-      citation: "assets/files/eslami2015efficient.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/eslami2015efficient.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/eslami2015efficient.txt",
     },
   },
   {
@@ -1664,9 +1664,9 @@ export default [
     date: "October, 2015",
     tags: [""],
     links: {
-      pdf: "assets/files/PortHadoop_ieee.pdf",
-      bibtex: "assets/files/yang2015porthadoop.bib",
-      citation: "assets/files/yang2015porthadoop.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/PortHadoop_ieee.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yang2015porthadoop.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yang2015porthadoop.txt",
     },
   },
   {
@@ -1678,9 +1678,9 @@ export default [
     date: "October, 2015",
     tags: [""],
     links: {
-      pdf: "assets/files/framework_zhou.pdf",
-      bibtex: "assets/files/zhou2015hadoop.bib",
-      citation: "assets/files/zhou2015hadoop.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/framework_zhou.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/zhou2015hadoop.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/zhou2015hadoop.txt",
     },
   },
   {
@@ -1701,8 +1701,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel7/7307300/7307539/07307589.pdf",
-      bibtex: "assets/files/wang2015overcoming.bib",
-      citation: "assets/files/wang2015overcoming.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/wang2015overcoming.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/wang2015overcoming.txt",
     },
   },
   {
@@ -1713,9 +1713,9 @@ export default [
     date: "September, 2015",
     tags: [""],
     links: {
-      pdf: "assets/files/bo_cluster15_IOSIG+.pdf",
-      bibtex: "assets/files/feng2015iosig+.bib",
-      citation: "assets/files/feng2015iosig+.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/bo_cluster15_IOSIG+.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/feng2015iosig+.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/feng2015iosig+.txt",
     },
   },
   {
@@ -1726,9 +1726,9 @@ export default [
     date: "September, 2015",
     tags: [""],
     links: {
-      pdf: "assets/files/fastfit.pdf",
-      bibtex: "assets/files/feng2015fast.bib",
-      citation: "assets/files/feng2015fast.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/fastfit.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/feng2015fast.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/feng2015fast.txt",
     },
   },
   {
@@ -1740,8 +1740,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel7/7307300/7307539/07307592.pdf",
-      bibtex: "assets/files/zhou2015aware.bib",
-      citation: "assets/files/zhou2015aware.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/zhou2015aware.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/zhou2015aware.txt",
     },
   },
   {
@@ -1752,9 +1752,9 @@ export default [
     date: "September, 2015",
     tags: [""],
     links: {
-      pdf: "assets/files/LPM-pub.pdf",
-      bibtex: "assets/files/liu2015lpm.bib",
-      citation: "assets/files/liu2015lpm.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/LPM-pub.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/liu2015lpm.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/liu2015lpm.txt",
     },
   },
   {
@@ -1765,9 +1765,9 @@ export default [
     date: "September, 2015",
     tags: [""],
     links: {
-      pdf: "assets/files/harl-cr.pdf",
-      bibtex: "assets/files/he2015heterogeneity.bib",
-      citation: "assets/files/he2015heterogeneity.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/harl-cr.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2015heterogeneity.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2015heterogeneity.txt",
     },
   },
   {
@@ -1779,9 +1779,9 @@ export default [
     date: "September, 2015",
     tags: [""],
     links: {
-      pdf: "assets/files/LCIndex.pdf",
-      bibtex: "assets/files/feng2015lcindex.bib",
-      citation: "assets/files/feng2015lcindex.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/LCIndex.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/feng2015lcindex.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/feng2015lcindex.txt",
     },
   },
   {
@@ -1804,8 +1804,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://www.cs.fsu.edu/~yuw/pubs/2015-ICS-Yu.pdf",
-      bibtex: "assets/files/wang2015dacache.bib",
-      citation: "assets/files/wang2015dacache.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/wang2015dacache.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/wang2015dacache.txt",
     },
   },
   {
@@ -1816,9 +1816,9 @@ export default [
     date: "June, 2015",
     tags: [""],
     links: {
-      pdf: "assets/files/auto_provision_tcc15.pdf",
-      bibtex: "assets/files/ranjan2015recent.bib",
-      citation: "assets/files/ranjan2015recent.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/auto_provision_tcc15.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/ranjan2015recent.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/ranjan2015recent.txt",
     },
   },
   {
@@ -1831,9 +1831,9 @@ export default [
     date: "June, 2015",
     tags: [""],
     links: {
-      pdf: "assets/files/fattreesim.pdf",
-      bibtex: "assets/files/liu2015fattreesim.bib",
-      citation: "assets/files/liu2015fattreesim.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/fattreesim.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/liu2015fattreesim.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/liu2015fattreesim.txt",
     },
   },
   {
@@ -1846,9 +1846,9 @@ export default [
     date: "May, 2015",
     tags: [""],
     links: {
-      pdf: "assets/files/has_ipdps15.pdf",
-      bibtex: "assets/files/he2015has.bib",
-      citation: "assets/files/he2015has.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/has_ipdps15.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2015has.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2015has.txt",
     },
   },
   {
@@ -1871,9 +1871,9 @@ export default [
     date: "May, 2015",
     tags: [""],
     links: {
-      pdf: "assets/files/Ning_CCGrid15.pdf",
-      bibtex: "assets/files/liu2015yarnsim.bib",
-      citation: "assets/files/liu2015yarnsim.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/Ning_CCGrid15.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/liu2015yarnsim.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/liu2015yarnsim.txt",
     },
   },
   {
@@ -1885,8 +1885,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://link.springer.com/article/10.1007/s11227-014-1324-5",
-      bibtex: "assets/files/wu2015hierarchical.bib",
-      citation: "assets/files/wu2015hierarchical.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/wu2015hierarchical.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/wu2015hierarchical.txt",
     },
   },
   {
@@ -1899,8 +1899,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel7/12/7079452/06798722.pdf",
-      bibtex: "assets/files/zheng2015reliability.bib",
-      citation: "assets/files/zheng2015reliability.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/zheng2015reliability.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/zheng2015reliability.txt",
     },
   },
   {
@@ -1911,9 +1911,9 @@ export default [
     date: "March, 2015",
     tags: [""],
     links: {
-      pdf: "assets/files/Reevaluating%20Data%20Stall%20Time%20with%20the%20Consideration%20of%20Data%20Access.pdf",
-      bibtex: "assets/files/liu2015reevaluating.bib",
-      citation: "assets/files/liu2015reevaluating.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/Reevaluating%20Data%20Stall%20Time%20with%20the%20Consideration%20of%20Data%20Access.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/liu2015reevaluating.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/liu2015reevaluating.txt",
     },
   },
   {
@@ -1926,8 +1926,8 @@ export default [
     tags: [""],
     links: {
       pdf: "http://link.springer.com/chapter/10.1007/978-1-4939-2092-1_18",
-      bibtex: "assets/files/yin2015and.bib",
-      citation: "assets/files/yin2015and.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yin2015and.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yin2015and.txt",
     },
   },
   {
@@ -1939,9 +1939,9 @@ export default [
     date: "November, 2014",
     tags: [""],
     links: {
-      pdf: "assets/files/psa-discs14.pdf",
-      bibtex: "assets/files/he2014psa.bib",
-      citation: "assets/files/he2014psa.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/psa-discs14.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2014psa.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2014psa.txt",
     },
   },
   {
@@ -1954,9 +1954,9 @@ export default [
     date: "November, 2014",
     tags: [""],
     links: {
-      pdf: "assets/files/HPIS3.pdf",
-      bibtex: "assets/files/feng2014hpis3.bib",
-      citation: "assets/files/feng2014hpis3.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/HPIS3.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/feng2014hpis3.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/feng2014hpis3.txt",
     },
   },
   {
@@ -1977,9 +1977,9 @@ export default [
     date: "November, 2014",
     tags: [""],
     links: {
-      pdf: "assets/files/KVStore-DISCS-2014.pdf",
-      bibtex: "assets/files/yin2014rethinking.bib",
-      citation: "assets/files/yin2014rethinking.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/KVStore-DISCS-2014.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yin2014rethinking.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yin2014rethinking.txt",
     },
   },
   {
@@ -1990,9 +1990,9 @@ export default [
     date: "September, 2014",
     tags: [""],
     links: {
-      pdf: "assets/files/SCALER_xyang.pdf",
-      bibtex: "assets/files/yang2014scaler.bib",
-      citation: "assets/files/yang2014scaler.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/SCALER_xyang.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yang2014scaler.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yang2014scaler.txt",
     },
   },
   {
@@ -2004,8 +2004,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel7/6957006/6968662/06968757.pdf",
-      bibtex: "assets/files/berrocal2014exploring.bib",
-      citation: "assets/files/berrocal2014exploring.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/berrocal2014exploring.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/berrocal2014exploring.txt",
     },
   },
   {
@@ -2018,8 +2018,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel7/6957006/6968662/06968751.pdf",
-      bibtex: "assets/files/yang2014balancing.bib",
-      citation: "assets/files/yang2014balancing.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yang2014balancing.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yang2014balancing.txt",
     },
   },
   {
@@ -2041,8 +2041,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel7/7101393/7103416/07103466.pdf",
-      bibtex: "assets/files/chen2014decoupled.bib",
-      citation: "assets/files/chen2014decoupled.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/chen2014decoupled.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/chen2014decoupled.txt",
     },
   },
   {
@@ -2054,9 +2054,9 @@ export default [
     date: "August, 2014",
     tags: [""],
     links: {
-      pdf: "assets/files/padp.pdf",
-      bibtex: "assets/files/he2014performance.bib",
-      citation: "assets/files/he2014performance.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/padp.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2014performance.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2014performance.txt",
     },
   },
   {
@@ -2067,9 +2067,9 @@ export default [
     date: "July, 2014",
     tags: [""],
     links: {
-      pdf: "assets/files/APC_TC.pdf",
-      bibtex: "assets/files/wang2014apc.bib",
-      citation: "assets/files/wang2014apc.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/APC_TC.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/wang2014apc.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/wang2014apc.txt",
     },
   },
   {
@@ -2079,7 +2079,7 @@ export default [
     type: "Journal",
     date: "June, 2014",
     tags: [""],
-    links: { pdf: "assets/files/C-AMAT_CCCF_JUNE_2014.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/C-AMAT_CCCF_JUNE_2014.pdf" },
   },
   {
     authors: ["S. He", "X.-H. Sun", "B. Feng"],
@@ -2089,9 +2089,9 @@ export default [
     date: "June, 2014",
     tags: [""],
     links: {
-      pdf: "assets/files/s4d-cache-CR.pdf",
-      bibtex: "assets/files/he2014s4d.bib",
-      citation: "assets/files/he2014s4d.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/s4d-cache-CR.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2014s4d.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2014s4d.txt",
     },
   },
   {
@@ -2102,9 +2102,9 @@ export default [
     date: "May, 2014",
     tags: [""],
     links: {
-      pdf: "assets/files/SUN-ConcurrentAMAT__IEEE_May2014.pdf",
-      bibtex: "assets/files/sun2014concurrent.bib",
-      citation: "assets/files/sun2014concurrent.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/SUN-ConcurrentAMAT__IEEE_May2014.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/sun2014concurrent.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/sun2014concurrent.txt",
     },
   },
   {
@@ -2127,8 +2127,8 @@ export default [
     tags: [""],
     links: {
       pdf: "http://www.cs.iit.edu/~lan/publications/sc13_final.pdf",
-      bibtex: "assets/files/yang2013integrating.bib",
-      citation: "assets/files/yang2013integrating.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yang2013integrating.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yang2013integrating.txt",
     },
   },
   {
@@ -2138,7 +2138,7 @@ export default [
     type: "Journal",
     date: "November, 2013",
     tags: [""],
-    links: { bibtex: "assets/files/he2013layout.bib", citation: "assets/files/he2013layout.txt" },
+    links: { bibtex: "http://cs.iit.edu/~scs/assets/files/he2013layout.bib", citation: "http://cs.iit.edu/~scs/assets/files/he2013layout.txt" },
   },
   {
     authors: [
@@ -2160,8 +2160,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://www.computer.org/csdl/proceedings/cluster/2013/9999/00/06702642.pdf",
-      bibtex: "assets/files/feng2013runtime.bib",
-      citation: "assets/files/feng2013runtime.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/feng2013runtime.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/feng2013runtime.txt",
     },
   },
   {
@@ -2181,9 +2181,9 @@ export default [
     date: "September, 2013",
     tags: [""],
     links: {
-      pdf: "assets/files/jun_hpdc13.pdf",
-      bibtex: "assets/files/he2013acceleration.bib",
-      citation: "assets/files/he2013acceleration.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/jun_hpdc13.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2013acceleration.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2013acceleration.txt",
     },
   },
   {
@@ -2195,8 +2195,8 @@ export default [
     tags: [""],
     links: {
       pdf: "http://www.sciencedirect.com/science/article/pii/S0167739X13000290",
-      bibtex: "assets/files/jin2013performance.bib",
-      citation: "assets/files/jin2013performance.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/jin2013performance.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/jin2013performance.txt",
     },
   },
   {
@@ -2208,9 +2208,9 @@ export default [
     date: "September, 2013",
     tags: [""],
     links: {
-      pdf: "assets/files/shuibing_cluster13.pdf",
-      bibtex: "assets/files/he2013cost.bib",
-      citation: "assets/files/he2013cost.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/shuibing_cluster13.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2013cost.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2013cost.txt",
     },
   },
   {
@@ -2222,9 +2222,9 @@ export default [
     date: "May, 2013",
     tags: [""],
     links: {
-      pdf: "assets/files/yanlong_ipdps13.pdf",
-      bibtex: "assets/files/yin2013pattern.bib",
-      citation: "assets/files/yin2013pattern.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/yanlong_ipdps13.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yin2013pattern.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yin2013pattern.txt",
     },
   },
   {
@@ -2236,9 +2236,9 @@ export default [
     date: "May, 2013",
     tags: [""],
     links: {
-      pdf: "assets/files/shuibing_hpdic13.pdf",
-      bibtex: "assets/files/he2013bps.bib",
-      citation: "assets/files/he2013bps.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/shuibing_hpdic13.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2013bps.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2013bps.txt",
     },
   },
   {
@@ -2258,9 +2258,9 @@ export default [
     date: "November, 2012",
     tags: [""],
     links: {
-      pdf: "assets/files/plfs-index.pdf",
-      bibtex: "assets/files/he2012discovering.bib",
-      citation: "assets/files/he2012discovering.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/plfs-index.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2012discovering.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2012discovering.txt",
     },
   },
   {
@@ -2273,8 +2273,8 @@ export default [
     tags: [""],
     links: {
       pdf: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.713.5156&rep=rep1&type=pdf",
-      bibtex: "assets/files/wu2012hierarchical.bib",
-      citation: "assets/files/wu2012hierarchical.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/wu2012hierarchical.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/wu2012hierarchical.txt",
     },
   },
   {
@@ -2286,9 +2286,9 @@ export default [
     date: "October, 2012",
     tags: [""],
     links: {
-      pdf: "assets/files/data_prefetcher.pdf",
-      bibtex: "assets/files/chen2012algorithm.bib",
-      citation: "assets/files/chen2012algorithm.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/data_prefetcher.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/chen2012algorithm.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/chen2012algorithm.txt",
     },
   },
   {
@@ -2300,8 +2300,8 @@ export default [
     tags: [""],
     links: {
       pdf: "http://mypages.iit.edu/~lyu17/papers/icac.pdf",
-      bibtex: "assets/files/zheng20123.bib",
-      citation: "assets/files/zheng20123.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/zheng20123.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/zheng20123.txt",
     },
   },
   {
@@ -2314,8 +2314,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://www.mcs.anl.gov/events/workshops/p2s2/2012/slides/p2s2-2012-Tang-adaptive-sched-pres.pdf",
-      bibtex: "assets/files/tang2012adaptive.bib",
-      citation: "assets/files/tang2012adaptive.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/tang2012adaptive.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/tang2012adaptive.txt",
     },
   },
   {
@@ -2326,9 +2326,9 @@ export default [
     date: "September, 2012",
     tags: [""],
     links: {
-      pdf: "assets/files/jin_icpp_12.pdf",
-      bibtex: "assets/files/jin2012chaio.bib",
-      citation: "assets/files/jin2012chaio.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/jin_icpp_12.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/jin2012chaio.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/jin2012chaio.txt",
     },
   },
   {
@@ -2339,9 +2339,9 @@ export default [
     date: "September, 2012",
     tags: [""],
     links: {
-      pdf: "assets/files/KNOWAC_final.pdf",
-      bibtex: "assets/files/he2012knowac.bib",
-      citation: "assets/files/he2012knowac.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/KNOWAC_final.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2012knowac.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2012knowac.txt",
     },
   },
   {
@@ -2352,9 +2352,9 @@ export default [
     date: "September, 2012",
     tags: [""],
     links: {
-      pdf: "assets/files/PID2448849.pdf",
-      bibtex: "assets/files/chen2012decoupled.bib",
-      citation: "assets/files/chen2012decoupled.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/PID2448849.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/chen2012decoupled.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/chen2012decoupled.txt",
     },
   },
   {
@@ -2365,9 +2365,9 @@ export default [
     date: "September, 2012",
     tags: [""],
     links: {
-      pdf: "assets/files/APC-sun-CopyRight.pdf",
-      bibtex: "assets/files/sun2012apc.bib",
-      citation: "assets/files/sun2012apc.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/APC-sun-CopyRight.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/sun2012apc.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/sun2012apc.txt",
     },
   },
   {
@@ -2379,9 +2379,9 @@ export default [
     date: "June, 2012",
     tags: [""],
     links: {
-      pdf: "assets/files/DSN12.pdf",
-      bibtex: "assets/files/yu2012filtering.bib",
-      citation: "assets/files/yu2012filtering.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/DSN12.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yu2012filtering.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yu2012filtering.txt",
     },
   },
   {
@@ -2393,9 +2393,9 @@ export default [
     date: "June, 2012",
     tags: [""],
     links: {
-      pdf: "assets/files/icdcs-12.pdf",
-      bibtex: "assets/files/jin2012adapt.bib",
-      citation: "assets/files/jin2012adapt.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/icdcs-12.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/jin2012adapt.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/jin2012adapt.txt",
     },
   },
   {
@@ -2407,9 +2407,9 @@ export default [
     date: "May, 2012",
     tags: [""],
     links: {
-      pdf: "assets/files/ccgrid12-yin.pdf",
-      bibtex: "assets/files/yin2012boosting.bib",
-      citation: "assets/files/yin2012boosting.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/ccgrid12-yin.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yin2012boosting.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yin2012boosting.txt",
     },
   },
   {
@@ -2431,9 +2431,9 @@ export default [
     date: "May, 2012",
     tags: [""],
     links: {
-      pdf: "assets/files/ccgrid12-ge.pdf",
-      bibtex: "assets/files/ge2012sera.bib",
-      citation: "assets/files/ge2012sera.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/ccgrid12-ge.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/ge2012sera.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/ge2012sera.txt",
     },
   },
   {
@@ -2445,9 +2445,9 @@ export default [
     date: "May, 2012",
     tags: [""],
     links: {
-      pdf: "assets/files/ipdps12-zou.pdf",
-      bibtex: "assets/files/zou2012source.bib",
-      citation: "assets/files/zou2012source.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/ipdps12-zou.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/zou2012source.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/zou2012source.txt",
     },
   },
   {
@@ -2459,9 +2459,9 @@ export default [
     date: "May, 2012",
     tags: [""],
     links: {
-      pdf: "assets/files/ccgrid12-jin.pdf",
-      bibtex: "assets/files/jin2012checkpointing.bib",
-      citation: "assets/files/jin2012checkpointing.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/ccgrid12-jin.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/jin2012checkpointing.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/jin2012checkpointing.txt",
     },
   },
   {
@@ -2473,9 +2473,9 @@ export default [
     date: "May, 2012",
     tags: [""],
     links: {
-      pdf: "assets/files/server-level.pdf",
-      bibtex: "assets/files/song2012server.bib",
-      citation: "assets/files/song2012server.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/server-level.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/song2012server.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/song2012server.txt",
     },
   },
   {
@@ -2487,9 +2487,9 @@ export default [
     date: "May, 2012",
     tags: [""],
     links: {
-      pdf: "assets/files/yu_ipdps_2012.pdf",
-      bibtex: "assets/files/yu2012improving.bib",
-      citation: "assets/files/yu2012improving.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/yu_ipdps_2012.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yu2012improving.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yu2012improving.txt",
     },
   },
   {
@@ -2501,9 +2501,9 @@ export default [
     date: "February, 2012",
     tags: [""],
     links: {
-      pdf: "assets/files/cost-model-jrnl.pdf",
-      bibtex: "assets/files/song2013cost.bib",
-      citation: "assets/files/song2013cost.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/cost-model-jrnl.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/song2013cost.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/song2013cost.txt",
     },
   },
   {
@@ -2515,9 +2515,9 @@ export default [
     date: "November, 2011",
     tags: [""],
     links: {
-      pdf: "assets/files/IJHPCA-chen.pdf",
-      bibtex: "assets/files/chen2011global.bib",
-      citation: "assets/files/chen2011global.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/IJHPCA-chen.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/chen2011global.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/chen2011global.txt",
     },
   },
   {
@@ -2529,8 +2529,8 @@ export default [
     tags: [""],
     links: {
       pdf: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.461.4037&rep=rep1&type=pdf",
-      bibtex: "assets/files/song2011server.bib",
-      citation: "assets/files/song2011server.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/song2011server.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/song2011server.txt",
     },
   },
   {
@@ -2543,8 +2543,8 @@ export default [
     tags: [""],
     links: {
       pdf: "http://www.dcs.warwick.ac.uk/pmbs/pmbs11/PMBS11/Workshop_Schedule_files/rn-1730.pdf",
-      bibtex: "assets/files/sun2011memory.bib",
-      citation: "assets/files/sun2011memory.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/sun2011memory.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/sun2011memory.txt",
     },
   },
   {
@@ -2557,8 +2557,8 @@ export default [
     tags: [""],
     links: {
       pdf: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.363.2559&rep=rep1&type=pdf",
-      bibtex: "assets/files/he2011pattern.bib",
-      citation: "assets/files/he2011pattern.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2011pattern.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2011pattern.txt",
     },
   },
   {
@@ -2571,8 +2571,8 @@ export default [
     tags: [""],
     links: {
       pdf: "http://mypages.iit.edu/~jhe24/papers/scala03-he.pdf",
-      bibtex: "assets/files/he2011layout.bib",
-      citation: "assets/files/he2011layout.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2011layout.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2011layout.txt",
     },
   },
   {
@@ -2584,8 +2584,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel5/6059523/6061043/06061060.pdf",
-      bibtex: "assets/files/wu2011performance.bib",
-      citation: "assets/files/wu2011performance.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/wu2011performance.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/wu2011performance.txt",
     },
   },
   {
@@ -2598,8 +2598,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel5/6046212/6047049/06047306.pdf",
-      bibtex: "assets/files/tang2011job.bib",
-      citation: "assets/files/tang2011job.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/tang2011job.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/tang2011job.txt",
     },
   },
   {
@@ -2612,8 +2612,8 @@ export default [
     date: "July, 2011",
     tags: [""],
     links: {
-      bibtex: "assets/files/wang2011ethspeeder.bib",
-      citation: "assets/files/wang2011ethspeeder.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/wang2011ethspeeder.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/wang2011ethspeeder.txt",
     },
   },
   {
@@ -2626,8 +2626,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://www.researchgate.net/profile/Zhiling_Lan/publication/252020321_Practical_online_failure_prediction_for_Blue_GeneP_Period-based_vs_event-driven/links/540f00260cf2df04e759db4a/Practical-online-failure-prediction-for-Blue-Gene-P-Period-based-vs-event-driven.pdf",
-      bibtex: "assets/files/yu2011practical.bib",
-      citation: "assets/files/yu2011practical.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yu2011practical.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yu2011practical.txt",
     },
   },
   {
@@ -2639,9 +2639,9 @@ export default [
     date: "June, 2011",
     tags: [""],
     links: {
-      pdf: "assets/files/songhpdcp37.pdf",
-      bibtex: "assets/files/song2011cost.bib",
-      citation: "assets/files/song2011cost.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/songhpdcp37.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/song2011cost.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/song2011cost.txt",
     },
   },
   {
@@ -2653,9 +2653,9 @@ export default [
     date: "May, 2011",
     tags: [""],
     links: {
-      pdf: "assets/files/PID1656687_LACIO.pdf",
-      bibtex: "assets/files/chen2011lacio.bib",
-      citation: "assets/files/chen2011lacio.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/PID1656687_LACIO.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/chen2011lacio.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/chen2011lacio.txt",
     },
   },
   {
@@ -2677,8 +2677,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel5/6011824/6012804/06012893.pdf",
-      bibtex: "assets/files/zheng2011co.bib",
-      citation: "assets/files/zheng2011co.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/zheng2011co.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/zheng2011co.txt",
     },
   },
   {
@@ -2690,9 +2690,9 @@ export default [
     date: "May, 2011",
     tags: [""],
     links: {
-      pdf: "assets/files/wei-ipdps-11.pdf",
-      bibtex: "assets/files/tang2011reducing.bib",
-      citation: "assets/files/tang2011reducing.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/wei-ipdps-11.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/tang2011reducing.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/tang2011reducing.txt",
     },
   },
   {
@@ -2704,7 +2704,7 @@ export default [
     type: "Conference",
     date: "May, 2011",
     tags: [""],
-    links: { pdf: "assets/files/Hybrid-Poster-ccgrid.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/Hybrid-Poster-ccgrid.pdf" },
   },
   {
     authors: ["H. Song", "Y. Yin", "X.-H. Sun", "R. Thakur", "S. Lang"],
@@ -2716,9 +2716,9 @@ export default [
     date: "May, 2011",
     tags: [""],
     links: {
-      pdf: "assets/files/fine-grained_layout_ccgrid.pdf",
-      bibtex: "assets/files/song2011segment.bib",
-      citation: "assets/files/song2011segment.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/fine-grained_layout_ccgrid.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/song2011segment.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/song2011segment.txt",
     },
   },
   {
@@ -2731,9 +2731,9 @@ export default [
     date: "May, 2011",
     tags: [""],
     links: {
-      pdf: "assets/files/kzhangccgrid11.pdf",
-      bibtex: "assets/files/zhang2011pac.bib",
-      citation: "assets/files/zhang2011pac.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/kzhangccgrid11.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/zhang2011pac.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/zhang2011pac.txt",
     },
   },
   {
@@ -2745,9 +2745,9 @@ export default [
     date: "May, 2011",
     tags: [""],
     links: {
-      pdf: "assets/files/Hybrid-Song-ispa11.pdf",
-      bibtex: "assets/files/song2011hybrid.bib",
-      citation: "assets/files/song2011hybrid.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/Hybrid-Song-ispa11.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/song2011hybrid.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/song2011hybrid.txt",
     },
   },
   {
@@ -2759,9 +2759,9 @@ export default [
     date: "May, 2011",
     tags: [""],
     links: {
-      pdf: "assets/files/PID1705069.pdf",
-      bibtex: "assets/files/jin2011performance.bib",
-      citation: "assets/files/jin2011performance.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/PID1705069.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/jin2011performance.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/jin2011performance.txt",
     },
   },
   {
@@ -2772,9 +2772,9 @@ export default [
     date: "November, 2010",
     tags: [""],
     links: {
-      pdf: "assets/files/cloudcom-Jin.pdf",
-      bibtex: "assets/files/jin2010remem.bib",
-      citation: "assets/files/jin2010remem.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/cloudcom-Jin.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/jin2010remem.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/jin2010remem.txt",
     },
   },
   {
@@ -2786,7 +2786,7 @@ export default [
     type: "Workshop",
     date: "November, 2010",
     tags: [""],
-    links: { bibtex: "assets/files/song2010trace.bib", citation: "assets/files/song2010trace.txt" },
+    links: { bibtex: "http://cs.iit.edu/~scs/assets/files/song2010trace.bib", citation: "http://cs.iit.edu/~scs/assets/files/song2010trace.txt" },
   },
   {
     authors: ["R. Ge", "X. Feng", "J. Hu", "X.-H. Sun"],
@@ -2806,9 +2806,9 @@ export default [
     date: "September, 2010",
     tags: [""],
     links: {
-      pdf: "assets/files/cluster10.pdf",
-      bibtex: "assets/files/chen2010improving.bib",
-      citation: "assets/files/chen2010improving.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/cluster10.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/chen2010improving.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/chen2010improving.txt",
     },
   },
   {
@@ -2820,9 +2820,9 @@ export default [
     date: "September, 2010",
     tags: [""],
     links: {
-      pdf: "assets/files/icpp-jin.pdf",
-      bibtex: "assets/files/jin2010optimizing.bib",
-      citation: "assets/files/jin2010optimizing.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/icpp-jin.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/jin2010optimizing.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/jin2010optimizing.txt",
     },
   },
   {
@@ -2833,7 +2833,7 @@ export default [
     type: "Workshop",
     date: "September, 2010",
     tags: [""],
-    links: { pdf: "assets/files/p2s2-Chen.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/p2s2-Chen.pdf" },
   },
   {
     authors: ["H. Zhu", "Y. Chen", "X.-H. Sun"],
@@ -2843,9 +2843,9 @@ export default [
     date: "June, 2010",
     tags: [""],
     links: {
-      pdf: "assets/files/ICS_220.pdf",
-      bibtex: "assets/files/zhu2010timing.bib",
-      citation: "assets/files/zhu2010timing.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/ICS_220.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/zhu2010timing.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/zhu2010timing.txt",
     },
   },
   {
@@ -2857,8 +2857,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://www.sciencedirect.com/science/article/pii/S0743731510000377",
-      bibtex: "assets/files/lan2010study.bib",
-      citation: "assets/files/lan2010study.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/lan2010study.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/lan2010study.txt",
     },
   },
   {
@@ -2870,8 +2870,8 @@ export default [
     date: "June, 2010",
     tags: [""],
     links: {
-      bibtex: "assets/files/zheng2010practical.bib",
-      citation: "assets/files/zheng2010practical.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/zheng2010practical.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/zheng2010practical.txt",
     },
   },
   {
@@ -2883,8 +2883,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://www.researchgate.net/profile/Huaiming_Song/publication/220717222_A_layout-aware_optimization_strategy_for_collective_IO/links/004635294810aadedb000000.pdf",
-      bibtex: "assets/files/chen2010layout.bib",
-      citation: "assets/files/chen2010layout.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/chen2010layout.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/chen2010layout.txt",
     },
   },
   {
@@ -2896,9 +2896,9 @@ export default [
     date: "May, 2010",
     tags: [""],
     links: {
-      pdf: "assets/files/ccgrid10-adaptpf.pdf",
-      bibtex: "assets/files/chen2010adaptive.bib",
-      citation: "assets/files/chen2010adaptive.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/ccgrid10-adaptpf.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/chen2010adaptive.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/chen2010adaptive.txt",
     },
   },
   {
@@ -2912,8 +2912,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://www.researchgate.net/profile/Xizhou_Feng/publication/220950980_Characterizing_energy_efficiency_of_IO_intensive_parallel_applications_on_power-aware_clusters/links/0fcfd511907cc29784000000.pdf",
-      bibtex: "assets/files/ge2010characterizing.bib",
-      citation: "assets/files/ge2010characterizing.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/ge2010characterizing.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/ge2010characterizing.txt",
     },
   },
   {
@@ -2926,8 +2926,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel5/5465899/5470342/05470474.pdf",
-      bibtex: "assets/files/tang2010analyzing.bib",
-      citation: "assets/files/tang2010analyzing.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/tang2010analyzing.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/tang2010analyzing.txt",
     },
   },
   {
@@ -2938,10 +2938,10 @@ export default [
     date: "February, 2010",
     tags: [""],
     links: {
-      pdf: "assets/files/Reevaluating%20Amdahl's%20Law.pdf",
-      slides: "assets/files/Amdahl-law.pdf",
-      bibtex: "assets/files/sun2010reevaluating.bib",
-      citation: "assets/files/sun2010reevaluating.txt",
+      pdf: "http://cs.iit.edu/~scs/assets/files/Reevaluating%20Amdahl's%20Law.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/Amdahl-law.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/sun2010reevaluating.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/sun2010reevaluating.txt",
     },
   },
   {
@@ -2953,8 +2953,8 @@ export default [
     tags: [""],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel5/71/5372118/04815224.pdf",
-      bibtex: "assets/files/lan2010toward.bib",
-      citation: "assets/files/lan2010toward.txt",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/lan2010toward.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/lan2010toward.txt",
     },
   },
   {
@@ -2985,7 +2985,7 @@ export default [
     type: "Workshop",
     date: "November, 2009",
     tags: [""],
-    links: { pdf: "assets/files/pdsw09.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/pdsw09.pdf" },
   },
   {
     authors: ["H. Jin", "X.-H. Sun", "B. Xie", "Y. Chen"],
@@ -2994,7 +2994,7 @@ export default [
     type: "Conference",
     date: "November, 2009",
     tags: [""],
-    links: { pdf: "assets/files/sc09_jin.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/sc09_jin.pdf" },
   },
   {
     authors: ["X.-H. Sun", "C. Du", "H. Zou", "Y. Chen", "P. Shukla"],
@@ -3042,7 +3042,7 @@ export default [
     type: "Conference",
     date: "May, 2009",
     tags: [""],
-    links: { pdf: "assets/files/3622a236.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/3622a236.pdf" },
   },
   {
     authors: ["Z. Fang", "X.-H. Sun", "Y. Chen", "S. Byna"],
@@ -3053,8 +3053,8 @@ export default [
     date: "May, 2009",
     tags: [""],
     links: {
-      pdf: "assets/files/IPDPS-1569163069-paper-1.pdf",
-      slides: "assets/files/CoreAwareMemoryAccess.pdf",
+      pdf: "http://cs.iit.edu/~scs/assets/files/IPDPS-1569163069-paper-1.pdf",
+      slides: "http://cs.iit.edu/~scs/assets/files/CoreAwareMemoryAccess.pdf",
     },
   },
   {
@@ -3064,7 +3064,7 @@ export default [
     type: "Journal",
     date: "May, 2009",
     tags: [""],
-    links: { pdf: "assets/files/4192.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/4192.pdf" },
   },
   {
     authors: ["Y. Li", "Z. Lan", "P. Gujrati", "X.-H. Sun"],
@@ -3073,7 +3073,7 @@ export default [
     type: "Journal",
     date: "April, 2009",
     tags: [""],
-    links: { pdf: "assets/files/fault_aware_runtime_strategies.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/fault_aware_runtime_strategies.pdf" },
   },
   {
     authors: ["M. Wu", "Xian-He Sun"],
@@ -3114,7 +3114,7 @@ export default [
     type: "Workshop",
     date: "December, 2008",
     tags: [""],
-    links: { pdf: "assets/files/piccoli-LatticeWorkflow.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/piccoli-LatticeWorkflow.pdf" },
   },
   {
     authors: ["Y. Chen", "S. Byna", "X.-H. Sun", "R. Thakur", "W. Gropp"],
@@ -3123,7 +3123,7 @@ export default [
     type: "Conference",
     date: "November, 2008",
     tags: [""],
-    links: { pdf: "assets/files/sc08_prex.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/sc08_prex.pdf" },
   },
   {
     authors: ["S. Byna", "Y. Chen", "X.-H. Sun", "R. Thakur", "W. Gropp"],
@@ -3132,7 +3132,7 @@ export default [
     type: "Conference",
     date: "November, 2008",
     tags: [""],
-    links: { pdf: "assets/files/pap297s4.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/pap297s4.pdf" },
   },
   {
     authors: ["X.-H. Sun", "Y. Chen", "S. Byna"],
@@ -3169,7 +3169,7 @@ export default [
     type: "Poster",
     date: "July, 2008",
     tags: [""],
-    links: { pdf: "assets/files/LAT08-Poster.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/LAT08-Poster.pdf" },
   },
   {
     authors: ["Y. Li", "Z. Lan"],
@@ -3178,7 +3178,7 @@ export default [
     type: "Conference",
     date: "June, 2008",
     tags: [""],
-    links: { pdf: "assets/files/dsn08_dccs.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/dsn08_dccs.pdf" },
   },
   {
     authors: ["S. Byna", "Y. Chen", "X.-H. Sun"],
@@ -3188,7 +3188,7 @@ export default [
     type: "Conference",
     date: "May, 2008",
     tags: [""],
-    links: { pdf: "assets/files/bynas-PrefetchingSurvey.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/bynas-PrefetchingSurvey.pdf" },
   },
   {
     authors: ["Z. Lan", "Y.Li", "Z. Zheng", "P. Gujrati"],
@@ -3206,7 +3206,7 @@ export default [
     type: "Workshop",
     date: "March, 2008",
     tags: [""],
-    links: { pdf: "assets/files/hapcw_2008.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/hapcw_2008.pdf" },
   },
   {
     authors: ["Y. Chen", "X.-H. Sun", "M. Wu"],
@@ -3215,7 +3215,7 @@ export default [
     type: "Journal",
     date: "January, 2008",
     tags: [""],
-    links: { pdf: "assets/files/YJPDC2552.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/YJPDC2552.pdf" },
   },
   {
     authors: ["Z. Lan", "Y. Li"],
@@ -3224,7 +3224,7 @@ export default [
     type: "Journal",
     date: "January, 2008",
     tags: [""],
-    links: { pdf: "assets/files/adaptive_fault_management.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/adaptive_fault_management.pdf" },
   },
   {
     authors: ["L. Piccoli", "X.-H. Sun", "J. Simone", "et. al."],
@@ -3233,7 +3233,7 @@ export default [
     type: "Conference",
     date: "November, 2007",
     tags: [""],
-    links: { pdf: "assets/files/SC07Poster.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/SC07Poster.pdf" },
   },
   {
     authors: ["M. Wu", "X.-H. Sun", "H. Jin"],
@@ -3242,7 +3242,7 @@ export default [
     type: "Conference",
     date: "November, 2007",
     tags: [""],
-    links: { pdf: "assets/files/SC07_wu.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/SC07_wu.pdf" },
   },
   {
     authors: ["Y. Chen", "S. Byna", "X.-H. Sun"],
@@ -3251,7 +3251,7 @@ export default [
     type: "Conference",
     date: "November, 2007",
     tags: [""],
-    links: { pdf: "assets/files/SC07_DAHC.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/SC07_DAHC.pdf" },
   },
   {
     authors: ["Z. Zheng", "Y. Li", "Z. Lan"],
@@ -3287,7 +3287,7 @@ export default [
     type: "Conference",
     date: "August, 2007",
     tags: [""],
-    links: { pdf: "assets/files/GCC-SunWu-07.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/GCC-SunWu-07.pdf" },
   },
   {
     authors: ["Y. Li", "Z. Lan"],
@@ -3325,7 +3325,7 @@ export default [
     type: "Conference",
     date: "May, 2007",
     tags: [""],
-    links: { pdf: "assets/files/du-DynamicMigration.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/du-DynamicMigration.pdf" },
   },
   {
     authors: ["X.-H. Sun", "S. Byna", "Y. Chen"],
@@ -3334,7 +3334,7 @@ export default [
     type: "Workshop",
     date: "March, 2007",
     tags: [""],
-    links: { pdf: "assets/files/ngs07-sbc-.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/ngs07-sbc-.pdf" },
   },
   {
     authors: ["X.-H. Sun", "S. Byna", "Y. Chen"],
@@ -3343,7 +3343,7 @@ export default [
     type: "Journal",
     date: "January, 2007",
     tags: [""],
-    links: { pdf: "assets/files/jcst-07.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/jcst-07.pdf" },
   },
   {
     authors: ["K. Cameron", "G. Ge", "X.-H. Sun"],
@@ -3353,7 +3353,7 @@ export default [
     type: "Journal",
     date: "January, 2007",
     tags: [""],
-    links: { pdf: "assets/files/04079515-IEEEComputer.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/04079515-IEEEComputer.pdf" },
   },
   {
     authors: ["S. Byna", "X.-H. Sun", "R. Nakhoul"],
@@ -3362,7 +3362,7 @@ export default [
     type: "Conference",
     date: "September, 2006",
     tags: [""],
-    links: { pdf: "assets/files/byna_scc-06.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/byna_scc-06.pdf" },
   },
   {
     authors: ["S. Byna", "X.-H. Sun", "R. Thakur", "W. Gropp"],
@@ -3372,7 +3372,7 @@ export default [
     type: "Conference",
     date: "September, 2006",
     tags: [""],
-    links: { pdf: "assets/files/suren-mpi-06.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/suren-mpi-06.pdf" },
   },
   {
     authors: ["M. Wu", "X.-H. Sun", "Y. Chen"],
@@ -3381,7 +3381,7 @@ export default [
     type: "Conference",
     date: "May, 2006",
     tags: [""],
-    links: { pdf: "assets/files/wusunchen-QoSReservation.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/wusunchen-QoSReservation.pdf" },
   },
   {
     authors: ["C. Du", "X.-H. Sun"],
@@ -3390,7 +3390,7 @@ export default [
     type: "Conference",
     date: "May, 2006",
     tags: [""],
-    links: { pdf: "assets/files/sun-mitten.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/sun-mitten.pdf" },
   },
   {
     authors: ["A. Eswaradass", "X.-H. Sun", "M. Wu"],
@@ -3399,7 +3399,7 @@ export default [
     type: "Conference",
     date: "May, 2006",
     tags: [""],
-    links: { pdf: "assets/files/CCGrid06NBPCameraReady.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/CCGrid06NBPCameraReady.pdf" },
   },
   {
     authors: ["M. Wu", "X.-H. Sun"],
@@ -3409,7 +3409,7 @@ export default [
     type: "Journal",
     date: "January, 2006",
     tags: [""],
-    links: { pdf: "assets/files/GHS-JPDC2006.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/GHS-JPDC2006.pdf" },
   },
   {
     authors: ["Y. Chen", "X.-H. Sun"],
@@ -3418,7 +3418,7 @@ export default [
     type: "Conference",
     date: "January, 2006",
     tags: [""],
-    links: { pdf: "assets/files/chen-STAS(final-version).pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/chen-STAS(final-version).pdf" },
   },
   {
     authors: ["Y. Li", "Z. Lan"],
@@ -3447,7 +3447,7 @@ export default [
     type: "Workshop",
     date: "January, 2006",
     tags: [""],
-    links: { pdf: "assets/files/GHS-ngs-Sun.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/GHS-ngs-Sun.pdf" },
   },
   {
     authors: ["X.-H. Sun", "Y. Chen", "M. Wu"],
@@ -3456,7 +3456,7 @@ export default [
     type: "Conference",
     date: "June, 2005",
     tags: [""],
-    links: { pdf: "assets/files/sunxh_scalability.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/sunxh_scalability.pdf" },
   },
   {
     authors: ["V. Gurbani", "A. Brusilovsky", "X.-H. Sun"],
@@ -3467,7 +3467,7 @@ export default [
     type: "Conference",
     date: "April, 2005",
     tags: [""],
-    links: { pdf: "assets/files/Eurescom-2005.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/Eurescom-2005.pdf" },
   },
   {
     authors: ["A. Eswaradass", "X.-H. Sun", "M. Wu"],
@@ -3477,7 +3477,7 @@ export default [
     type: "Conference",
     date: "April, 2005",
     tags: [""],
-    links: { pdf: "assets/files/AlakSunWuIPDPS2005.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/AlakSunWuIPDPS2005.pdf" },
   },
   {
     authors: ["Y. Zhuang", "X.-H. Sun"],
@@ -3498,7 +3498,7 @@ export default [
     type: "Workshop",
     date: "April, 2005",
     tags: [""],
-    links: { pdf: "assets/files/ngs-ipdps05.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/ngs-ipdps05.pdf" },
   },
   {
     authors: ["V. K. Gurbani", "X.-H. Sun"],
@@ -3507,7 +3507,7 @@ export default [
     type: "Workshop",
     date: "February, 2005",
     tags: [""],
-    links: { pdf: "assets/files/IEEE-Network-2005.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/IEEE-Network-2005.pdf" },
   },
   {
     authors: ["S. Byna", "K. Cameron", "X.-H. Sun"],
@@ -3516,7 +3516,7 @@ export default [
     type: "Journal",
     date: "January, 2005",
     tags: [""],
-    links: { pdf: "assets/files/ppl_mem_isolate.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/ppl_mem_isolate.pdf" },
   },
   {
     authors: ["A.-A. Chien", "X.-H. Sun", "Z.-W. Xu"],
@@ -3525,7 +3525,7 @@ export default [
     type: "Journal",
     date: "January, 2005",
     tags: [""],
-    links: { pdf: "assets/files/caa.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/caa.pdf" },
   },
   {
     authors: ["V. K. Gurbani", "X.-H. Sun", "A. Brusilovsky"],
@@ -3534,7 +3534,7 @@ export default [
     type: "Journal",
     date: "January, 2005",
     tags: [""],
-    links: { pdf: "assets/files/IEEE-ComMag-2005.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/IEEE-ComMag-2005.pdf" },
   },
   {
     authors: ["X. He", "X.-H. Sun"],
@@ -3543,7 +3543,7 @@ export default [
     type: "Conference",
     date: "January, 2005",
     tags: [""],
-    links: { pdf: "assets/files/gcc-05.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/gcc-05.pdf" },
   },
   {
     authors: ["V. Gurbani", "X.-H. Sun"],
@@ -3552,7 +3552,7 @@ export default [
     type: "Conference",
     date: "November, 2004",
     tags: [""],
-    links: { pdf: "assets/files/VijaySunGlobecome04.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/VijaySunGlobecome04.pdf" },
   },
   {
     authors: ["M. Wu", "X.-H. Sun"],
@@ -3562,7 +3562,7 @@ export default [
     type: "Workshop",
     date: "November, 2004",
     tags: [""],
-    links: { pdf: "assets/files/mwu-memory.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/mwu-memory.pdf" },
   },
   {
     authors: ["S. Byna", "X.-H. Sun", "W. Gropp", "R. Thakur"],
@@ -3571,7 +3571,7 @@ export default [
     type: "Conference",
     date: "September, 2004",
     tags: [""],
-    links: { pdf: "assets/files/cluster04-camera-90.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/cluster04-camera-90.pdf" },
   },
   {
     authors: ["C. Du", "S. Ghosh", "S. Shankar", "X.-H. Sun"],
@@ -3581,7 +3581,7 @@ export default [
     type: "Conference",
     date: "August, 2004",
     tags: [""],
-    links: { pdf: "assets/files/sunx_rescheduling.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/sunx_rescheduling.pdf" },
   },
   {
     authors: ["K. Chanchio", "X.-H. Sun"],
@@ -3590,7 +3590,7 @@ export default [
     type: "Journal",
     date: "January, 2004",
     tags: [""],
-    links: { pdf: "assets/files/01327577.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/01327577.pdf" },
   },
   {
     authors: ["V. K. Gurbani", "X.-H. Sun"],
@@ -3599,7 +3599,7 @@ export default [
     type: "Journal",
     date: "January, 2004",
     tags: [""],
-    links: { pdf: "assets/files/VijaySunNetworking04.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/VijaySunNetworking04.pdf" },
   },
   {
     authors: ["X.-H. Sun", "A.-R. Blatecky"],
@@ -3608,7 +3608,7 @@ export default [
     type: "Journal",
     date: "January, 2004",
     tags: [""],
-    links: { pdf: "assets/files/sunmiddleware.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/sunmiddleware.pdf" },
   },
   {
     authors: ["X.-H. Sun", "W. Zhang"],
@@ -3618,7 +3618,7 @@ export default [
     type: "Journal",
     date: "January, 2004",
     tags: [""],
-    links: { pdf: "assets/files/sunzhang04IPDS.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/sunzhang04IPDS.pdf" },
   },
   {
     authors: ["M. Wu", "X.-H. Sun"],
@@ -3629,7 +3629,7 @@ export default [
     type: "Journal",
     date: "January, 2004",
     tags: [""],
-    links: { pdf: "assets/files/IJHPCN-wusun-final.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/IJHPCN-wusun-final.pdf" },
   },
   {
     authors: ["S. Byna", "W. Gropp", "X.-H. Sun", "R. Thakur"],
@@ -3638,7 +3638,7 @@ export default [
     type: "Conference",
     date: "December, 2003",
     tags: [""],
-    links: { pdf: "assets/files/135_byna_s.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/135_byna_s.pdf" },
   },
   {
     authors: ["C. Du", "X.-H. Sun", "K. Chanchio"],
@@ -3647,7 +3647,7 @@ export default [
     type: "Conference",
     date: "December, 2003",
     tags: [""],
-    links: { pdf: "assets/files/192_Du_C.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/192_Du_C.pdf" },
   },
   {
     authors: ["M. Wu", "X.-H. Sun"],
@@ -3657,7 +3657,7 @@ export default [
     type: "Conference",
     date: "December, 2003",
     tags: [""],
-    links: { pdf: "assets/files/cluster03_wusun.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/cluster03_wusun.pdf" },
   },
   {
     authors: ["V. Gurbani", "X.-H. Sun"],
@@ -3667,7 +3667,7 @@ export default [
     type: "Conference",
     date: "October, 2003",
     tags: [""],
-    links: { pdf: "assets/files/GuSuICCCN03.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/GuSuICCCN03.pdf" },
   },
   {
     authors: ["A. Daftari", "N. Mehta", "S. Bakre", "X.-H. Sun"],
@@ -3686,7 +3686,7 @@ export default [
     type: "Conference",
     date: "June, 2003",
     tags: [""],
-    links: { pdf: "assets/files/coalloc.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/coalloc.pdf" },
   },
   {
     authors: ["G. Laszewski", "B. Alunkal", "J. Gawor", "R. Madhuri", "P. Plaszezak", "X.-H. Sun"],
@@ -3696,7 +3696,7 @@ export default [
     type: "Conference",
     date: "June, 2003",
     tags: [""],
-    links: { pdf: "assets/files/alunbeu--gridftp.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/alunbeu--gridftp.pdf" },
   },
   {
     authors: ["V. Gurbani", "X.-H. Sun"],
@@ -3705,7 +3705,7 @@ export default [
     type: "Conference",
     date: "May, 2003",
     tags: [""],
-    links: { pdf: "assets/files/GuSuIcc03.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/GuSuIcc03.pdf" },
   },
   {
     authors: ["K. Cameron", "X.-H. Sun"],
@@ -3715,7 +3715,7 @@ export default [
     type: "Conference",
     date: "April, 2003",
     tags: [""],
-    links: { pdf: "assets/files/KSipdps03.PDF" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/KSipdps03.PDF" },
   },
   {
     authors: ["V. Gurbani", "X.-H. Sun"],
@@ -3725,7 +3725,7 @@ export default [
     type: "Conference",
     date: "April, 2003",
     tags: [""],
-    links: { pdf: "assets/files/GuSuIcin03.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/GuSuIcin03.pdf" },
   },
   {
     authors: ["X.-H. Sun", "M. Wu"],
@@ -3735,7 +3735,7 @@ export default [
     type: "Conference",
     date: "April, 2003",
     tags: [""],
-    links: { pdf: "assets/files/SWipdps03.PDF" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/SWipdps03.PDF" },
   },
   {
     authors: ["X. He", "X.-H. Sun", "G. Laszewski"],
@@ -3744,7 +3744,7 @@ export default [
     type: "Journal",
     date: "January, 2003",
     tags: [""],
-    links: { pdf: "assets/files/jcst_XHe-5-28.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/jcst_XHe-5-28.pdf" },
   },
   {
     authors: ["X. He", "X.-H. Sun", "G. Laszewski"],
@@ -3753,7 +3753,7 @@ export default [
     type: "Workshop",
     date: "December, 2002",
     tags: [""],
-    links: { pdf: "assets/files/GCC02_XHe.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/GCC02_XHe.pdf" },
   },
   {
     authors: ["L. Gong", "X.-H. Sun", "E. Waston"],
@@ -3762,7 +3762,7 @@ export default [
     type: "Journal",
     date: "September, 2002",
     tags: [""],
-    links: { pdf: "assets/files/perf2002.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/perf2002.pdf" },
   },
   {
     authors: ["K. Chanchio", "X.-H. Sun"],
@@ -3783,7 +3783,7 @@ export default [
     type: "Journal",
     date: "July, 2002",
     tags: [""],
-    links: { pdf: "assets/files/ZhSu02ST.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/ZhSu02ST.pdf" },
   },
   {
     authors: ["K. Chanchio", "X.-H. Sun"],
@@ -3792,7 +3792,7 @@ export default [
     type: "Journal",
     date: "April, 2002",
     tags: [""],
-    links: { pdf: "assets/files/spe464.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/spe464.pdf" },
   },
   {
     authors: ["X.-H. Sun", "W. Zhang"],
@@ -3802,7 +3802,7 @@ export default [
     type: "Conference",
     date: "April, 2002",
     tags: [""],
-    links: { pdf: "assets/files/sunzhang02.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/sunzhang02.pdf" },
   },
   {
     authors: ["X.-H. Sun"],
@@ -3811,7 +3811,7 @@ export default [
     type: "Journal",
     date: "February, 2002",
     tags: [""],
-    links: { pdf: "assets/files/scalability2002.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/scalability2002.pdf" },
   },
   {
     authors: ["X.-H. Sun", "T. Fahringer", "M. Pantano"],
@@ -3821,7 +3821,7 @@ export default [
     type: "Journal",
     date: "January, 2002",
     tags: [""],
-    links: { pdf: "assets/files/HPC031071.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/HPC031071.pdf" },
   },
   {
     authors: ["X. Wu", "Q. Chen", "X.-H. Sun"],
@@ -3830,7 +3830,7 @@ export default [
     type: "Conference",
     date: "January, 2002",
     tags: [""],
-    links: { pdf: "assets/files/5093440.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/5093440.pdf" },
   },
   {
     authors: ["Y. Zhuang", "X.-H. Sun"],
@@ -3840,7 +3840,7 @@ export default [
     type: "Conference",
     date: "November, 2001",
     tags: [""],
-    links: { pdf: "assets/files/seidd.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/seidd.pdf" },
   },
   {
     authors: ["K. Chanchio", "X.-H. Sun"],
@@ -3850,7 +3850,7 @@ export default [
     type: "Conference",
     date: "September, 2001",
     tags: [""],
-    links: { pdf: "assets/files/commobile.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/commobile.pdf" },
   },
   {
     authors: ["X.-H. Sun", "D. He", "K. Cameron", "Y. Luo"],
@@ -3860,7 +3860,7 @@ export default [
     type: "Journal",
     date: "May, 2001",
     tags: [""],
-    links: { pdf: "assets/files/adaptive.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/adaptive.pdf" },
   },
   {
     authors: ["K. Chanchio", "X.-H. Sun"],
@@ -3869,7 +3869,7 @@ export default [
     type: "Conference",
     date: "April, 2001",
     tags: [""],
-    links: { pdf: "assets/files/icdcs01.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/icdcs01.pdf" },
   },
   {
     authors: ["X.-H. Sun"],
@@ -3878,7 +3878,7 @@ export default [
     type: "Journal",
     date: "January, 2001",
     tags: [""],
-    links: { pdf: "assets/files/scala01.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/scala01.pdf" },
   },
   {
     authors: ["Y. Zhuang", "X.-H. Sun"],
@@ -3887,7 +3887,7 @@ export default [
     type: "Journal",
     date: "January, 2001",
     tags: [""],
-    links: { pdf: "assets/files/highorder2001.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/highorder2001.pdf" },
   },
   {
     authors: ["K. Chanchio", "X.-H. Sun"],
@@ -3896,7 +3896,7 @@ export default [
     type: "Conference",
     date: "January, 2001",
     tags: [""],
-    links: { pdf: "assets/files/ippds01.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/ippds01.pdf" },
   },
   {
     authors: ["D. Khettry", "X.-H. Sun"],
@@ -3905,7 +3905,7 @@ export default [
     type: "Journal",
     date: "September, 2000",
     tags: [""],
-    links: { pdf: "assets/files/dnasa.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/dnasa.pdf" },
   },
   {
     authors: ["T. Fahringer", "B. Scholz", "X.-H. Sun"],
@@ -3923,7 +3923,7 @@ export default [
     type: "Conference",
     date: "September, 2000",
     tags: [""],
-    links: { pdf: "assets/files/europar.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/europar.pdf" },
   },
   {
     authors: ["Y. Zhuang", "X.-H. Sun"],
@@ -3932,7 +3932,7 @@ export default [
     type: "Journal",
     date: "August, 2000",
     tags: [""],
-    links: { pdf: "assets/files/nasa00.ps" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/nasa00.ps" },
   },
   {
     authors: ["W. Cai", "X.-H. Sun"],
@@ -3961,7 +3961,7 @@ export default [
     type: "Conference",
     date: "April, 2000",
     tags: [""],
-    links: { pdf: "assets/files/pdrsf.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/pdrsf.pdf" },
   },
   {
     authors: ["K. Chanchio", "X.-H. Sun"],
@@ -3990,7 +3990,7 @@ export default [
     type: "Conference",
     date: "November, 1999",
     tags: [""],
-    links: { pdf: "assets/files/pdcs99.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/pdcs99.pdf" },
   },
   {
     authors: ["D. Khettry", "X.-H. Sun"],
@@ -4019,7 +4019,7 @@ export default [
     type: "Journal",
     date: "May, 1999",
     tags: [""],
-    links: { pdf: "assets/files/simupac.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/simupac.pdf" },
   },
   {
     authors: ["X.-H. Sun", "M. Pantano", "Thomas Fahringer"],
@@ -4028,7 +4028,7 @@ export default [
     type: "Journal",
     date: "May, 1999",
     tags: [""],
-    links: { pdf: "assets/files/range.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/range.pdf" },
   },
   {
     authors: ["K. Li", "X.-H. Sun"],
@@ -4048,7 +4048,7 @@ export default [
     type: "Workshop",
     date: "April, 1999",
     tags: [""],
-    links: { pdf: "assets/files/llncs.ps" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/llncs.ps" },
   },
   {
     authors: ["X.-H. Sun", "D. He", "K. Cameron", "Y. Luo"],
@@ -4075,7 +4075,7 @@ export default [
     type: "Conference",
     date: "March, 1999",
     tags: [""],
-    links: { pdf: "assets/files/siam99.ps" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/siam99.ps" },
   },
   {
     authors: ["X. Wu", "Q. Chen", "X.-H. Sun"],
@@ -4093,7 +4093,7 @@ export default [
     type: "Conference",
     date: "August, 1998",
     tags: [""],
-    links: { pdf: "assets/files/icpp98.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/icpp98.pdf" },
   },
   {
     authors: ["M. Noelle", "M. Pantano", "X.-H. Sun"],
@@ -4113,7 +4113,7 @@ export default [
     type: "Journal",
     date: "July, 1998",
     tags: [""],
-    links: { pdf: "assets/files/spacial98.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/spacial98.pdf" },
   },
   {
     authors: ["X.-H. Sun"],
@@ -4122,7 +4122,7 @@ export default [
     type: "Conference",
     date: "March, 1998",
     tags: [""],
-    links: { pdf: "assets/files/mmcbs.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/mmcbs.pdf" },
   },
   {
     authors: ["K. Chanchio", "X.-H. Sun"],
@@ -4131,7 +4131,7 @@ export default [
     type: "Conference",
     date: "March, 1998",
     tags: [""],
-    links: { pdf: "assets/files/ipps98.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/ipps98.pdf" },
   },
   {
     authors: ["X. Liao", "X.-H. Sun"],
@@ -4150,7 +4150,7 @@ export default [
     type: "Journal",
     date: "January, 1997",
     tags: [""],
-    links: { pdf: "assets/files/limitation.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/limitation.pdf" },
   },
   {
     authors: ["X.-H. Sun", "S. Moitra"],
@@ -4188,7 +4188,7 @@ export default [
     type: "Conference",
     date: "January, 1996",
     tags: [""],
-    links: { pdf: "assets/files/performancePre1996.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/performancePre1996.pdf" },
   },
   {
     authors: ["X.-H. Sun", "D. Joslin"],
@@ -4206,7 +4206,7 @@ export default [
     type: "Journal",
     date: "November, 1995",
     tags: [""],
-    links: { pdf: "assets/files/ieee95.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/ieee95.pdf" },
   },
   {
     authors: ["X.-H. Sun"],
@@ -4215,7 +4215,7 @@ export default [
     type: "Journal",
     date: "August, 1995",
     tags: [""],
-    links: { pdf: "assets/files/pdd95.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/pdd95.pdf" },
   },
   {
     authors: ["X.-H. Sun", "J. Zhu"],
@@ -4251,7 +4251,7 @@ export default [
     type: "Journal",
     date: "May, 1994",
     tags: [""],
-    links: { pdf: "assets/files/scalability94.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/scalability94.pdf" },
   },
   {
     authors: ["X.-H. Sun", "J. Zhu"],
@@ -4288,7 +4288,7 @@ export default [
     type: "Journal",
     date: "September, 1993",
     tags: [""],
-    links: { pdf: "assets/files/Sun_and_Ni_JPDC1993.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/Sun_and_Ni_JPDC1993.pdf" },
   },
   {
     authors: ["X.-H. Sun", "N. Kamel"],
@@ -4325,7 +4325,7 @@ export default [
     type: "Journal",
     date: "December, 1991",
     tags: [""],
-    links: { pdf: "assets/files/sun_perfmetric_parallelcomputing91.pdf" },
+    links: { pdf: "http://cs.iit.edu/~scs/assets/files/sun_perfmetric_parallelcomputing91.pdf" },
   },
   {
     authors: ["T.Y. Li", "H. Zhang", "X.-H. Sun"],
