@@ -11,8 +11,8 @@ export default function ProjectList({ data }: ProjectListProps) {
   return (
     <div className="container">
       <div className="row">
-        {data.map((props, idx) => (
-          <ProjectItem key={idx} {...props} />
+        {data.map((project) => (
+          <ProjectItem key={project.id} project={project} />
         ))}
       </div>
     </div>

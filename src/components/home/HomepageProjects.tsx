@@ -1,10 +1,9 @@
 import React from "react";
 import clsx from "clsx";
+import projects from "@site/src/data/projects";
 
 import ProjectItem from "../projects/ProjectItem";
 import SectionHeader from "../common/SectionHeader";
-import projects from "@site/src/data/projects";
-
 import styles from "./HomepageProjects.module.css";
 
 export default function HomepageProjects({
@@ -16,8 +15,8 @@ export default function HomepageProjects({
       <SectionHeader>Featured projects</SectionHeader>
       <div className="container">
         <div className="row">
-          {featuredProjects.map((props, idx) => (
-            <ProjectItem key={idx} {...props} />
+          {featuredProjects.map((project) => (
+            <ProjectItem key={project.id} project={project} />
           ))}
         </div>
       </div>

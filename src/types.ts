@@ -23,11 +23,18 @@ export type Faculty = Member & {
   website: string;
 };
 
+export type ProjectId = "chronolog" | "coeus" | "hermes" | "iris";
+
 export type Project = {
+  id: ProjectId;
   title: string;
   shortDescription: string;
   link: string;
+  isCollaborative?: boolean;
   isFeatured?: boolean;
+  isFunded?: boolean;
+  isOpenSource?: boolean;
+  isOurs?: boolean;
 };
 
 export type PublicationAuthor =
