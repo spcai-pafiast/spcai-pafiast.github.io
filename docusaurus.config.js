@@ -176,19 +176,23 @@ const config = {
             ],
           },
           {
-            title: "Community",
+            title: "Tutorials",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Linux Introduction",
+                to: "/docs/category/linux-introduction",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "Installing HPC Software",
+                to: "/docs/category/installing-hpc-software",
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "Important Environment Variables",
+                to: "/docs/category/important-environment-variables",
+              },
+              {
+                label: "C++ Introduction",
+                to: "/docs/category/c-introduction",
               },
             ],
           },

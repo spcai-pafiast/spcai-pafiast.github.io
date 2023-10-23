@@ -1,5 +1,4 @@
 label: "Linux Introduction"
-position: 1
 link:
   type: generated-index
   description: "All Top500 supercomputers and the majority of cloud systems run Linux. This tutorial will cover the basic aspects of using Linux."

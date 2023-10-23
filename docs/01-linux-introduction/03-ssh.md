@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # SSH
 
 SSH is a secure way of connecting to a remote machine. SSH relies on public-private key cryptography to secure

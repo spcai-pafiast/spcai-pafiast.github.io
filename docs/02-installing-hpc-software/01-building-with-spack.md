@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Building With Spack
 
 [Spack](https://github.com/spack/spack.git) is a system for installing packages for HPC centers. Spack

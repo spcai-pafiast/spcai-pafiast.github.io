@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Basics of using a Terminal
 
 In this section, we will use Ubuntu 22.04 as our Linux distro. First, we will discuss the basic aspects of using a Linux terminal.

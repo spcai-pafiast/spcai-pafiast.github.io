@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Building From Scratch
 
 When `spack` fails, there aren't many options but to build the code from scratch. This is typically an arduous,
