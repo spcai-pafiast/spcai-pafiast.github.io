@@ -1,8 +1,0 @@
-{
-  "label": "C++ Introduction",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "description": "C/C++ are the main programming languages used for modern HPC programs. While this is also evolving, this is the current standard. We will walk through the basics of compiling C++ software and the basics of C++ programming."
-  }
-}
