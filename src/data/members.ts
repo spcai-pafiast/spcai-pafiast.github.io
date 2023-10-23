@@ -8,6 +8,7 @@ export default [
     image: require("@site/static/img/members/amine.jpg").default,
     links: {
       email: "wamine@hawk.iit.edu",
+      linkedin: "https://www.linkedin.com/in/wiam-amine-98b074179/",
     },
     researchInterests: ["HPC", "Distributed Storage"],
     type: "researcher",
@@ -44,6 +45,7 @@ export default [
     image: require("@site/static/img/members/cernuda.jpg").default,
     links: {
       email: "jcernudagarcia@hawk.iit.edu",
+      linkedin: "https://www.linkedin.com/in/jaimecernuda/",
       website: "http://www.jcernuda.com",
     },
     researchInterests: ["Distributed Systems", "HPC", "Streaming Applications"],
@@ -56,6 +58,18 @@ export default [
     image: require("@site/static/img/members/feng.jpg").default,
     links: {
       email: "kfeng1@iit.edu",
+      linkedin: "https://www.linkedin.com/in/kun-feng-a7693660/",
+    },
+    type: "engineer",
+  },
+  {
+    name: "Eneko Gonzalez",
+    title: "Research Software Engineer",
+    advisor: "Dr. Xian-He Sun",
+    image: require("@site/static/img/members/gonzalez.jpg").default,
+    links: {
+      email: "egonzalez30@hawk.iit.edu",
+      linkedin: "https://www.linkedin.com/in/enekogonzalezvergara/",
     },
     type: "engineer",
   },
@@ -68,6 +82,7 @@ export default [
       email: "llogan@hawk.iit.edu",
       github: "https://github.com/lukemartinlogan/",
       linkedin: "https://www.linkedin.com/in/lukemartinlogan/",
+      scholar: "https://scholar.google.com/citations?user=Ljn7CmYAAAAJ&hl=en",
       website: "https://lukemartinlogan.github.io/professional-website/",
     },
     researchInterests: [
@@ -96,6 +111,7 @@ export default [
     image: require("@site/static/img/members/rajesh.jpg").default,
     links: {
       email: "nrajesh@hawk.iit.edu",
+      linkedin: "https://www.linkedin.com/in/neeraj-rajesh-8248b29a/",
       website: "https://about.stax.xyz/neeraj",
     },
     researchInterests: ["Parallel and Distributed Systems", "HPC", "ML-Assisted Systems"],
@@ -108,6 +124,7 @@ export default [
     image: require("@site/static/img/members/sasidharan.jpg").default,
     links: {
       email: "asasidharan@iit.edu",
+      linkedin: "https://www.linkedin.com/in/aparna-sasidharan-a36541158/",
       website: "https://sites.google.com/view/aparna-sasidharan/home",
     },
     type: "engineer",
@@ -119,6 +136,7 @@ export default [
     image: require("@site/static/img/members/tang.jpg").default,
     links: {
       email: "mtang11@hawk.iit.edu",
+      linkedin: "https://www.linkedin.com/in/meng-tang-86417a128/",
     },
     researchInterests: ["Distributed Storage", "Containerization"],
     type: "researcher",
@@ -142,6 +160,7 @@ export default [
     links: {
       email: "jye20@hawk.iit.edu",
       github: "https://github.com/Jye-525",
+      linkedin: "https://www.linkedin.com/in/jie-ye-275b08252/",
     },
     researchInterests: ["Distributed Storage", "Parallel and Distributed Systems", "Parallel I/O"],
     type: "researcher",
