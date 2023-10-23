@@ -7,7 +7,7 @@ export default [
       "CHROME: Concurrency-Aware Holistic Cache Management Framework with Online Reinforcement Learning",
     venue:
       "The 30th IEEE International Symposium on High-Performance Computer Architecture (HPCA 2024)",
-    type: "Workshop",
+    type: "Conference",
     date: "March, 2024",
     tags: ["Memory Architecture", "Cache Management"],
     links: {},
