@@ -2,6 +2,17 @@ import { Publication } from "../types";
 
 export default [
   {
+    authors: ["X. Lu", "H. Najafi", "J. Liu", "X.-H. Sun"],
+    title:
+      "CHROME: Concurrency-Aware Holistic Cache Management Framework with Online Reinforcement Learning",
+    venue:
+      "The 30th IEEE International Symposium on High-Performance Computer Architecture (HPCA 2024)",
+    type: "Workshop",
+    date: "March, 2024",
+    tags: ["Memory Architecture", "Cache Management"],
+    links: {},
+  },
+  {
     authors: ["I. Yildirim", "H. Devarajan", "A. Kougkas", "X.-H. Sun", "K. Mohror"],
     title: "IOMax: Maximizing Out-of-Core I/O Analysis Performance on HPC Systems",
     venue: "The 8th International Parallel Data Systems Workshop (PDSW'23), November 12, 2023",
@@ -195,7 +206,8 @@ export default [
     tags: ["I/O Characterization", "I/O Bottleneck Detection"],
     links: {
       poster: "http://cs.iit.edu/~scs/assets/files/yildirim2022iobottlenecks_poster.pdf",
-      "extended abstract": "http://cs.iit.edu/~scs/assets/files/yildirim2022iobottlenecks_abstract.pdf",
+      "extended abstract":
+        "http://cs.iit.edu/~scs/assets/files/yildirim2022iobottlenecks_abstract.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/yildirim2022iobottlenecks_poster.bib",
       citation: "http://cs.iit.edu/~scs/assets/files/yildirim2022iobottlenecks_poster.txt",
     },
@@ -285,7 +297,8 @@ export default [
     tags: ["HPC", "Singularity", "Containers", "Benchmarking"],
     links: {
       poster: "http://cs.iit.edu/~scs/assets/files/yildirim2021containers_poster.pdf",
-      "extended abstract": "http://cs.iit.edu/~scs/assets/files/yildirim2021containers_abstract.pdf",
+      "extended abstract":
+        "http://cs.iit.edu/~scs/assets/files/yildirim2021containers_abstract.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/yildirim2021containers_poster.bib",
       citation: "http://cs.iit.edu/~scs/assets/files/yildirim2021containers_poster.txt",
     },
@@ -589,7 +602,8 @@ export default [
     tags: [""],
     links: {
       poster: "http://cs.iit.edu/~scs/assets/files/rajesh2020characterizing-poster.pdf",
-      "extended abstract": "http://cs.iit.edu/~scs/assets/files/rajesh2020characterizing-abstract.pdf",
+      "extended abstract":
+        "http://cs.iit.edu/~scs/assets/files/rajesh2020characterizing-abstract.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/rajesh2020characterizing.bib",
       citation: "http://cs.iit.edu/~scs/assets/files/rajesh2020characterizing.txt",
     },
@@ -604,7 +618,8 @@ export default [
     tags: [""],
     links: {
       poster: "http://cs.iit.edu/~scs/assets/files/devarajan2020understanding-poster.pdf",
-      "extended abstract": "http://cs.iit.edu/~scs/assets/files/devarajan2020understanding-abstract.pdf",
+      "extended abstract":
+        "http://cs.iit.edu/~scs/assets/files/devarajan2020understanding-abstract.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/devarajan2020understanding.bib",
       citation: "http://cs.iit.edu/~scs/assets/files/devarajan2020understanding.txt",
     },
@@ -2138,7 +2153,10 @@ export default [
     type: "Journal",
     date: "November, 2013",
     tags: [""],
-    links: { bibtex: "http://cs.iit.edu/~scs/assets/files/he2013layout.bib", citation: "http://cs.iit.edu/~scs/assets/files/he2013layout.txt" },
+    links: {
+      bibtex: "http://cs.iit.edu/~scs/assets/files/he2013layout.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/he2013layout.txt",
+    },
   },
   {
     authors: [
@@ -2786,7 +2804,10 @@ export default [
     type: "Workshop",
     date: "November, 2010",
     tags: [""],
-    links: { bibtex: "http://cs.iit.edu/~scs/assets/files/song2010trace.bib", citation: "http://cs.iit.edu/~scs/assets/files/song2010trace.txt" },
+    links: {
+      bibtex: "http://cs.iit.edu/~scs/assets/files/song2010trace.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/song2010trace.txt",
+    },
   },
   {
     authors: ["R. Ge", "X. Feng", "J. Hu", "X.-H. Sun"],

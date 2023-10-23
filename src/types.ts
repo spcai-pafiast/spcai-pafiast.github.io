@@ -316,6 +316,7 @@ export type PublicationTag =
   | "Big Data"
   | "Burst Buffers"
   | "C-AMAT"
+  | "Cache Management"
   | "Characterization"
   | "ChronoLog"
   | "Cloud Application"
