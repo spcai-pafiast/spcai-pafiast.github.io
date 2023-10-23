@@ -243,7 +243,7 @@ export default function PublicationsTable({ data }: PublicationsTableProps) {
 
   const table = useReactTable({
     data,
-    debugAll: true,
+    debugAll: false,
     columns,
     getCoreRowModel: getCoreRowModel<Publication>(),
     getFilteredRowModel: getFilteredRowModel<Publication>(),
