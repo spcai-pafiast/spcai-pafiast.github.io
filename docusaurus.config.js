@@ -227,7 +227,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ${GNOSIS_TITLE} (${GNOSIS_SHORT}). Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ${GNOSIS_TITLE} (${GNOSIS_SHORT}).`,
       },
       prism: {
         theme: lightCodeTheme,
