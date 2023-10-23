@@ -123,11 +123,11 @@ const config = {
             label: "Publications",
             position: "left",
           },
-          {
-            to: "/blog",
-            label: "Blog",
-            position: "left",
-          },
+          // {
+          //   to: "/blog",
+          //   label: "Blog",
+          //   position: "left",
+          // },
           {
             type: "docSidebar",
             label: "Tutorials",
@@ -136,7 +136,7 @@ const config = {
           },
           {
             label: "GitHub",
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/grc-iit",
             position: "right",
           },
         ],
