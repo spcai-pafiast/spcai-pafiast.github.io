@@ -4,6 +4,7 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
+const GNOSIS_SHORT = "GRC";
 const GNOSIS_TITLE = "Gnosis Research Center";
 const GNOSIS_DESCRIPTION = `
 We conduct research in High-Performance Computing (HPC) memory and storage systems, especially in the design and prototype development of scalable software systems. 
@@ -167,11 +168,19 @@ const config = {
             ],
           },
           {
-            title: "Docs",
+            title: "Featured Projects",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "ChronoLog",
+                to: "/research/projects/chronolog",
+              },
+              {
+                label: "Coeus",
+                to: "/research/projects/coeus",
+              },
+              {
+                label: "Hermes",
+                to: "/research/projects/hermes",
               },
             ],
           },
@@ -197,20 +206,28 @@ const config = {
             ],
           },
           {
-            title: "More",
+            title: "Links",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: "GRC GitHub",
+                href: "https://github.com/grc-iit",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "GRC X",
+                href: "https://twitter.com/grc-iit",
+              },
+              {
+                label: "Illinois Tech",
+                href: "https://www.iit.edu/",
+              },
+              {
+                label: "SCS Lab",
+                href: "http://cs.iit.edu/~scs/",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ${GNOSIS_TITLE}. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ${GNOSIS_TITLE} (${GNOSIS_SHORT}). Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
