@@ -2,6 +2,17 @@ import { Member } from "../types";
 
 export default [
   {
+    name: "Wiam Amine",
+    title: "PhD Student",
+    advisor: "Dr. Xian-He Sun",
+    image: require("@site/static/img/members/amine.jpg").default,
+    links: {
+      email: "wamine@hawk.iit.edu",
+    },
+    researchInterests: ["HPC", "Distributed Storage"],
+    type: "researcher",
+  },
+  {
     name: "Keith Bateman",
     title: "PhD Candidate",
     advisor: "Dr. Xian-He Sun",
@@ -9,6 +20,19 @@ export default [
     links: {
       email: "kbateman@hawk.iit.edu",
       website: "http://mypages.iit.edu/~kbateman/",
+    },
+    researchInterests: ["HPC", "Distributed Storage"],
+    type: "researcher",
+  },
+  {
+    name: "Vadim Biryukov",
+    title: "PhD Student",
+    advisor: "Dr. Xian-He Sun",
+    image: require("@site/static/img/members/biryukov.jpg").default,
+    links: {
+      email: "vbiryukov@hawk.iit.edu",
+      github: "https://github.com/VadimBir",
+      linkedin: "https://www.linkedin.com/in/vadim-biryukov",
     },
     researchInterests: ["HPC", "Distributed Storage"],
     type: "researcher",
@@ -122,7 +146,6 @@ export default [
     researchInterests: ["Distributed Storage", "Parallel and Distributed Systems", "Parallel I/O"],
     type: "researcher",
   },
-
   {
     name: "Izzet Yildirim",
     title: "PhD Candidate",
