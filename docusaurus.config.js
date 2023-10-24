@@ -214,7 +214,11 @@ const config = {
               },
               {
                 label: "GRC X",
-                href: "https://twitter.com/grc-iit",
+                href: "https://twitter.com/grc_iit",
+              },
+              {
+                label: "GRC YouTube",
+                href: "https://www.youtube.com/channel/UCNtEyAt4_ckpIbX-gSv8sww",
               },
               {
                 label: "Illinois Tech",
