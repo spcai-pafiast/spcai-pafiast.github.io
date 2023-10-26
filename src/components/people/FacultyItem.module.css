@@ -1,5 +1,6 @@
 .innerContainer {
-  background-color: var(--ifm-color-gray-100);
+  background-color: var(--ifm-color-emphasis-200);
+  border-radius: var(--ifm-global-radius);
   height: 100%;
 }
 
