@@ -186,8 +186,8 @@ const config = {
               {
                 html: `
                   <p>
-                    Email: <a href="mailto:grc@iit.edu">grc@iit.edu</a> <br />
-                    Phone: +1 312 567 6885
+                    Email: <a href="mailto:grc@iit.edu" target="_blank" rel="noopener noreferrer">grc@iit.edu</a> <br />
+                    Phone: <a href="tel:3125676885" target="_blank" rel="noopener noreferrer">+1 312 567 6885</a>
                   </p>
                 `,
               },
