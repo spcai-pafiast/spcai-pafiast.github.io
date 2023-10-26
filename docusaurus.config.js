@@ -239,6 +239,10 @@ const config = {
                 href: "https://github.com/grc-iit",
               },
               {
+                label: "GRC LinkedIn",
+                href: "https://www.linkedin.com/company/gnosis-research-center/",
+              },
+              {
                 label: "GRC X",
                 href: "https://twitter.com/grc_iit",
               },
