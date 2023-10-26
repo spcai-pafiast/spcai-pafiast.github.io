@@ -1,3 +1,7 @@
+---
+id: pythonpath
+---
+
 # `PYTHONPATH`
 
 Python uses `PYTHONPATH` to specify directories where Python modules may be located.
