@@ -17,6 +17,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Publication, PublicationAuthor, PublicationTag, PublicationType } from "@site/src/types";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
+import Tag from "../common/Tag";
 import styles from "./PublicationsTable.module.css";
 
 const ACCESSOR_SEPARATOR = ", ";
@@ -132,14 +133,14 @@ function Tags({ column, data }: { column: Column<Publication, string>; data: Pub
   return (
     <div className={styles.tags}>
       {data.map((tag, i) => (
-        <span
+        <Tag
+          className={clsx("margin-bottom--xs", styles.tag)}
           key={`tag-${i}`}
-          className={clsx("badge margin-bottom--xs", styles.tag)}
           onClick={() => addFilter(tag)}
           title={tag}
         >
           {tag}
-        </span>
+        </Tag>
       ))}
     </div>
   );

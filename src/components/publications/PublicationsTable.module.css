@@ -57,19 +57,7 @@
   flex-wrap: wrap;
 }
 
-.tag {
-  --ifm-badge-border-color: var(--ifm-table-border-color);
-  color: var(--ifm-table-cell-color);
-  cursor: pointer;
-  display: inline;
-  font-weight: normal;
-  max-width: 150px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  width: fit-content;
-  white-space: nowrap;
-}
-
 .tag:hover {
   --ifm-badge-border-color: var(--ifm-color-emphasis-500);
+  cursor: pointer;
 }

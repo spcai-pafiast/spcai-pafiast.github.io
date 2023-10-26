@@ -1,13 +1,15 @@
 import React from "react";
-import { Faculty } from "@site/src/types";
+import { Member } from "@site/src/types";
 
 import styles from "./FacultyItem.module.css";
+import useMemberLinksRenderer from "./useMemberLinksRenderer";
 
 type FacultyItemProps = {
-  faculty: Faculty;
+  faculty: Member;
 };
 
 export default function FacutlyItem({ faculty }: FacultyItemProps) {
+  const { renderLinks } = useMemberLinksRenderer();
   return (
     <div className="col col--6">
       <div className={styles.innerContainer}>
@@ -16,7 +18,10 @@ export default function FacutlyItem({ faculty }: FacultyItemProps) {
         </div>
         <div className="text--bold text--center">{faculty.name}</div>
         <div className="text--center">{faculty.title}</div>
-        <div className="padding-horiz--lg padding-top--md padding-bottom--lg text--center">{faculty.bio}</div>
+        <div className="text--center">{renderLinks(faculty.links)}</div>
+        <div className="padding-horiz--lg padding-bottom--lg padding-top--md text--center">
+          {faculty.bio}
+        </div>
       </div>
     </div>
   );

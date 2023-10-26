@@ -101,7 +101,7 @@ export default [
     links: {
       email: "bli70@hawk.iit.edu",
     },
-    researchInterests: ["Memory Performance Modeling and Optimization"],
+    researchInterests: ["Memory Performance Modeling", "Memory Performance Optimization"],
     type: "researcher",
   },
   {

@@ -11,3 +11,10 @@
   object-position: top;
   width: 7.5rem;
 }
+
+.researchInterests {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
