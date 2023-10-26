@@ -27,6 +27,7 @@ export type ProjectId = "chronolog" | "coeus" | "hermes" | "iris";
 
 export type Project = {
   id: ProjectId;
+  name: string;
   title: string;
   shortDescription: string;
   link: string;

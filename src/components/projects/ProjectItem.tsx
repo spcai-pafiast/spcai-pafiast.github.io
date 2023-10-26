@@ -9,7 +9,7 @@ type ProjectItemProps = {
 };
 
 export default function ProjectItem({ project }: ProjectItemProps) {
-  const { id, title, shortDescription, link } = project;
+  const { id, link, name, title, shortDescription } = project;
   return (
     <div className="col col--4 margin-bottom--lg">
       <div className="card text--center">
@@ -22,7 +22,7 @@ export default function ProjectItem({ project }: ProjectItemProps) {
         </div>
         <div className="card__footer">
           <Link className="button button--primary button--block" href={link}>
-            Learn more
+            Learn more about {name}
           </Link>
         </div>
       </div>
