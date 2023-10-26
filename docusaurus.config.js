@@ -73,6 +73,29 @@ const config = {
     ({
       // Replace with your project's social card
       image: "img/social-card.png",
+      metadata: [
+        {
+          name: "description",
+          content:
+            "Discover our research center's work in HPC memory and storage systems, emphasizing scalable software, data management, and data-centric system development.",
+        },
+        {
+          name: "keywords",
+          content: [
+            "high-performance computing (hpc)",
+            "memory and storage systems",
+            "scalable software systems",
+            "data management",
+            "data-centric systems",
+            "research center",
+            "scalable system software",
+            "technology research",
+            "computational research",
+            "innovative technology",
+            "scientific research",
+          ].join(", "),
+        },
+      ],
       navbar: {
         style: "dark",
         title: GNOSIS_TITLE,
