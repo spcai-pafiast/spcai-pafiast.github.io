@@ -131,11 +131,12 @@ export default [
   },
   {
     name: "Meng Tang",
-    title: "PhD Student",
+    title: "PhD Candidate",
     advisor: "Dr. Xian-He Sun",
     image: require("@site/static/img/members/tang.jpg").default,
     links: {
       email: "mtang11@hawk.iit.edu",
+      github: "https://github.com/candiceT233",
       linkedin: "https://www.linkedin.com/in/meng-tang-86417a128/",
     },
     researchInterests: ["Distributed Storage", "Containerization"],
