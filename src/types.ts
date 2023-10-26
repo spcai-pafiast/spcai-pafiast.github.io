@@ -33,9 +33,11 @@ export type Project = {
   link: string;
   isCollaborative?: boolean;
   isFeatured?: boolean;
-  isFunded?: boolean;
   isOpenSource?: boolean;
   isOurs?: boolean;
+  researchStatus: "ready" | "testing" | "r&d";
+  status: "active" | "archived";
+  type: "funded" | "student";
 };
 
 export type PublicationAuthor =
