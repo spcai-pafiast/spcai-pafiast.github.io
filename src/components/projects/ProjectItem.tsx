@@ -15,7 +15,7 @@ export default function ProjectItem({ project }: ProjectItemProps) {
       <div className="card text--center">
         <div className="card__header">
           <h3>{title}</h3>
-          <ProjectBadges projectId={id} />
+          <ProjectBadges addMargin={false} projectId={id} />
         </div>
         <div className="card__body">
           <p>{shortDescription}</p>

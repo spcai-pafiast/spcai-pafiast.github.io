@@ -40,8 +40,3 @@
 .mdx-page center p {
   text-align: center;
 }
-
-.mdx-page .project-badges {
-  line-height: var(--ifm-heading-line-height);
-  margin-bottom: var(--ifm-heading-margin-bottom);
-}
