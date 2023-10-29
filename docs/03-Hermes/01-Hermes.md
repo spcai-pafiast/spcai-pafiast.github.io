@@ -58,7 +58,7 @@ with the following characteristics:
       - To separate concerns and for portability, system buffers are
         **not** directly exposed to applications. There is a set of
         intermediate primitives targeted by
-        [adapters](./Adapters) for different I/O libraries. A
+        [adapters](../03-Hermes/07-Adapters/01-Adapters.md) for different I/O libraries. A
         generic [metadata manager](06-Hermes-components/08-Metadata-Manager.md) (MDM),
         supports the bookkeeping needs of the various components.
   - The whole system is deployed in a server-less fashion.
