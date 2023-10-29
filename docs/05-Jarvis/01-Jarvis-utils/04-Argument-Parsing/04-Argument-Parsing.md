@@ -9,7 +9,7 @@ creating pipelines, etc. These modules each have different parameter spaces.
 The ArgParse class has an abstract method called define_options. Create
 a class inheriting from that method and use define_options to make the menu.
 
-We have the example [basic_argparse.py]() below:
+We have the example [basic_argparse.py](https://github.com/grc-iit/jarvis-util/blob/master/example/basic_argparse.py) below:
 ```python
 from jarvis_util.util.argparse import ArgParse
 
@@ -201,7 +201,7 @@ VPIC only has one operation: to generate the particle data.
 BD-CATS has two operations: cluster the particle data and then visualize
 the clustering by rendering an image at a certain resolution.
 
-Below is the code from [example/menu_argparse.py]():
+Below is the code from [example/menu_argparse.py](https://github.com/grc-iit/jarvis-util/blob/master/example/menu_argparse.py):
 ```python
 from jarvis_util.util.argparse import ArgParse
 
@@ -362,7 +362,7 @@ syntax when used as keyword arguments (as opposed to positional).
 Let's say we are at a restaurant and are ordering pasta. You have
 two options: with cheese and without cheese.
 
-Below is the code from [example/boolean_spaghetti.py]().
+Below is the code from [example/boolean_spaghetti.py](https://github.com/grc-iit/jarvis-util/blob/master/example/boolean_spaghetti.py).
 ```python
 from jarvis_util.util.argparse import ArgParse
 
@@ -420,7 +420,7 @@ There are many cases where having a list of information is needed.
 One case that comes up is deciding which nodes in a distributed system
 to execute software. For this case, we use a list of strings.
 
-Below we have an [example]() of running the VPIC application on a set
+Below we have an example of running the VPIC application on a set
 of machines in parallel.
 ```python
 from jarvis_util.util.argparse import ArgParse
