@@ -40,7 +40,7 @@ DNE.
 * Context is optional. It contains the ability to override
 defaults defined in the server and client configuration files. For
 example, you can set a custom DPE to use for a blob Put.
-* hermes::Blob analagous to and std::vector<char>. It's not quite the
+* `hermes::Blob analagous to and std::vector<char>`. It's not quite the
 same thing, but we won't go into detail here.
 * bkt.Put will put a blob into the bucket. Put destroys all content
 if the blob previously existed. At this time, blobs are considered
