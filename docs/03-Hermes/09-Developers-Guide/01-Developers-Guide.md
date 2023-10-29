@@ -54,13 +54,13 @@ The cache does not have to change often (unless you've added dependencies),
 so this should be done only in this case. To refresh the github cache,
 modify the file "ci/install_deps.sh" in some way. For
 example, by adding a comment. If you check the [github workflow which produces
-the cache](../blob/master/.github/workflows/main.yml), it uses a hash
+the cache](https://github.com/HDFGroup/hermes/blob/master/.github/workflows/main.yml), it uses a hash
 of install_deps.sh to locate a cache.
 
 # Introduction to our Continuous Integration (CI)
 
 We are primarily using Python for managing for running unit tests. Under
-[our root CMakeList](../blob/master/CMakeLists.txt), we implement a
+[our root CMakeList](https://github.com/HDFGroup/hermes/blob/master/CMakeLists.txt), we implement a
 CMake function called pytest, which wraps around the Python testing
 framework called py_hermes_ci, which is located under ci/py_hermes_ci.
 

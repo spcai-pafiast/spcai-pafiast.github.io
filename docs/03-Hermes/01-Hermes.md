@@ -18,8 +18,7 @@ The goal of the Hermes project is to provide a *seamless* solution that
 utilizes DDSH without or requiring only minor application changes.
 
 (Even without a deep DDSH, determined users have created original
-solutions to overcome I/O performance challenges. See [use
-cases](Use-Cases) for an example. Many of them can be
+solutions to overcome I/O performance challenges. See use cases for an example. Many of them can be
 considered custom, i.e., application-specific, I/O buffering systems.)
 
 # How We Do It
@@ -37,8 +36,7 @@ with the following characteristics:
     is reached, the buffering system can no longer deliver noticeable
     benefits and may perform as poorly as (or worse) than the unbuffered
     system (going to PFS).
-  - Users express I/O priorities, constraints, and hints via [buffering
-    policies](Policies).
+  - Users express I/O priorities, constraints, and hints via buffering policies.
   - Given individual or batches of I/O operations (writes and reads),
     the **main challenge** for such a buffering system is to determine
     where in DDSH a given data item is <b>best/well/optimally-</b>placed at
@@ -53,13 +51,13 @@ with the following characteristics:
         target](06-Hermes-components/03-Buffering-Target.md)s and are applicable more
         broadly.
       - The physical buffering resources are managed in a distributed
-        [buffer pool](06-Hermes-components/02-Buffer-Pool.md) (see also [Batching
-        System](Batching-System)).
+        [buffer pool](06-Hermes-components/02-Buffer-Pool.md) (see also Batching
+        System).
       - [Buffer Organizer](06-Hermes-components/01-Buffer-Organizer.md)
-      - [Profiler](./Profiler)
+      - Profiler
       - To separate concerns and for portability, system buffers are
         **not** directly exposed to applications. There is a set of
-        intermediate [primitives](Primitives) targeted by
+        intermediate primitives targeted by
         [adapters](./Adapters) for different I/O libraries. A
         generic [metadata manager](06-Hermes-components/08-Metadata-Manager.md) (MDM),
         supports the bookkeeping needs of the various components.
