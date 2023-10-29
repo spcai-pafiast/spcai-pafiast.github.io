@@ -155,37 +155,37 @@ Scaling the BLOB size, 1,000 and 8,192 BLOBs in total
 
 The DPE time of three different solvers with 10GB BLOBs in total.
 
-[[/images/Picture1_11.jpg]]
+[[../images/Picture1_11.jpg]]
 
-[[/images/Picture2_1.jpg]]
+[[../images/Picture2_1.jpg]]
 
-[[/images/Picture3_1.jpg]]
+[[../images/Picture3_1.jpg]]
 
 The associated I/O time of placement schema from three different solvers
 with 10GB BLOBs in total.
 
-[[/images/Picture6_1.jpg]]
+[[../images/Picture6_1.jpg]]
 
-[[/images/Picture5_1.jpg]]
+[[../images/Picture5_1.jpg]]
 
-[[/images/Picture4_1.jpg]]
+[[../images/Picture4_1.jpg]]
 
 The DPE time of three different solvers with 1,000 BLOBs in total.
 
-[[/images/rr_dpe.jpg]]
+[[../images/rr_dpe.jpg]]
 
-[[/images/random_dpe.jpg]]
+[[../images/random_dpe.jpg]]
 
-[[/images/or_dpe.jpg]]
+[[../images/or_dpe.jpg]]
 
 The associated I/O time by placement schema by three different solvers
 with 1,000 BLOBs in total.
 
-[[/images/rr_io.jpg]]
+[[../images/rr_io.jpg]]
 
-[[/images/random_io.jpg]]
+[[../images/random_io.jpg]]
 
-[[/images/ortools_io.jpg]]
+[[../images/ortools_io.jpg]]
 
 # Conclusions
 

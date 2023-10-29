@@ -1,4 +1,4 @@
-[[/images/Hermes_Ecosystem.jpg|Hermes Adapters]]
+[[../images/Hermes_Ecosystem.jpg|Hermes Adapters]]
 
 Instead of the [Hermes primitives](Primitives), existing applications
 use I/O libraries and middleware such as the C standard I/O library,

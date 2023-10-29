@@ -1,6 +1,6 @@
 # Main Scenario
 
-[[/images/Hermes_hierachy.jpg|Deep Distributed Storage Hierarchy (DDSH)]]
+[[../images/Hermes_hierachy.jpg|Deep Distributed Storage Hierarchy (DDSH)]]
 
 Consider an HPC cluster equipped with a deep, distributed [storage
 hierarchy](06-Hermes-components/10-Storage-Hierarchy.md) (DDSH), the bottom layer of
@@ -24,7 +24,7 @@ considered custom, i.e., application-specific, I/O buffering systems.)
 
 # How We Do It
 
-[[/images/Hermes_Core_Lib_internals.jpg|Hermes Core]]
+[[../images/Hermes_Core_Lib_internals.jpg|Hermes Core]]
 
 We implement an *I/O buffering system*
 with the following characteristics:

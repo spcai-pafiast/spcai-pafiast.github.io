@@ -158,7 +158,7 @@ The period can be controlled by a configuration variable.
     bool EnqueueBoTask(BoTask task, Priority priority);
     ```
 
-[[/images/bo_rpc.png]]
+[[../images/bo_rpc.png]]
 
 ### Buffer Organizer
 
@@ -187,17 +187,17 @@ The period can be controlled by a configuration variable.
   - Bound to a **processing element** (CPU core or hyperthread), and
     shouldn't be oversubscribed.
 
-![](/images/bo.png)
+![](../images/bo.png)
 
 ## Example Flows
 
 ### Hot Put
 
-![](/images/hot_put.png)
+![](../images/hot_put.png)
 
 ### BO Eviction Flow
 
-![](/images/bo_evict.png)
+![](../images/bo_evict.png)
 
 ## Ideas
 
