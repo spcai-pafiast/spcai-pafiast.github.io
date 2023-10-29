@@ -1,6 +1,6 @@
 [[../images/Hermes_Ecosystem.jpg|Hermes Adapters]]
 
-Instead of the [Hermes primitives](docs/03-Hermes/05-Basic-programming/01-Basic-Programming), existing applications
+Instead of the [Hermes primitives](../05-Basic-programming/01-Basic-Programming.md), existing applications
 use I/O libraries and middleware such as the C standard I/O library,
 MPI-IO, or HDF5. Since Hermes is intended to be a seamless I/O
 buffering solution, a set of *adapters* is provided in the form of
