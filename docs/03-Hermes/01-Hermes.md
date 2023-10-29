@@ -3,7 +3,7 @@
 [[/images/Hermes_hierachy.jpg|Deep Distributed Storage Hierarchy (DDSH)]]
 
 Consider an HPC cluster equipped with a deep, distributed [storage
-hierarchy](Storage-Hierarchy) (DDSH), the bottom layer of
+hierarchy](06-Hermes-components/10-Storage-Hierarchy.md) (DDSH), the bottom layer of
 which is typically a parallel file system (PFS). DDSH was introduced to
 boost or to at least improve the I/O (POSIX, MPI-IO, HDF5, ...)
 performance of applications performing poorly otherwise. Unfortunately,
@@ -44,24 +44,24 @@ with the following characteristics:
     where in DDSH a given data item is <b>best/well/optimally-</b>placed at
     that point in time.
   - To that end, the system consists of the following major components:
-      - [Strategies and algorithms](./Data-Placement-Strategies) that
+      - [Strategies and algorithms](06-Hermes-components/04-Data-Placement-Strategies.md) that
         implement policies and facilitate
         data placement decisions. Speculative data
         placement for read operations is also known as
-        [prefetching](./Prefetcher).
+        [prefetching](06-Hermes-components/09-Prefetcher.md).
       - These strategies work with (dynamic) sets of [buffering
-        target](Buffering-Target)s and are applicable more
+        target](06-Hermes-components/03-Buffering-Target.md)s and are applicable more
         broadly.
       - The physical buffering resources are managed in a distributed
-        [buffer pool](Buffer-Pool) (see also [Batching
+        [buffer pool](06-Hermes-components/02-Buffer-Pool.md) (see also [Batching
         System](Batching-System)).
-      - [Buffer Organizer](./Buffer-Organizer)
+      - [Buffer Organizer](06-Hermes-components/01-Buffer-Organizer.md)
       - [Profiler](./Profiler)
       - To separate concerns and for portability, system buffers are
         **not** directly exposed to applications. There is a set of
         intermediate [primitives](Primitives) targeted by
         [adapters](./Adapters) for different I/O libraries. A
-        generic [metadata manager](./Metadata-Manager) (MDM),
+        generic [metadata manager](06-Hermes-components/08-Metadata-Manager.md) (MDM),
         supports the bookkeeping needs of the various components.
   - The whole system is deployed in a server-less fashion.
 

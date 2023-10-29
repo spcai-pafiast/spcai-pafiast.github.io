@@ -30,7 +30,7 @@ First we perform a strong scaling study.
 2. Processes vary between 1 and 48
 3. Transfer size of 1MB
 
-| ![run workloads](images/performance/ssd-scale.svg) |
+| ![run workloads](../images/performance/ssd-scale.svg) |
 |:--:|
 |SSD strong scaling|
 
@@ -45,7 +45,7 @@ we want to measure the impact of garbage collection and OS caching.
 2. Processes fixed at 4
 3. Transfer size of 1MB
 
-| ![run workloads](images/performance/ssd-dset.svg) |
+| ![run workloads](../images/performance/ssd-dset.svg) |
 |:--:|
 |SSD dataset size scaling|
 
@@ -62,7 +62,7 @@ First we perform a strong scaling study.
 2. Processes vary between 1 and 48
 3. Transfer size of 1MB
 
-| ![run workloads](images/performance/nvme-scale.svg) |
+| ![run workloads](../images/performance/nvme-scale.svg) |
 |:--:|
 |NVMe strong scaling|
 
@@ -77,7 +77,7 @@ we want to measure the impact of garbage collection and OS caching.
 2. Processes fixed at 4
 3. Transfer size of 1MB
 
-| ![run workloads](images/performance/nvme-dset.svg) |
+| ![run workloads](../images/performance/nvme-dset.svg) |
 |:--:|
 |NVMe dataset size scaling|
 
@@ -99,7 +99,7 @@ processes to be between 1 and 48. Each case performs a total of 100GB of
 I/O with transfer sizes of 1MB using the Hermes native Put/Get API.
 This evaluation was conducted only over a single node.
 
-| ![multi-core scaling (NVMe)](images/performance/multicore-nvme-scale.svg) |
+| ![multi-core scaling (NVMe)](../images/performance/multicore-nvme-scale.svg) |
 |:--:|
 |NVMe dataset size scaling|
 
@@ -128,7 +128,7 @@ updated based on its current value.
 In addition, each workload contains a "Load" phase which perform insert-only
 workloads. Unlike an update, insert replaces the entire record.
 
-| ![load workloads](images/performance/ycsb-load.svg) |
+| ![load workloads](../images/performance/ycsb-load.svg) |
 |:--:|
 |Performance of KVS for the LOAD phase of YCSB|
 
@@ -139,7 +139,7 @@ KVS adapter, since insert operations replace data. In our KVS, a record
 directly to a single Put operation in the Hermes KVS. This demonstrates
 that Hermes can perform comparably to well-established in-memory KVS.
 
-| ![run workloads](images/performance/ycsb-run.svg) |
+| ![run workloads](../images/performance/ycsb-run.svg) |
 |:--:|
 |Performance of KVS for the RUN phase of YCSB|
 
@@ -158,7 +158,7 @@ In this evaluation, we run a multi-tiered experiment using Hermes native
 API. The workload sequentially PUTs 10GB per-node. We ran this experiment
 with 16 nodes and 16 processes per node. The overall dataset size is 160GB.
 
-| ![run workloads](images/performance/tiering.svg) |
+| ![run workloads](../images/performance/tiering.svg) |
 |:--:|
 |Performance of Hermes for varying Tiers|
 
@@ -183,7 +183,7 @@ synthetic workload. Each rank produces a total of 1GB of data, there are 16
 ranks per node, and a total of 4 nodes. The total dataset size produced is
 160GB. We use a hierarchical setup with RAM, NVMe, and SATA SSD.
 
-| ![run workloads](images/performance/dpe.svg) |
+| ![run workloads](../images/performance/dpe.svg) |
 |:--:|
 |Performance of Hermes for varying DPEs|
 

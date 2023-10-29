@@ -261,7 +261,7 @@ daemon, `LD_PRELOAD` a Hermes adapter and set some environment variables.
 
 We spawn a daemon on each node, then run our app with the appropriate
 environment variables, similar to the process described
-[above](./1.-Getting-Started#hermes-services-running-in-separate-process-as-a-daemon).
+[above](01-Getting-Started.md#hermes-services-running-in-separate-process-as-a-daemon).
 
 ```bash
 HERMES_CONF_PATH=/absolute/path/to/hermes.yaml
