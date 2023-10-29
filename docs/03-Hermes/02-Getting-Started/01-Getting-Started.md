@@ -1,20 +1,20 @@
 # Building Hermes
 
 There are several ways to obtain a working Hermes installation. Information on
-dependencies can be found in the [README](../blob/master/README.md).
+dependencies can be found in the [README](https://github.com/HDFGroup/hermes/blob/master/README.md).
 
 1. [Docker Image](https://hub.docker.com/r/hdfgroup/hermes)
   * We also maintain Dockerfiles for [Hermes
-    development](../blob/master/dev.Dockerfile) and [Hermes
-    dependencies](../blob/master/deps.Dockerfile)
+    development](https://github.com/HDFGroup/hermesblob/master/dev.Dockerfile) and [Hermes
+    dependencies](https://github.com/HDFGroup/hermesblob/master/deps.Dockerfile)
 2. CMake
-  * Instructions can be found in the [README](../blob/master/README.md)
+  * Instructions can be found in the [README](https://github.com/HDFGroup/hermes/blob/master/README.md)
 3. Spack
-  * Instructions can be found in the [README](../blob/master/README.md)
+  * Instructions can be found in the [README](https://github.com/HDFGroup/hermes/blob/master/README.md)
 
 If you get stuck, the root of the repository contains a `ci` folder where we
 keep the scripts we use to build and test Hermes in a Github Actions workflow.
-The workflow file itself is [here](../blob/master/.github/workflows/main.yml).
+The workflow file itself is [here](https://github.com/HDFGroup/hermes//blob/master/.github/workflows/main.yml).
 
 # Deploying Resources
 
@@ -22,17 +22,18 @@ Hermes is an *application extension*. Storage resources are deployed under
 Hermes control by
 
 1. Configuring Hermes for your system *and* application
-   - [Details](./Hermes-Configuration)
+   - [Details](../04-Hermes-Configuration/3.-Hermes-Configuration.md)
 2. Making your application "Hermes-aware"
 
 An application can be made aware of Hermes in at least three different ways:
 
-- Through [Hermes *adapters*](./Adapters), `LD_PRELOAD`-able shared libraries
+- Through [Hermes *adapters*](../07-Adapters/01-Adapters.md), `LD_PRELOAD`-able shared libraries
   which intercept common I/O middleware calls such as UNIX STDIO, POSIX, and
   MPI-IO (NOTE: when Hermes is compiled with DHERMES_USE_ADDRESS_SANITIZER=ON,
   which is ON by default, you must also ensure that libasan is preloaded first,
   before anything else)
-- Through an [HDF5 virtual file driver (VFD)](./HDF5-Hermes-VFD)
+
+[//]: # (- Through an [HDF5 virtual file driver &#40;VFD&#41;]&#40;./HDF5-Hermes-VFD&#41;)
 - By directly targeting the Hermes native API
 
 These options represent different use cases and trade-offs, for example, with
@@ -115,7 +116,7 @@ including POSIX, MPI-IO, and HDF5. Hermes has adapters for POSIX, MPI-IO, and HD
 For serial (single process) HDF5, the Hermes VFD can be enabled via environment variable
 as described [here](https://github.com/HDFGroup/hermes/tree/master/adapter/vfd#method-3-dynamically-loaded-by-environment-variable). Parallel HDF5 can use the MPI-IO adapter.
 For this tutorial, we'll focus on POSIX. We assume you already have working
-Hermes and IOR installations. See the [README](../blob/master/README.md) for
+Hermes and IOR installations. See the [README](https://github.com/HDFGroup/hermes/blob/master/README.md) for
 Hermes installation details.
 
 ## Workload
@@ -154,12 +155,12 @@ Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
 Here we describe the Hermes configuration format. Hermes has two configurations:
 one for the daemon and one for the client program. We will briefly discuss
 each here.
-See [Configuration](./Hermes-Configuration) for more details.
+See [Configuration](../04-Hermes-Configuration/3.-Hermes-Configuration.md) for more details.
 
 ### Daemon (server) configuration
 
 For a documented example of how to create a Hermes configuration, please
-check the [default configuration](../blob/master/config/hermes_server_default.yaml).
+check the [default configuration](https://github.com/HDFGroup/hermes/blob/master/config/hermes_server_default.yaml).
 Note, the default config is designed for single-node cases. We use YAML to
 define the Hermes configuration format.
 
@@ -255,7 +256,7 @@ Our write bandwidth is 30 MiB/s and our read bandwidth is 2012 MiB/s.
 To enable Hermes with an IOR checkpoint/restart workload, we must start a
 daemon, `LD_PRELOAD` a Hermes adapter and set some environment variables.
 
-> **NOTE**: As a temporary workaround to [issue #258](../issues/258) we must
+> **NOTE**: As a temporary workaround to [issue #258](https://github.com/HDFGroup/hermes/issues/258) we must
 > comment out the line `backend->close(fd, params->backend_options);` in
 > `ior.c:TestIoSys` before compiling IOR. This change is implemented in the `chogan/hermes` branch of the IOR fork [here](https://github.com/ChristopherHogan/ior/tree/chogan/hermes).
 
@@ -303,7 +304,7 @@ read,2580.2756,2861.2635,0.0074,131072,1024,0.1923,2.1473,1.7458,2.3811
 We get a nice boost in write bandwidth, and a modest speedup in read bandwidth,
 all with no code changes.
 
-[[/images/IOR_Checkpoint_Restart.png|Checkpoint-Restart results]]
+[[../images/IOR_Checkpoint_Restart.png|Checkpoint-Restart results]]
 
 We haven't done any performance optimization yet, so I expect to bridge the gap
 significantly between the 2.5 GiB read speed of Hermes and the baseline speed of
