@@ -3,37 +3,37 @@
 There are several ways to obtain a working Hermes installation. Information on
 dependencies can be found in the [README](https://github.com/HDFGroup/hermes/blob/master/README.md).
 
-1. [Docker Image](https://hub.docker.com/r/hdfgroup/hermes)
-  * We also maintain Dockerfiles for [Hermes
+- [Docker Image](https://hub.docker.com/r/hdfgroup/hermes)
+  - We also maintain Dockerfiles for [Hermes
     development](https://github.com/HDFGroup/hermesblob/master/dev.Dockerfile) and [Hermes
     dependencies](https://github.com/HDFGroup/hermesblob/master/deps.Dockerfile)
-2. CMake
-  * Instructions can be found in the [README](https://github.com/HDFGroup/hermes/blob/master/README.md)
-3. Spack
-  * Instructions can be found in the [README](https://github.com/HDFGroup/hermes/blob/master/README.md)
+- CMake
+  - Instructions can be found in the [README](https://github.com/HDFGroup/hermes/blob/master/README.md)
+- Spack
+  - Instructions can be found in the [README](https://github.com/HDFGroup/hermes/blob/master/README.md)
 
 If you get stuck, the root of the repository contains a `ci` folder where we
 keep the scripts we use to build and test Hermes in a Github Actions workflow.
-The workflow file itself is [here](https://github.com/HDFGroup/hermes//blob/master/.github/workflows/main.yml).
+The workflow file itself is [here](https://github.com/HDFGroup/hermes/blob/master/.github/workflows/main.yml).
 
-# Deploying Resources
+## Deploying Resources
 
-Hermes is an *application extension*. Storage resources are deployed under
+Hermes is an _application extension_. Storage resources are deployed under
 Hermes control by
 
-1. Configuring Hermes for your system *and* application
-   - [Details](../04-Hermes-Configuration/3.-Hermes-Configuration.md)
+1. [Configuring Hermes](04-configuration.md) for your system _and_ application
 2. Making your application "Hermes-aware"
 
 An application can be made aware of Hermes in at least three different ways:
 
-- Through [Hermes *adapters*](../07-Adapters/01-Adapters.md), `LD_PRELOAD`-able shared libraries
+- Through [Hermes Adapters](07-adapters.md), `LD_PRELOAD`-able shared libraries
   which intercept common I/O middleware calls such as UNIX STDIO, POSIX, and
   MPI-IO (NOTE: when Hermes is compiled with DHERMES_USE_ADDRESS_SANITIZER=ON,
   which is ON by default, you must also ensure that libasan is preloaded first,
   before anything else)
 
-[//]: # (- Through an [HDF5 virtual file driver &#40;VFD&#41;]&#40;./HDF5-Hermes-VFD&#41;)
+[//]: # "- Through an [HDF5 virtual file driver (VFD)](./HDF5-Hermes-VFD)"
+
 - By directly targeting the Hermes native API
 
 These options represent different use cases and trade-offs, for example, with
@@ -54,6 +54,7 @@ If you compile hermes with DHERMES_USE_ADDRESS_SANITIZER=ON,
 you must LD_PRELOAD the libasan
 used to build Hermes, in addition to the interceptor. To locate libasan,
 run the following command:
+
 ```bash
 gcc -print-file-name=libasan.so
 ```
@@ -61,6 +62,7 @@ gcc -print-file-name=libasan.so
 Note that libasan will detect memory leaks and errors in the program
 linking to hermes as well. To avoid detecting memory leaks in the
 client program, do the following:
+
 ```bash
 # Create or modify a file for storing libasan exclusions:
 nano ${HERMES_ROOT}/test/data/asan.supp
@@ -145,7 +147,7 @@ Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
 ### Storage Tiers
 
 | Name | Description                                        | Measured Write Bandwidth |
-|------|----------------------------------------------------|--------------------------|
+| ---- | -------------------------------------------------- | ------------------------ |
 | PFS  | OrangeFS running on 8 server nodes, backed by HDDs | 536 MiB/s                |
 | NVMe | Node-local NVMe attached SSDs.                     | 1918 MiB/s               |
 | RAM  | Node-local DRAM.                                   | 79,061 MiB/s             |
@@ -155,7 +157,7 @@ Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
 Here we describe the Hermes configuration format. Hermes has two configurations:
 one for the daemon and one for the client program. We will briefly discuss
 each here.
-See [Configuration](../04-Hermes-Configuration/3.-Hermes-Configuration.md) for more details.
+See [Configuration](04-configuration.md) for more details.
 
 ### Daemon (server) configuration
 
@@ -165,15 +167,17 @@ Note, the default config is designed for single-node cases. We use YAML to
 define the Hermes configuration format.
 
 #### Defining the buffering locations
+
 First, we should define the kind of storage devices that are targeted for
 intermediate buffering.
+
 ```yaml
 devices:
   ram:
     mount_point: ""
     capacity: 50MB
     block_size: 4KB
-    slab_sizes: [ 4KB, 16KB, 64KB, 1MB ]
+    slab_sizes: [4KB, 16KB, 64KB, 1MB]
     bandwidth: 6000MBps
     latency: 15us
     is_shared_device: false
@@ -182,20 +186,20 @@ devices:
     mount_point: "/mnt/nvme/hermes_nvme"
     capacity: 100MB
     block_size: 4KB
-    slab_sizes: [ 4KB, 16KB, 64KB, 1MB ]
+    slab_sizes: [4KB, 16KB, 64KB, 1MB]
     bandwidth: 1GBps
     latency: 600us
     is_shared_device: false
-    borg_capacity_thresh: [ 0.0, 1.0 ]
+    borg_capacity_thresh: [0.0, 1.0]
   pfs:
     mount_point: "${HOME}/hermes_pfs"
     capacity: 100MB
     block_size: 64KB # The stripe size of PFS
-    slab_sizes: [ 4KB, 16KB, 64KB, 1MB ]
+    slab_sizes: [4KB, 16KB, 64KB, 1MB]
     bandwidth: 100MBps # Per-device bandwidth
     latency: 200ms
     is_shared_device: true
-    borg_capacity_thresh: [ 0.0, 1.0 ]
+    borg_capacity_thresh: [0.0, 1.0]
 ```
 
 Here we have a YAML dictionary called devices. A semantic name is then provided
@@ -203,8 +207,7 @@ for each device targeted for buffering. To tell Hermes a device is considered
 RAM, we use mount_point being the empty string. For other devices, this is
 can be a path to a directory located on a filesystem.
 
-#### 
-
+####
 
 ## Running
 
@@ -218,36 +221,36 @@ mpirun -n 48 -ppn 12 \
 Here we launch 48 IOR processes across 4 nodes. The IOR options are explained in
 the following table.
 
-| Flag | Description |
-|------|-------------|
-|-w    | Perform write |
-|-r    | Perform read |
-|-o    | Output/Input file |
-|-t    | Size per write |
-|-b    | Total I/O size per rank |
-|-F    | Create one file for each process |
-|-e    | Call `fsync` on file close. |
-|-Y    | Call `fsync` after each write. |
-|-C    | Shuffle ranks so that they read from different nodes than they wrote to |
-|-O summaryFormat  | Show the output in a compact, CSV format |
+| Flag             | Description                                                             |
+| ---------------- | ----------------------------------------------------------------------- |
+| -w               | Perform write                                                           |
+| -r               | Perform read                                                            |
+| -o               | Output/Input file                                                       |
+| -t               | Size per write                                                          |
+| -b               | Total I/O size per rank                                                 |
+| -F               | Create one file for each process                                        |
+| -e               | Call `fsync` on file close.                                             |
+| -Y               | Call `fsync` after each write.                                          |
+| -C               | Shuffle ranks so that they read from different nodes than they wrote to |
+| -O summaryFormat | Show the output in a compact, CSV format                                |
 
 Some of these options require justification.
 
-* `-Y`: We do direct (non-buffered) I/O in order to simulate a situation with
+- `-Y`: We do direct (non-buffered) I/O in order to simulate a situation with
   high RAM pressure. If the application is using most of the RAM, then the OS
   page cache will have less RAM available for buffering.
-* `-C`: This option simulates a situation where different nodes read the
+- `-C`: This option simulates a situation where different nodes read the
   checkpoint than the ones that wrote it, resulting in a situation where the
   checkpoint cannot be read from the page cache, and forcing the app to go to
   the PFS.
 
- Here are the results:
+Here are the results:
 
- ```
+```
 access,bw(MiB/s),IOPS,Latency,block(KiB),xfer(KiB),open(s),wr/rd(s),close(s),total(s),numTasks,iter
 write,30.3120,30.3795,1.5543,131072.0000,1024.0000,15.0489,202.2413,35.0600,202.6921,48,0
 read,2012.0224,2026.8185,0.0158,131072.0000,1024.0000,0.4558,3.0314,1.0307,3.0536,48,0
- ```
+```
 
 Our write bandwidth is 30 MiB/s and our read bandwidth is 2012 MiB/s.
 
@@ -261,8 +264,7 @@ daemon, `LD_PRELOAD` a Hermes adapter and set some environment variables.
 > `ior.c:TestIoSys` before compiling IOR. This change is implemented in the `chogan/hermes` branch of the IOR fork [here](https://github.com/ChristopherHogan/ior/tree/chogan/hermes).
 
 We spawn a daemon on each node, then run our app with the appropriate
-environment variables, similar to the process described
-[above](01-Getting-Started.md#hermes-services-running-in-separate-process-as-a-daemon).
+environment variables, similar to the process described above.
 
 ```bash
 HERMES_CONF_PATH=/absolute/path/to/hermes.yaml
@@ -304,7 +306,7 @@ read,2580.2756,2861.2635,0.0074,131072,1024,0.1923,2.1473,1.7458,2.3811
 We get a nice boost in write bandwidth, and a modest speedup in read bandwidth,
 all with no code changes.
 
-[[../images/IOR_Checkpoint_Restart.png|Checkpoint-Restart results]]
+![Checkpoint-Restart Results](./images/IOR_Checkpoint_Restart.png)
 
 We haven't done any performance optimization yet, so I expect to bridge the gap
 significantly between the 2.5 GiB read speed of Hermes and the baseline speed of

@@ -1,9 +1,9 @@
 # Main Scenario
 
-[[../images/Hermes_hierachy.jpg|Deep Distributed Storage Hierarchy (DDSH)]]
+![Deep Distributed Storage Hierarchy (DDSH)](images/Hermes_hierachy.jpg)
 
 Consider an HPC cluster equipped with a deep, distributed [storage
-hierarchy](06-Hermes-components/10-Storage-Hierarchy.md) (DDSH), the bottom layer of
+hierarchy](06-components/10-examples.md) (DDSH), the bottom layer of
 which is typically a parallel file system (PFS). DDSH was introduced to
 boost or to at least improve the I/O (POSIX, MPI-IO, HDF5, ...)
 performance of applications performing poorly otherwise. Unfortunately,
@@ -14,59 +14,59 @@ necessary code changes. Even if successful, this is a distraction from
 solving domain problems and, worse, it will be harder to maintain and
 port the application to other or future systems.
 
-The goal of the Hermes project is to provide a *seamless* solution that
+The goal of the Hermes project is to provide a _seamless_ solution that
 utilizes DDSH without or requiring only minor application changes.
 
 (Even without a deep DDSH, determined users have created original
 solutions to overcome I/O performance challenges. See use cases for an example. Many of them can be
 considered custom, i.e., application-specific, I/O buffering systems.)
 
-# How We Do It
+## How We Do It
 
-[[../images/Hermes_Core_Lib_internals.jpg|Hermes Core]]
+![Hermes Core](images/Hermes_Core_Lib_internals.jpg)
 
-We implement an *I/O buffering system*
+We implement an _I/O buffering system_
 with the following characteristics:
 
-  - Being seamless, it's a go-between for the by-and-large unmodified
-    applications and the PFS. Applications will see a hopefully more
-    performant PFS.
-  - Users designate certain resources to be used for I/O buffering. Like
-    most buffering systems, it has a finite capacity. When that capacity
-    is reached, the buffering system can no longer deliver noticeable
-    benefits and may perform as poorly as (or worse) than the unbuffered
-    system (going to PFS).
-  - Users express I/O priorities, constraints, and hints via buffering policies.
-  - Given individual or batches of I/O operations (writes and reads),
-    the **main challenge** for such a buffering system is to determine
-    where in DDSH a given data item is <b>best/well/optimally-</b>placed at
-    that point in time.
-  - To that end, the system consists of the following major components:
-      - [Strategies and algorithms](06-Hermes-components/04-Data-Placement-Strategies.md) that
-        implement policies and facilitate
-        data placement decisions. Speculative data
-        placement for read operations is also known as
-        [prefetching](06-Hermes-components/09-Prefetcher.md).
-      - These strategies work with (dynamic) sets of [buffering
-        target](06-Hermes-components/03-Buffering-Target.md)s and are applicable more
-        broadly.
-      - The physical buffering resources are managed in a distributed
-        [buffer pool](06-Hermes-components/02-Buffer-Pool.md) (see also Batching
-        System).
-      - [Buffer Organizer](06-Hermes-components/01-Buffer-Organizer.md)
-      - Profiler
-      - To separate concerns and for portability, system buffers are
-        **not** directly exposed to applications. There is a set of
-        intermediate primitives targeted by
-        [adapters](../03-Hermes/07-Adapters/01-Adapters.md) for different I/O libraries. A
-        generic [metadata manager](06-Hermes-components/08-Metadata-Manager.md) (MDM),
-        supports the bookkeeping needs of the various components.
-  - The whole system is deployed in a server-less fashion.
+- Being seamless, it's a go-between for the by-and-large unmodified
+  applications and the PFS. Applications will see a hopefully more
+  performant PFS.
+- Users designate certain resources to be used for I/O buffering. Like
+  most buffering systems, it has a finite capacity. When that capacity
+  is reached, the buffering system can no longer deliver noticeable
+  benefits and may perform as poorly as (or worse) than the unbuffered
+  system (going to PFS).
+- Users express I/O priorities, constraints, and hints via buffering policies.
+- Given individual or batches of I/O operations (writes and reads),
+  the **main challenge** for such a buffering system is to determine
+  where in DDSH a given data item is <b>best/well/optimally-</b>placed at
+  that point in time.
+- To that end, the system consists of the following major components:
+  - [Strategies and algorithms](06-components/04-data-placement.md) that
+    implement policies and facilitate
+    data placement decisions. Speculative data
+    placement for read operations is also known as
+    [prefetching](06-components/09-prefetcher.md).
+  - These strategies work with (dynamic) sets of [buffering
+    target](06-components/03-buffering-target.md)s and are applicable more
+    broadly.
+  - The physical buffering resources are managed in a distributed
+    [buffer pool](06-components/02-buffer-pool.md) (see also Batching
+    System).
+  - [Buffer Organizer](06-components/01-buffer-organizer.md)
+  - Profiler
+  - To separate concerns and for portability, system buffers are
+    **not** directly exposed to applications. There is a set of
+    intermediate primitives targeted by
+    [adapters](07-adapters.md) for different I/O libraries. A
+    generic [metadata manager](06-components/08-distributed-metadata.md) (MDM),
+    supports the bookkeeping needs of the various components.
+- The whole system is deployed in a server-less fashion.
 
 **Note**: A buffering system does **not** provide the same semantics as
 storage.
 
-# Other Scenarios and Use Cases
+## Other Scenarios and Use Cases
 
 Our main scenario, a parallel application running on an HPC system and
 writing files to a parallel file system, might be referred to as
@@ -92,10 +92,9 @@ by-comparison stable HPC system. The concepts and techniques behind
 Hermes are by no means specific to HPC systems and their suitability
 should be examined in cloud-based environments.
 
-# Resources
+## Resources
 
-  - [Hermes: a heterogeneous-aware multi-tiered distributed I/O
-    buffering system](https://par.nsf.gov/servlets/purl/10063843)
-  - [Google
-    Drive](https://drive.google.com/drive/u/0/folders/0ALuH0a_m3nGWUk9PVA)
-
+- [Hermes: a heterogeneous-aware multi-tiered distributed I/O
+  buffering system](https://par.nsf.gov/servlets/purl/10063843)
+- [Google
+  Drive](https://drive.google.com/drive/u/0/folders/0ALuH0a_m3nGWUk9PVA)

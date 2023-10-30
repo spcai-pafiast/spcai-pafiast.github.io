@@ -39,7 +39,7 @@ A `BufferID` of 0 (node id = 0 and header index = 0) signifies the NULL
   blocks for each slab is configurable through a Hermes configuration
   file so that it can be tailored to each application's I/O pattern.
 
-[[../images/BufferPoolLayout.jpg|Buffer Pool Layout]]
+![Buffer Pool Layout](../images/BufferPoolLayout.jpg)
 
 ### Initialization
 
@@ -92,20 +92,20 @@ Below the magenta line we see the total headers, including those in use
 (green) and unused (grey). In the initial state, we have some unused
 headers to facilitate splitting buffers.
 
-[[../images/buffer_pool_visualizer_default.png]]
+![Buffer Pool Visualizer](../images/buffer_pool_visualizer_default.png)
 
 Here we have merged the yellow 4-block slab into the green 16-block
 slab. We can also see that fewer headers are in use because we now have
 fewer buffers.
 
-[[../images/buffer_pool_visualizer_merge.png]]
+![Buffer Pool Visualizer Merge](../images/buffer_pool_visualizer_merge.png)
 
 Here we have split all slabs into the smallest possible buffers,
 resulting in one slab of 1-block buffers. Here every header is used, and
 this is the maximum number of buffers the system can support for this
 particular configuration.
 
-[[../images/buffer_pool_visualizer_split.png]]
+![Buffer Pool Visualizer Split](../images/buffer_pool_visualizer_split.png)
 
 Development on the visualizer occurs on an as-needed basis, but should
 the need arise, it would be great to be able to zoom in and out, and
