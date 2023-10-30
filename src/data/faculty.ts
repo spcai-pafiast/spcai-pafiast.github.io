@@ -17,7 +17,7 @@ export default [
     title: "Research Assistant Professor",
     email: "akougkas@iit.edu",
     website: "",
-    bio: "Dr. Anthony Kougkas is the director of I/O research development within the Gnosis Research Center and the Lead Researcher on the multi-million collaborative NSF-funded project Hermes. He received his PhD under Dr. Sun and he is an expert in Parallel and Distributed Systems, Parallel I/O Optimizations, HPC Systems, I/O Convergence, and I/O Advanced Buffering.",
+    bio: "Dr. Anthony Kougkas is a Research Assistant Professor and the Deputy Director of the Gnosis Research Center, Illinois Institute of Technology. Holding a Ph.D. in Computer Science from the same institution, Anthony has dedicated his academic journey to addressing the challenges of I/O in modern supercomputers. With over nine years of leadership experience as a military officer, Anthony seamlessly transitioned to academia, where he now mentors and supervises graduate students, envisioning research directions and managing research grants. His current research focuses on optimizing I/O operations, enhancing storage infrastructures, and creating intelligent systems that adapt to the unique demands of HPC environments.",
     image: require("@site/static/img/faculty/kougkas.jpg").default,
     links: {
       email: "akougkas@iit.edu",
