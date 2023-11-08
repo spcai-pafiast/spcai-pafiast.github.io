@@ -8,6 +8,7 @@ export type Affiliation = {
 export type MemberLinkType = "website" | "email" | "github" | "linkedin" | "twitter" | "scholar";
 
 export type Member = {
+  affiliation?: string;
   advisor: string;
   bio?: string;
   image: string;
@@ -15,7 +16,7 @@ export type Member = {
   name: string;
   researchInterests?: string[];
   title: string;
-  type: "researcher" | "engineer";
+  type: "researcher" | "engineer" | "visiting";
 };
 
 export type ProjectId = "chronolog" | "coeus" | "hermes" | "iris" | "dayu";
