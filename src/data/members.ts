@@ -182,4 +182,17 @@ export default [
     researchInterests: ["HPC", "Distributed Storage", "I/O Characterization", "Containerization"],
     type: "researcher",
   },
+  {
+    name: "Dr. Harry Agyropoylos",
+    title: "Senior Researcher",
+    advisor: "Dr. Xian-He Sun",
+    affiliation: "University of Piraeus, Greece",
+    image: require("@site/static/img/members/agyropoylos.jpg").default,
+    links: {
+      email: "hagyropoylos@unipi.gr ",
+      linkedin: "https://www.linkedin.com/in/harrisagyropoulos/ ",
+    },
+    researchInterests: ["Computational Finance", "Computational Econometrics", "HPC"],
+    type: "visiting",
+  },
 ] as Member[];
