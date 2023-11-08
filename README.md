@@ -8,6 +8,11 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 $ yarn
 ```
 
+If you are using MacOS, run this after yarn installation:
+```
+yarn add docusaurus --dev
+```
+
 ### Local Development
 
 ```
