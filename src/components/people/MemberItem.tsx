@@ -20,6 +20,7 @@ export default function MemberItem({ member }: MemberItemProps) {
         </div>
         <div className="text--bold text--center">{member.name}</div>
         <div className="text--center">{member.title}</div>
+        {member.affiliation && <div className="text--center">{member.affiliation}</div>}
         <div className="text--center">{renderLinks(member.links)}</div>
         <div
           className={clsx(
