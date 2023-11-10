@@ -19,7 +19,7 @@ export type Member = {
   type: "researcher" | "engineer" | "visiting";
 };
 
-export type ProjectId = "chronolog" | "coeus" | "hermes" | "iris";
+export type ProjectId = "chronolog" | "coeus" | "hermes" | "iris" | "labios";
 
 export type Project = {
   id: ProjectId;

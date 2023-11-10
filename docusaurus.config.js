@@ -200,6 +200,10 @@ const config = {
                 label: "ChronoLog",
                 to: "/research/projects/chronolog",
               },
+	      {
+		label: "Labios",
+		to: "/research/projects/labios",
+	      },
               {
                 label: "Coeus",
                 to: "/research/projects/coeus",
