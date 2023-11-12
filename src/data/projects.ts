@@ -67,6 +67,17 @@ const projects: Project[] = [
     isFeatured: true,
     isOurs: true,
     researchStatus: "r&d",
+  },
+  {
+    id: "dtio",
+    name: "DTIO",
+    title: "DTIO: A Data Task I/O Runtime",
+    shortDescription:
+      "In partnership with Argonne National Laboratory, DTIO investigates the use of a task framework for unifying complex I/O stacks and providing features such as resilience, fault-tolerance, and task replay.",
+    link: "/research/projects/dtio",
+    isFeatured: true,
+    isOurs: true,
+    researchStatus: "testing",
     status: "active",
     type: "funded",
   },
