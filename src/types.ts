@@ -5,7 +5,13 @@ export type Affiliation = {
   url: string;
 };
 
-export type MemberLinkType = "website" | "email" | "github" | "linkedin" | "twitter" | "scholar";
+export type MemberLinkType =
+  | "website"
+  | "email"
+  | "github"
+  | "linkedin"
+  | "twitter"
+  | "scholar";
 
 export type Member = {
   affiliation?: string;
@@ -19,7 +25,14 @@ export type Member = {
   type: "researcher" | "engineer" | "visiting";
 };
 
-export type ProjectId = "chronolog" | "coeus" | "hermes" | "iris" | "dtio"| "labios";
+export type ProjectId =
+  | "chronolog"
+  | "coeus"
+  | "dayu"
+  | "hermes"
+  | "iris"
+  | "dtio"
+  | "labios";
 
 export type Project = {
   id: ProjectId;
