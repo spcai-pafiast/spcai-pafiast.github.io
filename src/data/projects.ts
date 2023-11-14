@@ -58,6 +58,17 @@ const projects: Project[] = [
     type: "funded",
   },
   {
+    id: "labios",
+    name: "Labios",
+    title: "LABIOS: A Distributed Label-Based I/O System",
+    shortDescription:
+      "HPC and Big Data environments have diverged over the years, resulting in diverging and even conflicting I/O requirements. Labios aims to address the challenges vital to HPC + Big Data Convergence",
+    link: "/research/projects/labios",
+    isFeatured: true,
+    isOurs: true,
+    researchStatus: "r&d",
+  },
+  {
     id: "dtio",
     name: "DTIO",
     title: "DTIO: A Data Task I/O Runtime",
@@ -70,6 +81,21 @@ const projects: Project[] = [
     status: "active",
     type: "funded",
   },
+  {
+    id: "viper",
+    name: "Viper",
+    title:
+      "Viper: A High-Performance I/O Framework for Transferring Deep Neural Network Models",
+    shortDescription:
+      "Within a DL workflow, exchanging DNN models through PFS may result in  high model update latency and discovery latency. Moreover, model update frequency affects both training and inference performance. Viper is an I/O framework aiming to accelerate model discovery and delivery, and to find an optimal model checkpoint schedule to balance the trade-off.",
+    link: "/research/projects/viper",
+    isFeatured: false,
+    // isOpenSource: false,
+    isOurs: true,
+    researchStatus: "r&d",
+    status: "active",
+    type: "funded",
+  }, 
 ];
 
 export default projects;
