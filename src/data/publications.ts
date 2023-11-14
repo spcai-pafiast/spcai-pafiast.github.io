@@ -49,12 +49,12 @@ const publications: Publication[] = [
   {
     authors: [
       "M. Zou",
-      "M.-Z. Zhang",
-      "R.-J. Wang",
+      "M. Zhang",
+      "R. Wang",
       "X.-H. Sun",
-      "X.-C. Ye",
-      "D.-R. Fan",
-      "Z.-M. Tang",
+      "X. Ye",
+      "D. Fan",
+      "Z. Tang",
     ],
     title:
       "Skyway: Accelerate Graph Applications with a Dual-Path Architecture and Fine-Grained Data Management",
@@ -79,13 +79,7 @@ const publications: Publication[] = [
       "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC'23), November 12-17, 2023",
     type: "Conference",
     date: "November, 2023",
-    tags: [
-      "Data Analytics",
-      "Visualization & Storage",
-      "Performance Measurement",
-      "Modeling",
-      "Tools",
-    ],
+    tags: ["Data Analytics", "Performance Measurement", "Modeling", "Tools"],
     links: {},
   },
   {
@@ -121,7 +115,6 @@ const publications: Publication[] = [
       "Memory-Bounded Speedup",
       "Scalable Computing",
       "Memory-Wall",
-      "Performance Modeling and Optimization",
       "Data-Centric Design",
     ],
     links: {
@@ -147,7 +140,7 @@ const publications: Publication[] = [
       "The 29th IEEE International Symposium on High-Performance Computer Architecture (HPCA-29), Montreal, QC, Canada, February 25 - March 01, 2023",
     type: "Conference",
     date: "February, 2023",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/chen2023icache.pdf",
       slides: "http://cs.iit.edu/~scs/assets/files/chen2023icache-slides.pdf",
@@ -163,7 +156,7 @@ const publications: Publication[] = [
       "The 29th IEEE International Symposium on High-Performance Computer Architecture (HPCA-29), Montreal, QC, Canada, February 25 - March 01, 2023",
     type: "Conference",
     date: "February, 2023",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/lu2023care.pdf",
       slides: "http://cs.iit.edu/~scs/assets/files/lu2023care-slides.pdf",
@@ -175,7 +168,7 @@ const publications: Publication[] = [
     authors: [
       "K. Bateman",
       "N. Rajesh",
-      "J. Cernuda Garcia",
+      "J. Cernuda",
       "L. Logan",
       "J. Ye",
       "S. Herbein",
@@ -191,7 +184,7 @@ const publications: Publication[] = [
     tags: [
       "Resource Provisioning",
       "I/O Behavior",
-      "Storage Auto-tuning",
+      "Storage Auto-Tuning",
       "ChronoLog",
     ],
     links: {
@@ -238,7 +231,7 @@ const publications: Publication[] = [
   {
     authors: [
       "L. Logan",
-      "J. Cernuda Garcia",
+      "J. Cernuda",
       "J. Lofstead",
       "X.-H. Sun",
       "A. Kougkas",
@@ -303,7 +296,7 @@ const publications: Publication[] = [
     venue: "The IEEE Computer Architecture Letters (CAL'2022)",
     type: "Journal",
     date: "May, 2022",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/zou2022accelerating.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/zou2022accelerating.bib",
@@ -347,7 +340,7 @@ const publications: Publication[] = [
       "The 2022 Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS'22), Feb 28 - Mar 4, 2022",
     type: "Conference",
     date: "February, 2022",
-    tags: [""],
+    tags: [],
     links: {
       citation: "http://cs.iit.edu/~scs/assets/files/dang2021nvalloc.txt",
     },
@@ -452,7 +445,7 @@ const publications: Publication[] = [
       "The 2021 IEEE 39th International Conference on Computer Design (ICCD'21), October 24 - 27, 2021",
     type: "Conference",
     date: "October, 2021",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/lu2021premier.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/lu2021premier.bib",
@@ -503,7 +496,7 @@ const publications: Publication[] = [
       "The 2021 IEEE International Conference on Cluster Computing (CLUSTER'21), September 7-10, 2021",
     type: "Conference",
     date: "September, 2021",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/chen2021CSWAP.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/chen2021CSWAP.bib",
@@ -550,7 +543,7 @@ const publications: Publication[] = [
       "The 2021 ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED'21), July 26, 2021",
     type: "Conference",
     date: "July, 2021",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/yan2021COPIM.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/yan2021COPIM.bib",
@@ -576,7 +569,7 @@ const publications: Publication[] = [
     authors: [
       "N. Rajesh",
       "H. Devarajan",
-      "J. Cernuda Garcia",
+      "J. Cernuda",
       "K. Bateman",
       "L. Logan",
       "J. Ye",
@@ -617,7 +610,7 @@ const publications: Publication[] = [
       "Data-Intensive",
       "I/O",
       "Characterization",
-      "Tensorflow",
+      "TensorFlow",
       "Data Pipeline",
       "Hermes",
     ],
@@ -670,7 +663,7 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["Z. Ye", "Y. Wang", "S. He", "C-Z. Xu", "X.-H. Sun"],
+    authors: ["Z. Ye", "Y. Wang", "S. He", "C.-Z. Xu", "X.-H. Sun"],
     title:
       "Sova: A Software-Defined Autonomic Framework for Virtual Network Allocations",
     venue:
@@ -709,7 +702,7 @@ const publications: Publication[] = [
       "Intelligent Selection",
       "Dynamic Programming",
       "Cloud Application",
-      "Scientific Application",
+      "Scientific Applications",
       "Big Data",
       "Hermes",
     ],
@@ -744,13 +737,13 @@ const publications: Publication[] = [
     type: "Journal",
     date: "November, 2020",
     tags: [
-      "Label-based I/O",
+      "Label-Based I/O",
       "Storage Bridging",
       "Heterogeneous I/O",
       "Datalabels",
-      "Task-based I/O",
+      "Task-Based I/O",
       "Exascale I/O",
-      "Energy-aware I/O",
+      "Energy-Aware I/O",
       "Elastic Storage",
     ],
     links: {
@@ -766,7 +759,7 @@ const publications: Publication[] = [
       "The International Conference for High Performance Computing, Networking, Storage and Analysis (SC'20)",
     type: "Poster",
     date: "November, 2020",
-    tags: [""],
+    tags: [],
     links: {
       poster:
         "http://cs.iit.edu/~scs/assets/files/rajesh2020characterizing-poster.pdf",
@@ -786,7 +779,7 @@ const publications: Publication[] = [
       "The International Conference for High Performance Computing, Networking, Storage and Analysis (SC'20)",
     type: "Poster",
     date: "November, 2020",
-    tags: [""],
+    tags: [],
     links: {
       poster:
         "http://cs.iit.edu/~scs/assets/files/devarajan2020understanding-poster.pdf",
@@ -818,7 +811,7 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["X. Lu", "R Wang", "X.-H. Sun"],
+    authors: ["X. Lu", "R. Wang", "X.-H. Sun"],
     title:
       "APAC: An Accurate and Adaptive Prefetch Framework with Concurrent Memory Access Analysis",
     venue:
@@ -844,7 +837,7 @@ const publications: Publication[] = [
       "Performance Modeling",
       "Disaggregated Memory",
       "C-AMAT",
-      "Perfor-mance Evaluation",
+      "Performance Evaluation",
       "Utilization",
       "RAN",
     ],
@@ -975,8 +968,8 @@ const publications: Publication[] = [
     type: "Journal",
     date: "April, 2020",
     tags: [
-      "Parallel I/O System",
-      "Parallel File system",
+      "Parallel I/O",
+      "Parallel File System (PFS)",
       "Hybrid Parallel File System",
       "Data Placement",
       "Solid State Drive",
@@ -1066,7 +1059,7 @@ const publications: Publication[] = [
       "Integrated Workflow",
       "Data Aggregation",
       "KVS",
-      "PFS",
+      "Parallel File System (PFS)",
     ],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/NIOBE_PDF_A.pdf",
@@ -1075,7 +1068,7 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["H. Devarajan", "A.Kougkas", "X.-H. Sun"],
+    authors: ["H. Devarajan", "A. Kougkas", "X.-H. Sun"],
     title:
       "HFetch: Hierarchical Data Prefetching in Multi-Tiered Storage Environments",
     venue:
@@ -1117,7 +1110,7 @@ const publications: Publication[] = [
       "The International Conference for High Performance Computing, Networking, Storage and Analysis (SC'19)",
     type: "Poster",
     date: "November, 2019",
-    tags: [""],
+    tags: [],
     links: {
       poster: "http://cs.iit.edu/~scs/assets/files/cernuda2019eviction.pdf",
       "extended abstract":
@@ -1135,7 +1128,7 @@ const publications: Publication[] = [
     type: "Journal",
     date: "November, 2019",
     tags: [
-      "Memory Wall",
+      "Memory-Wall",
       "Memory Stall Time",
       "Efficiency",
       "Performance Optimization",
@@ -1198,7 +1191,7 @@ const publications: Publication[] = [
       "IEEE Transactions on Parallel and Distributed Systems (TPDS), vol. 30, no. 3, pp. 662 - 676",
     type: "Journal",
     date: "March, 2019",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/wang2019cost.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/wang2019cost.bib",
@@ -1229,7 +1222,7 @@ const publications: Publication[] = [
       "IEEE Transactions on Computers (TC), vol. 67, no. 10, pp. 1374-1387",
     type: "Journal",
     date: "October, 2018",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/he2018cost.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2018cost.bib",
@@ -1260,7 +1253,7 @@ const publications: Publication[] = [
       "The IEEE International Conference on Cluster Computing 2018 (Cluster'18), Belfast, UK2018. pp. 114-123.",
     type: "Conference",
     date: "September, 2018",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/SciDP_Kun2018.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/feng2018scidp.bib",
@@ -1274,7 +1267,7 @@ const publications: Publication[] = [
     venue: "IEEE Transactions on Big Data, vol. 5, no. 2, pp. 273-288",
     type: "Journal",
     date: "June, 2018",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/Cal.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/liu2018cal.bib",
@@ -1289,7 +1282,7 @@ const publications: Publication[] = [
       "The 32nd ACM International Conference on Supercomputing (ICS), Bejing, China2018. pp. 33-42.",
     type: "Conference",
     date: "June, 2018",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/IRIS.pdf",
       slides: "http://cs.iit.edu/~scs/assets/files/IRIS_slides.pdf",
@@ -1321,7 +1314,7 @@ const publications: Publication[] = [
       "The 32nd IEEE International Parallel and Distributed Processing Symposium (IPDPS'18), Vancouver, Canada2018. pp. 1133-1142.",
     type: "Conference",
     date: "May, 2018",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/shuibing_ipdps2018.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2018migratory.bib",
@@ -1329,14 +1322,14 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["X. Wang", "X. Yang", "M. mubarak", "R. Ross", "Z. Lan"],
+    authors: ["X. Wang", "X. Yang", "M. Mubarak", "R. Ross", "Z. Lan"],
     title:
       "Trade-off Study of Localizing Communication and Balancing Network Traffic on Dragonfly System",
     venue:
       "The 32nd IEEE International Parallel and Distributed Processing Symposium (IPDPS'18), Vancouver, Canada2018. pp. 1113-1122.",
     type: "Conference",
     date: "May, 2018",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/xingwang_ipdps2018.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/wang2018trade.bib",
@@ -1357,7 +1350,7 @@ const publications: Publication[] = [
       "The ACM International Conference on Computing Frontiers 2018 (CF'18), Italy, 2018. pp. 252-255",
     type: "Workshop",
     date: "May, 2018",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/haider_2018.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/haider2018horizon.bib",
@@ -1372,7 +1365,7 @@ const publications: Publication[] = [
       "The ACM SIGHPC 8th International Workshop on Data-Intensive Computing in the Clouds (DataCloud 2017), in conjunction with SC'17, Denver, CO, USA",
     type: "Workshop",
     date: "November, 2017",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/Enosis.pdf",
       slides: "http://cs.iit.edu/~scs/assets/files/Enosis_slides.pdf",
@@ -1388,7 +1381,7 @@ const publications: Publication[] = [
       "The ACM SIGHPC 8th International Workshop on Data-Intensive Computing in the Clouds (DataCloud 2017), in conjunction with SC'17, Denver, CO, USAvol. 17",
     type: "Workshop",
     date: "November, 2017",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/OED_DataCloud17.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/devarajan2014open.bib",
@@ -1402,7 +1395,7 @@ const publications: Publication[] = [
       "The ACM SIGHPC 1st International Workshop on Memory Centric Programming for HPC (MCHPC 2017), in conjunction with SC'17, Denver, CO. USA2017. pp. 35-39",
     type: "Workshop",
     date: "November, 2017",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/C-AMAT_GPGPU.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/zhang2017evaluating.bib",
@@ -1417,7 +1410,7 @@ const publications: Publication[] = [
       "The ACM SIGHPC 1st International Workshop on Memory Centric Programming for HPC (MCHPC 2017), in conjunction with SC'17, Denver, CO. USA2017. pp. 2-6",
     type: "Workshop",
     date: "November, 2017",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://dl.acm.org/citation.cfm?id=3158212",
       bibtex: "http://cs.iit.edu/~scs/assets/files/yan2017principles.bib",
@@ -1432,7 +1425,7 @@ const publications: Publication[] = [
       "The ACM SIGHPC 8th International Workshop on Many-Task Computing on Clouds, Grids, and Supercomputers (MTAGS 2017), in conjunction with SC'17, Denver, CO, USA",
     type: "Workshop",
     date: "November, 2017",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/Syndesis.pdf",
       slides: "http://cs.iit.edu/~scs/assets/files/Syndesis_slides.pdf",
@@ -1448,7 +1441,7 @@ const publications: Publication[] = [
       "The IEEE International Conference on Cluster Computing 2017 (Cluster'17), Hawaii, USA 2017, pp. 530-540.",
     type: "Conference",
     date: "September, 2017",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://www.cs.iit.edu/~zlan/publications/cluster17_final.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/fan2017trade.bib",
@@ -1463,7 +1456,7 @@ const publications: Publication[] = [
       "ACM Transactions on Modeling and Computer Simulation (TOMACS) - Special Issue on PADS 2015, vol. 27, no. 2, pp. 13:1-13:23",
     type: "Journal",
     date: "July, 2017",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://publish.illinois.edu/science-of-security-lablet/files/2014/05/A-Modeling-and-Simulation-of-Extreme-Scale-Fat-Tree-Networks-for-HPC-Systems-and-Data-Centers.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/liu2017modeling.bib",
@@ -1471,13 +1464,13 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["A. Kougkas", "H. Eslami", "R. Thakur", "W. Group", "X.-H. Sun"],
+    authors: ["A. Kougkas", "H. Eslami", "R. Thakur", "W. D. Gropp", "X.-H. Sun"],
     title: "Rethinking Key Value Store for Parallel I/O Optimization",
     venue:
       "International Journal of High Performance Applications,2017. vol. 31, no. 4, pp. 335-356",
     type: "Journal",
     date: "July, 2017",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/Anthony_kvstore_journal.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/kougkas2017rethinking.bib",
@@ -1492,7 +1485,7 @@ const publications: Publication[] = [
       "IEEE Transactions on Parallel and Distributed Systems (TPDS), vol. 28, no. 7, pp. 1853-1865",
     type: "Journal",
     date: "June, 2017",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/Cost-Aware%20Region-Level%20Data%20Placement%20in%20Multi-Tiered%20Parallel%20IO%20Systems.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2017cost.bib",
@@ -1507,7 +1500,7 @@ const publications: Publication[] = [
     venue: "IEEE Transactions on Computers (TC), vol. 66, no. 6, pp. 1091-1098",
     type: "Journal",
     date: "June, 2017",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/Heterogeneity-Aware%20Collective%20IO%20for%20Parallel%20IO%20Systems%20with%20Hybrid%20HDD_SSD%20Servers.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2017heterogeneity.bib",
@@ -1522,7 +1515,7 @@ const publications: Publication[] = [
     venue: "IEEE Transactions on Computers (TC), vol. 66, no. 6, pp. 1048-1060",
     type: "Journal",
     date: "June, 2017",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/HARL%20Optimizing%20Parallel%20File%20Systems%20with%20Heterogeneity-Aware%20Region-Level%20Data%20Layout.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2017harl.bib",
@@ -1538,7 +1531,7 @@ const publications: Publication[] = [
       "The 21st workshop on Job Scheduling Strategies for Parallel Processing (JSSPP), Vancouver, Canada2017, pp. 1-24",
     type: "Workshop",
     date: "May, 2017",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/JSSPP_17.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/allcock2017experience.bib",
@@ -1546,14 +1539,14 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["Y-H.Liu", "X-H. Sun"],
+    authors: ["Y.-H. Liu", "X.-H. Sun"],
     title:
       "Evaluating the Combined Effect of Memory Capacity and Concurrency for Many-core Chip Design",
     venue:
       "ACM Transactions on Modeling and Performance Evaluation of Computing Systems (TOMPECS), 2017. vol. 2, no. 2, pp. 9:1-9:25",
     type: "Journal",
     date: "April, 2017",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/TOMPECS-liu.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/liu2017evaluating.bib",
@@ -1568,7 +1561,7 @@ const publications: Publication[] = [
       "IEEE Transactions on Parallel and Distributed Systems (TPDS), 2017. vol. 28, no. 4, pp. 1202-1204",
     type: "Journal",
     date: "April, 2017",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/Sbing_MinMAX-Memory17.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2017using.bib",
@@ -1584,7 +1577,7 @@ const publications: Publication[] = [
       "4th International Workshop on Distributed Storage Systems and Coding for Big Data, in conjunction with IEEE BigData 2016. Washington, D.C., USA",
     type: "Workshop",
     date: "December, 2016",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://www.mcs.anl.gov/~kettimut/publications/BigData16.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/liu2016towards.bib",
@@ -1607,7 +1600,7 @@ const publications: Publication[] = [
       "IEEE Transactions on Parallel and Distributed Systems (TPDS), vol. 27, no. 11, pp. 3269-3282",
     type: "Journal",
     date: "November, 2016",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/TPDS2016-shuibing-02.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/zhou2015improving.bib",
@@ -1622,7 +1615,7 @@ const publications: Publication[] = [
       "IEEE Transactions on Parallel and Distributed Systems (TPDS), vol. 27, no. 10, pp. 2940-2952",
     type: "Journal",
     date: "November, 2016",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel7/71/7563479/07390309.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2016improving.bib",
@@ -1637,7 +1630,7 @@ const publications: Publication[] = [
       "International Journal of High Performance Computing Applications (IJHPCA), vol. 30, no 4, pp. 396-410",
     type: "Journal",
     date: "November, 2016",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://journals.sagepub.com/doi/pdf/10.1177/1094342016631610",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2016enhancing.bib",
@@ -1645,14 +1638,14 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["X. Yang", "J. Jenkins", "M. Mubarak", "R. Ross", "Z.Lan"],
+    authors: ["X. Yang", "J. Jenkins", "M. Mubarak", "R. Ross", "Z. Lan"],
     title:
       "Watch Out for the Bully! Job Interference Study on Dragonfly Network",
     venue:
       "ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis 2016 (SC'16), Salt Lake City, Utah, USA2016, pp. 750-760",
     type: "Conference",
     date: "November, 2016",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://mypages.iit.edu/~xyang56/papers/sc16-bully.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/yang2016watch.bib",
@@ -1675,7 +1668,7 @@ const publications: Publication[] = [
       "ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis 2016 (SC'16), Salt Lake City, Utah, USA2016, pp. 656-666",
     type: "Conference",
     date: "November, 2016",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/Wallace_SC_16.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/wallace2016data.bib",
@@ -1696,7 +1689,7 @@ const publications: Publication[] = [
       "Eleventh IEEE/ACM/IFIP International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS'16), Pittsburgh, PA, USApp. 1-10. 2016.",
     type: "Conference",
     date: "October, 2016",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://dl.acm.org/ft_gateway.cfm?id=2968457&type=pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/li2016efficient.bib",
@@ -1711,7 +1704,7 @@ const publications: Publication[] = [
       "6th IEEE International Conference on Big Data and Cloud Computing (BDCloud 2016), Atlanta, GA2016, pp. 89-96",
     type: "Conference",
     date: "October, 2016",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/bdcloud16.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/yang2016visualization.bib",
@@ -1733,7 +1726,7 @@ const publications: Publication[] = [
     venue: "Journal of Parallel Computing (ParCo), vol. 58, no. C, pp. 107-116",
     type: "Journal",
     date: "October, 2016",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -1742,7 +1735,7 @@ const publications: Publication[] = [
     venue: "The eScience'16, Baltimore, Maryland, USA2016, pp. 371-380",
     type: "Conference",
     date: "October, 2016",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/eScience16.pdf",
       slides: "http://cs.iit.edu/~scs/assets/files/eScience16_slides.pdf",
@@ -1758,7 +1751,7 @@ const publications: Publication[] = [
       "IEEE Transactions on Parallel and Distributed Systems (TPDS), 2016. vol. 27, no. 9, pp. 2492-2505",
     type: "Journal",
     date: "September, 2016",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/TPDS2016-shuibing-01.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2016boosting.bib",
@@ -1772,7 +1765,7 @@ const publications: Publication[] = [
     venue: "Journal of Cluster Computing, 2016. vol. 19, no. 4, pp. 2241-2250",
     type: "Journal",
     date: "September, 2016",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/baoyu.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/xu2016memory.bib",
@@ -1786,7 +1779,7 @@ const publications: Publication[] = [
       "29th International Workshop on Languages and Compilers for Parallel Computing (LCPC2016) (a position paper), Sept, 2016, New York, USApp. 18-23 Springer, Cham.",
     type: "Workshop",
     date: "September, 2016",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/sluicegate-c2.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/sun2016utilizing.bib",
@@ -1807,7 +1800,7 @@ const publications: Publication[] = [
       "22nd International European Conference on Parallel and Distributed Computing (Euro-Par 2016), Grenoble, France",
     type: "Conference",
     date: "August, 2016",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://pdfs.semanticscholar.org/19d6/86007a37f599b850bfbca391a5d7d869def8.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/berrocal2016exploring.bib",
@@ -1821,7 +1814,7 @@ const publications: Publication[] = [
       "Y. Yin",
       "X.-H. Sun",
       "R. Thakur",
-      "W. Gropp",
+      "W. D. Gropp",
     ],
     title:
       "Rethinking High Performance Computing System Architecture for Scientific Big Data Applications",
@@ -1829,7 +1822,7 @@ const publications: Publication[] = [
       "14th IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA 2016), Tianjin, China",
     type: "Conference",
     date: "August, 2016",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/Yong_ISPA16.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/chen2016rethinking.bib",
@@ -1844,7 +1837,7 @@ const publications: Publication[] = [
       "36th International Conference on Distributed Computing Systems (ICDCS), Nara Hotel, Nara, Japan",
     type: "Poster",
     date: "June, 2016",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel7/7529829/7536347/07536575.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/wang2016minmax.bib",
@@ -1858,7 +1851,7 @@ const publications: Publication[] = [
     venue: "53rd Design Automation Conference (DAC'16), Texas, Austin, USA",
     type: "Conference",
     date: "June, 2016",
-    tags: [""],
+    tags: [],
     links: { pdf: "https://dl.acm.org/ft_gateway.cfm?id=2898012&type=pdf" },
   },
   {
@@ -1876,7 +1869,7 @@ const publications: Publication[] = [
       "IEEE Transactions on Parallel and Distributed Systems (TPDS), 2016. vol. 27, no. 6, pp. 1824-1837",
     type: "Journal",
     date: "June, 2016",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/TPDS2016-dongfang.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/zhao2016towards.bib",
@@ -1890,7 +1883,7 @@ const publications: Publication[] = [
     venue: "PDSW-DISCS'16, in conjunction with SC'16",
     type: "Workshop",
     date: "January, 2016",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/Anthony_oed_pdsw16.pdf",
       slides: "http://cs.iit.edu/~scs/assets/files/OED_PDSW16_slides.pdf",
@@ -1905,7 +1898,7 @@ const publications: Publication[] = [
       "22nd annual IEEE International Conference on High Performance Computing (HiPC 2015), Bengaluru, India",
     type: "Conference",
     date: "December, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/IC-Data.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/haider2015ic.bib",
@@ -1919,7 +1912,7 @@ const publications: Publication[] = [
       "22nd annual IEEE International Conference on High Performance Computing (HiPC 2015), Bengaluru, India",
     type: "Conference",
     date: "December, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/dominoes.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/yang2015dominoes.bib",
@@ -1927,14 +1920,14 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["Yu-Hang Liu", "Xian-He Sun"],
+    authors: ["Y.-H. Liu", "X.-H. Sun"],
     title:
       "C^2-bound: A Capacity and Concurrency driven Analytical Model for Manycore Design",
     venue:
       "ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis 2015 (SC'15). Texas, Austin, USA",
     type: "Conference",
     date: "November, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/SC%20paper-pub.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/liu2015c.bib",
@@ -1949,7 +1942,7 @@ const publications: Publication[] = [
       "T. Kasampalis",
       "K. Feng",
       "Y. Lu",
-      "W. Gropp",
+      "W. D. Gropp",
       "X.-H. Sun",
       "Y. Chen",
       "R. Thakur",
@@ -1960,7 +1953,7 @@ const publications: Publication[] = [
       "Data Intensive Scalable Computing Systems Workshop (DISCS), in conjunction with ACM/IEEE SuperComputing 2015, Austin, TX, USA",
     type: "Workshop",
     date: "November, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://dl.acm.org/ft_gateway.cfm?ftid=1643727&id=2831249",
       bibtex: "http://cs.iit.edu/~scs/assets/files/eslami2015efficient.bib",
@@ -1975,7 +1968,7 @@ const publications: Publication[] = [
       "ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis 2015 (SC'15). Texas, Austin, USA",
     type: "Poster",
     date: "November, 2015",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -1985,7 +1978,7 @@ const publications: Publication[] = [
       "IEEE International Conference on Big Data (IEEE BigData 2015). Santa Clara, CA, USA",
     type: "Conference",
     date: "October, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/PortHadoop_ieee.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/yang2015porthadoop.bib",
@@ -2008,7 +2001,7 @@ const publications: Publication[] = [
       "Big Data in the Geosciences Workshop, in conjunction with IEEE International Conference on Big Data (IEEE BigData 2015). Santa Clara, CA, USA",
     type: "Workshop",
     date: "October, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/framework_zhou.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/zhou2015hadoop.bib",
@@ -2032,7 +2025,7 @@ const publications: Publication[] = [
       "IEEE International Conference on Cluster Computing 2015 (Cluster'15), Chicago, IL, USA",
     type: "Conference",
     date: "September, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel7/7307300/7307539/07307589.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/wang2015overcoming.bib",
@@ -2046,7 +2039,7 @@ const publications: Publication[] = [
       "IEEE International Conference on Cluster Computing 2015 (Cluster'15), Chicago, IL, USA",
     type: "Workshop",
     date: "September, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/bo_cluster15_IOSIG+.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/feng2015iosig+.bib",
@@ -2061,7 +2054,7 @@ const publications: Publication[] = [
       "IEEE International Conference on Cluster Computing 2015 (Cluster'15), Chicago, IL, USA",
     type: "Conference",
     date: "September, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/fastfit.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/feng2015fast.bib",
@@ -2083,7 +2076,7 @@ const publications: Publication[] = [
       "IEEE International Conference on Cluster Computing 2015 (Cluster'15), Chicago, IL, USA",
     type: "Conference",
     date: "September, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel7/7307300/7307539/07307592.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/zhou2015aware.bib",
@@ -2091,13 +2084,13 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["Yu-Hang Liu", "Xian-He Sun"],
+    authors: ["Y.-H. Liu", "X.-H. Sun"],
     title: "LPM: Concurrency-driven Layered Performance Matching",
     venue:
       "44th International Conference on Parallel Processing (ICPP'15), Beijing, China",
     type: "Conference",
     date: "September, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/LPM-pub.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/liu2015lpm.bib",
@@ -2112,7 +2105,7 @@ const publications: Publication[] = [
       "44th International Conference on Parallel Processing (ICPP'15), Beijing, China",
     type: "Conference",
     date: "September, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/harl-cr.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2015heterogeneity.bib",
@@ -2127,7 +2120,7 @@ const publications: Publication[] = [
       "44th International Conference on Parallel Processing (ICPP'15), Beijing, China",
     type: "Conference",
     date: "September, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/LCIndex.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/feng2015lcindex.bib",
@@ -2142,7 +2135,7 @@ const publications: Publication[] = [
       "29th ACM SIGSIM Conference on Principles of Advanced Discrete Simulation (ACM SIGSIM PADS), London, UK",
     type: "Poster",
     date: "June, 2015",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -2152,7 +2145,7 @@ const publications: Publication[] = [
       "29th International Conference on Supercomputing (ICS'15), Newport Beach, CA. USA",
     type: "Conference",
     date: "June, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://www.cs.fsu.edu/~yuw/pubs/2015-ICS-Yu.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/wang2015dacache.bib",
@@ -2173,7 +2166,7 @@ const publications: Publication[] = [
     venue: "IEEE Transaction on Cloud Computing, vol. 3, no. 2, pp. 101-104",
     type: "Journal",
     date: "June, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/auto_provision_tcc15.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/ranjan2015recent.bib",
@@ -2188,7 +2181,7 @@ const publications: Publication[] = [
       "29th ACM SIGSIM Conference on Principles of Advanced Discrete Simulation (ACM SIGSIM PADS), London, UK",
     type: "Conference",
     date: "June, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/fattreesim.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/liu2015fattreesim.bib",
@@ -2196,14 +2189,14 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["S. He", "X.-H. Sun", "A. Haide"],
+    authors: ["S. He", "X.-H. Sun", "A. Haider"],
     title:
       "HAS: Heterogeneity-Aware Selective Data Layout Scheme for Parallel File Systems on Hybrid Servers",
     venue:
       "29th IEEE International Parallel and Distributed Processing Symposium (IPDPS'15), Hyderabad, India",
     type: "Conference",
     date: "May, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/has_ipdps15.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2015has.bib",
@@ -2226,7 +2219,7 @@ const publications: Publication[] = [
       "29th IEEE International Parallel and Distributed Processing Symposium (IPDPS'15), Hyderabad, India",
     type: "Conference",
     date: "May, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel7/7159926/7161257/07161532.pdf",
     },
@@ -2238,7 +2231,7 @@ const publications: Publication[] = [
       "15th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid 2015), Shenzhen, Guangdong, China",
     type: "Conference",
     date: "May, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/Ning_CCGrid15.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/liu2015yarnsim.bib",
@@ -2246,13 +2239,13 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["J. Wu", "X. Xiong", "Z.Lan"],
+    authors: ["J. Wu", "X. Xiong", "Z. Lan"],
     title:
       "Hierarchical Task Mapping for Parallel Applications on Supercomputers",
     venue: "The Journal of Supercomputing, vol. 71, no. 5, pp. 1776-1802",
     type: "Journal",
     date: "May, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://link.springer.com/article/10.1007/s11227-014-1324-5",
       bibtex: "http://cs.iit.edu/~scs/assets/files/wu2015hierarchical.bib",
@@ -2260,13 +2253,13 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["Z. Zheng", "L. Yu", "Z.Lan"],
+    authors: ["Z. Zheng", "L. Yu", "Z. Lan"],
     title:
       "Reliability-Aware Speedup Models for Parallel Applications with Coordinated Checkpointing/Restart",
     venue: "IEEE Transactions on Computers, vol. 64, no. 5, pp. 1402-1415",
     type: "Journal",
     date: "May, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel7/12/7079452/06798722.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/zheng2015reliability.bib",
@@ -2274,14 +2267,14 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["Yuhang Liu", "Xian-He Sun"],
+    authors: ["Y. Liu", "X.-H. Sun"],
     title:
       "Reevaluating Data Stall Time with the Consideration of Data Access Concurrency",
     venue:
       "Journal Of Computer Science And Technology, vol. 30, no. 2, pp. 227-245",
     type: "Journal",
     date: "March, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/Reevaluating%20Data%20Stall%20Time%20with%20the%20Consideration%20of%20Data%20Access.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/liu2015reevaluating.bib",
@@ -2295,7 +2288,7 @@ const publications: Publication[] = [
       "The Handbook on Data Centers, Springer, 2015, pp 561-582, Print ISBN: 978-1-4939-2091-4, Online ISBN: 978-1-4939-2092-1",
     type: "Journal",
     date: "January, 2015",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://link.springer.com/chapter/10.1007/978-1-4939-2092-1_18",
       bibtex: "http://cs.iit.edu/~scs/assets/files/yin2015and.bib",
@@ -2310,7 +2303,7 @@ const publications: Publication[] = [
       "Data Intensive Scalable Computing Systems Workshop (DISCS), in conjunction with ACM/IEEE SuperComputing 2014, New Orleans, LA, USA",
     type: "Workshop",
     date: "November, 2014",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/psa-discs14.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2014psa.bib",
@@ -2325,7 +2318,7 @@ const publications: Publication[] = [
       "9th Parallel Data Storage Workshop (PDSW'14), in conjunction with ACM/IEEE SuperComputing 2014, New Orleans, LA, USA",
     type: "Workshop",
     date: "November, 2014",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/HPIS3.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/feng2014hpis3.bib",
@@ -2341,14 +2334,14 @@ const publications: Publication[] = [
       "Y. Lu",
       "X.-H. Sun",
       "R. Thakur",
-      "W. Gropp",
+      "W. D. Gropp",
     ],
     title: "Rethinking Key-Value Store for Parallel I/O Optimization",
     venue:
       "Data Intensive Scalable Computing Systems Workshop (DISCS), in conjunction with ACM/IEEE SuperComputing 2014, New Orleans, LA, USA",
     type: "Workshop",
     date: "November, 2014",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/KVStore-DISCS-2014.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/yin2014rethinking.bib",
@@ -2362,7 +2355,7 @@ const publications: Publication[] = [
       "International Conference on Cluster Computing 2014 (Cluster'14), Madrid, Spain",
     type: "Conference",
     date: "September, 2014",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/SCALER_xyang.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/yang2014scaler.bib",
@@ -2376,7 +2369,7 @@ const publications: Publication[] = [
       "IEEE International Conference on Cluster Computing 2014 (Cluster'14), Madrid, Spain",
     type: "Conference",
     date: "September, 2014",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel7/6957006/6968662/06968757.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/berrocal2014exploring.bib",
@@ -2391,7 +2384,7 @@ const publications: Publication[] = [
       "IEEE International Conference on Cluster Computing 2014 (Cluster'14), Madrid, Spain",
     type: "Conference",
     date: "September, 2014",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel7/6957006/6968662/06968751.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/yang2014balancing.bib",
@@ -2414,7 +2407,7 @@ const publications: Publication[] = [
       "Seventh International Workshop on Parallel Programming Models and Systems Software for High-End Computing (P2S2), in conjunction with the International Conference on Parallel Processing (ICPP-2014), Minneapolis, MN, USA",
     type: "Workshop",
     date: "September, 2014",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel7/7101393/7103416/07103466.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/chen2014decoupled.bib",
@@ -2428,7 +2421,7 @@ const publications: Publication[] = [
       "14th International Conference on Algorithms and Architectures for Parallel Processing (ICA3PP), Dalian, China",
     type: "Conference",
     date: "August, 2014",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/padp.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2014performance.bib",
@@ -2436,13 +2429,13 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["Dawei Wang", "Xian-He Sun"],
+    authors: ["D. Wang", "X.-H. Sun"],
     title:
       "APC: A Novel Memory Metric and Measurement Methodology for Modern Memory System",
     venue: "IEEE Transactions on Computers, vol. 63, no. 7, pp. 1626-1639",
     type: "Journal",
     date: "July, 2014",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/APC_TC.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/wang2014apc.bib",
@@ -2455,7 +2448,7 @@ const publications: Publication[] = [
     venue: "Communication of CCF, vol. 10, no. 6, pp. 19-22",
     type: "Journal",
     date: "June, 2014",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/C-AMAT_CCCF_JUNE_2014.pdf",
     },
@@ -2467,7 +2460,7 @@ const publications: Publication[] = [
       "International Conference on Distributed Computing Systems (ICDCS), Madrid, Spain",
     type: "Conference",
     date: "June, 2014",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/s4d-cache-CR.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2014s4d.bib",
@@ -2480,7 +2473,7 @@ const publications: Publication[] = [
     venue: "IEEE Computer, vol. 47, no. 5, pp. 74-80",
     type: "Journal",
     date: "May, 2014",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/SUN-ConcurrentAMAT__IEEE_May2014.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/sun2014concurrent.bib",
@@ -2488,12 +2481,12 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["Xian-He Sun"],
+    authors: ["X.-H. Sun"],
     title: "Concurrent-AMAT: a mathematical model for Big Data access",
     venue: "HPC Today",
     type: "Journal",
     date: "May, 2014",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://www.hpctoday.eu/state-of-the-art/c-amat-a-model-for-big-data-access/",
     },
@@ -2514,7 +2507,7 @@ const publications: Publication[] = [
       "International Conference for High Performance Computing, Networking, Storage and Analysis, Denver, CO, USA",
     type: "Conference",
     date: "November, 2013",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://www.cs.iit.edu/~lan/publications/sc13_final.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/yang2013integrating.bib",
@@ -2526,15 +2519,15 @@ const publications: Publication[] = [
       "J. He",
       "J. Kowalkowski",
       "M. Paterno",
-      "D. Holmgren",
-      "J. Simone",
+      "D. J. Holmgren",
+      "J. N. Simone",
       "X.-H. Sun",
     ],
     title: "Layout-Aware Scientific Computing-A Case Study using the MILC Code",
     venue: "Journal of Computational Science, vol. 4, no. 6, pp. 496-506",
     type: "Journal",
     date: "November, 2013",
-    tags: [""],
+    tags: [],
     links: {
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2013layout.bib",
       citation: "http://cs.iit.edu/~scs/assets/files/he2013layout.txt",
@@ -2542,14 +2535,14 @@ const publications: Publication[] = [
   },
   {
     authors: [
-      "Kun Feng",
-      "Yanlong Yin",
-      "Chao Chen",
-      "Hassan Eslami",
-      "Xian-He Sun",
-      "Yong Chen",
-      "Rajeev Thakur",
-      "William Gropp",
+      "K. Feng",
+      "Y. Yin",
+      "C. Chen",
+      "H. Eslami",
+      "X.-H. Sun",
+      "Y. Chen",
+      "R. Thakur",
+      "W. D. Gropp",
     ],
     title:
       "Runtime System Design of Decoupled Execution Paradigm for Data-Intensive High-End Computing (Poster Presentation)",
@@ -2557,7 +2550,7 @@ const publications: Publication[] = [
       "IEEE International Conference on Cluster Computing 2013 (Cluster'13), Indianapolis, IN, USA",
     type: "Conference",
     date: "September, 2013",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://www.computer.org/csdl/proceedings/cluster/2013/9999/00/06702642.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/feng2013runtime.bib",
@@ -2579,7 +2572,7 @@ const publications: Publication[] = [
       "22th International ACM Symposium on High Performance Distributed Computing (HPDC'13), New York City, NY, USA",
     type: "Conference",
     date: "September, 2013",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/jun_hpdc13.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2013acceleration.bib",
@@ -2594,7 +2587,7 @@ const publications: Publication[] = [
       "Future Generation Computer Systems (FGCS), vol. 29, no. 7, pp. 1808-1815",
     type: "Journal",
     date: "September, 2013",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://www.sciencedirect.com/science/article/pii/S0167739X13000290",
       bibtex: "http://cs.iit.edu/~scs/assets/files/jin2013performance.bib",
@@ -2602,14 +2595,14 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["Shuibing He", "Xian-He Sun", "Bo Feng", "Xin Huang", "Kun Feng"],
+    authors: ["S. He", "X.-H. Sun", "B. Feng", "X. Huang", "K. Feng"],
     title:
       "A Cost-Aware Region-Level Data Placement Scheme for Hybrid Parallel I/O Systems",
     venue:
       "IEEE International Conference on Cluster Computing 2013 (Cluster'13), Indianapolis, IN, USA",
     type: "Conference",
     date: "September, 2013",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/shuibing_cluster13.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2013cost.bib",
@@ -2624,7 +2617,7 @@ const publications: Publication[] = [
       "IEEE International Parallel and Distributed Processing Symposium (IPDPS' 13), Phoenix, AZ, USA",
     type: "Conference",
     date: "May, 2013",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/yanlong_ipdps13.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/yin2013pattern.bib",
@@ -2632,13 +2625,13 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["Shuibing He", "Xian-He Sun", "Yanlong Yin"],
+    authors: ["S. He", "X.-H. Sun", "Y. Yin"],
     title: "BPS: A Performance Metric of I/O System",
     venue:
       "2013 International Workshop on High Performance Data Intensive Computing (HPDIC 2013), in Conjunction With IEEE IPDPS 2013, Boston, Massachusetts, USA",
     type: "Workshop",
     date: "May, 2013",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/shuibing_hpdic13.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2013bps.bib",
@@ -2660,7 +2653,7 @@ const publications: Publication[] = [
       "The 7th Parallel Data Storage Workshop (PDSW'12), in conjunction with ACM/IEEE SuperComputing 2012, Salt Lake City, UT, USA",
     type: "Workshop",
     date: "November, 2012",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/plfs-index.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2012discovering.bib",
@@ -2674,7 +2667,7 @@ const publications: Publication[] = [
       "ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis 2012 (SC'12). Salt Lake City, UT, USA",
     type: "Conference",
     date: "November, 2012",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.713.5156&rep=rep1&type=pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/wu2012hierarchical.bib",
@@ -2688,7 +2681,7 @@ const publications: Publication[] = [
     venue: "Parallel Computing (ParCo), vol. 38, no. 10-11, pp. 533-551",
     type: "Journal",
     date: "October, 2012",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/data_prefetcher.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/chen2012algorithm.bib",
@@ -2702,7 +2695,7 @@ const publications: Publication[] = [
       "International Conference on Autonomic Computing 2012 (ICAC'12), San Jose, CA, USA",
     type: "Conference",
     date: "September, 2012",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://mypages.iit.edu/~lyu17/papers/icac.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/zheng20123.bib",
@@ -2716,7 +2709,7 @@ const publications: Publication[] = [
       "5th International Workshop on Parallel Programming Models and Systems Software for High-End Computing (P2S2), 2012, in conjunction with ICPP 2012, Pittsburgh, PA, USA",
     type: "Workshop",
     date: "September, 2012",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://www.mcs.anl.gov/events/workshops/p2s2/2012/slides/p2s2-2012-Tang-adaptive-sched-pres.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/tang2012adaptive.bib",
@@ -2730,7 +2723,7 @@ const publications: Publication[] = [
       "41th International Conference on Parallel Processing (ICPP), Pittsburgh, PA",
     type: "Conference",
     date: "September, 2012",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/jin_icpp_12.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/jin2012chaio.bib",
@@ -2744,7 +2737,7 @@ const publications: Publication[] = [
       "IEEE International Conference on Cluster Computing (Cluster'12), Beijing, China",
     type: "Conference",
     date: "September, 2012",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/KNOWAC_final.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2012knowac.bib",
@@ -2759,7 +2752,7 @@ const publications: Publication[] = [
       "IEEE International Conference on Cluster Computing 2012 (Cluster'12), Beijing, China,",
     type: "Conference",
     date: "September, 2012",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/PID2448849.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/chen2012decoupled.bib",
@@ -2773,7 +2766,7 @@ const publications: Publication[] = [
       "ACM SIGMETRICS Performance Evaluation Review, vol. 40, no. 2, pp. 125-130",
     type: "Journal",
     date: "September, 2012",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/APC-sun-CopyRight.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/sun2012apc.bib",
@@ -2787,14 +2780,14 @@ const publications: Publication[] = [
       "Z. Lan",
       "T. Jones",
       "J. Brandt",
-      "A. gentile",
+      "A. Gentile",
     ],
     title: "Filtering Log Data: Finding the needles in the Haystack",
     venue:
       "International Conference on Dependable Systems and Networks 2012 (DSN'12), Boston, MA, USA",
     type: "Conference",
     date: "June, 2012",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/DSN12.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/yu2012filtering.bib",
@@ -2802,14 +2795,14 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["H. Jin", "X. Yang", "X. -H. Sun", "I. Raicu"],
+    authors: ["H. Jin", "X. Yang", "X.-H. Sun", "I. Raicu"],
     title:
       "ADAPT: Availability-aware MapReduce Data Placement in Non-Dedicated Distributed Computing Environment",
     venue:
       "32nd International Conference on Distributed Computing Systems (ICDCS), Macau, China",
     type: "Conference",
     date: "June, 2012",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/icdcs-12.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/jin2012adapt.bib",
@@ -2824,7 +2817,7 @@ const publications: Publication[] = [
       "IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid), Ottawa, Canada",
     type: "Conference",
     date: "May, 2012",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/ccgrid12-yin.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/yin2012boosting.bib",
@@ -2839,7 +2832,7 @@ const publications: Publication[] = [
       "2nd International Workshop on Cloud Computing and Scientific Applications (CCSA), in conjunction with CCGrid 2012, Ottawa, Canada",
     type: "Workshop",
     date: "May, 2012",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -2850,7 +2843,7 @@ const publications: Publication[] = [
       "IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid), Ottawa, Canada",
     type: "Conference",
     date: "May, 2012",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/ccgrid12-ge.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/ge2012sera.bib",
@@ -2865,7 +2858,7 @@ const publications: Publication[] = [
       "IEEE International Parallel and Distributed Processing Symposium (IPDPS' 12), Shanghai, China",
     type: "Conference",
     date: "May, 2012",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/ipdps12-zou.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/zou2012source.bib",
@@ -2880,7 +2873,7 @@ const publications: Publication[] = [
       "IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid), Ottawa, Canada",
     type: "Conference",
     date: "May, 2012",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/ccgrid12-jin.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/jin2012checkpointing.bib",
@@ -2895,7 +2888,7 @@ const publications: Publication[] = [
       "2012 International Workshop on High Performance Data Intensive Computing(HPDIC 2012), in Conjunction With IEEE IPDPS 2012, Shanghai, China",
     type: "Workshop",
     date: "May, 2012",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/server-level.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/song2012server.bib",
@@ -2917,7 +2910,7 @@ const publications: Publication[] = [
       "IEEE International Parallel & Distributed Processing Symposium 2012 (IPDPS'12), Shanghai, China",
     type: "Conference",
     date: "May, 2012",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/yu_ipdps_2012.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/yu2012improving.bib",
@@ -2931,7 +2924,7 @@ const publications: Publication[] = [
     venue: "Cluster Computing, pp. 1-14",
     type: "Journal",
     date: "February, 2012",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/cost-model-jrnl.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/song2013cost.bib",
@@ -2946,7 +2939,7 @@ const publications: Publication[] = [
       "Special issue on Programming Models, Software and Tools for High-End Computing of the International Journal of High Performance Computing Applications (IJHPCA), vol. 25, no. 4, pp. 355-370",
     type: "Journal",
     date: "November, 2011",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/IJHPCA-chen.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/chen2011global.bib",
@@ -2959,7 +2952,7 @@ const publications: Publication[] = [
     venue: "The ACM/IEEE SuperComputing Conference (SC'11), Seattle, WA, USA",
     type: "Conference",
     date: "November, 2011",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.461.4037&rep=rep1&type=pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/song2011server.bib",
@@ -2973,7 +2966,7 @@ const publications: Publication[] = [
       "The 2nd International Workshop on Performance Modeling, Benchmarking and Simulation of High Performance Computing Systems (PMBS'11), in conjunction with IEEE/ACM SuperComputing 2011, Seattle, WA, USA",
     type: "Workshop",
     date: "November, 2011",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://www.dcs.warwick.ac.uk/pmbs/pmbs11/PMBS11/Workshop_Schedule_files/rn-1730.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/sun2011memory.bib",
@@ -2987,7 +2980,7 @@ const publications: Publication[] = [
       "The 6th Parallel Data Storage Workshop (PDSW'11), in conjunction with ACM/IEEE SuperComputing 2011, Seattle, WA, USA",
     type: "Workshop",
     date: "November, 2011",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.363.2559&rep=rep1&type=pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2011pattern.bib",
@@ -2999,8 +2992,8 @@ const publications: Publication[] = [
       "J. He",
       "J. Kowalkowski",
       "M. Paterno",
-      "D. Holmgren",
-      "J. Simone",
+      "D. J. Holmgren",
+      "J. N. Simone",
       "X.-H. Sun",
     ],
     title: "Layout-aware Scientific Computing - A Case Study Using MILC",
@@ -3008,7 +3001,7 @@ const publications: Publication[] = [
       "Workshop on Latest Advances in Scalable Algorithms for Large-Scale Systems (ScalA'11), in conjunction with ACM/IEEE SuperComputing 2011, Seattle, WA, USA",
     type: "Workshop",
     date: "November, 2011",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://mypages.iit.edu/~jhe24/papers/scala03-he.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/he2011layout.bib",
@@ -3030,7 +3023,7 @@ const publications: Publication[] = [
       "The IEEE International Conference on Cluster Computing (CLUSTER), Austin, Texas",
     type: "Conference",
     date: "September, 2011",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel5/6059523/6061043/06061060.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/wu2011performance.bib",
@@ -3044,7 +3037,7 @@ const publications: Publication[] = [
       "The International Conference on Parallel Processing Workshops (ICPPW'11), Taipei, Taiwan",
     type: "Conference",
     date: "September, 2011",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel5/6046212/6047049/06047306.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/tang2011job.bib",
@@ -3059,7 +3052,7 @@ const publications: Publication[] = [
       "The 6th IEEE International Conference on Networking, Architecture, and Storage (NAS2011), Dalian, China",
     type: "Conference",
     date: "July, 2011",
-    tags: [""],
+    tags: [],
     links: {
       bibtex: "http://cs.iit.edu/~scs/assets/files/wang2011ethspeeder.bib",
       citation: "http://cs.iit.edu/~scs/assets/files/wang2011ethspeeder.txt",
@@ -3073,7 +3066,7 @@ const publications: Publication[] = [
       "The Proactive Failure Avoidance, Recovery, and Maintenance workshop(in conjunction with DSN'11), Hong Kong, China",
     type: "Workshop",
     date: "June, 2011",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://www.researchgate.net/profile/Zhiling_Lan/publication/252020321_Practical_online_failure_prediction_for_Blue_GeneP_Period-based_vs_event-driven/links/540f00260cf2df04e759db4a/Practical-online-failure-prediction-for-Blue-Gene-P-Period-based-vs-event-driven.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/yu2011practical.bib",
@@ -3088,7 +3081,7 @@ const publications: Publication[] = [
       "The 20th International ACM Symposium on High Performance Distributed Computing (HPDC'11), San Jose, CA",
     type: "Conference",
     date: "June, 2011",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/songhpdcp37.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/song2011cost.bib",
@@ -3096,13 +3089,13 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["Y. Chen", "X.-H. Sun", "R. Thakur", "P. C. Roth", "W. Gropp"],
+    authors: ["Y. Chen", "X.-H. Sun", "R. Thakur", "P. C. Roth", "W. D. Gropp"],
     title: "LACIO: A New Collective I/O Strategy for Parallel I/O Systems",
     venue:
       "The IEEE International Parallel and Distributed Processing Symposium (IPDPS' 11), Anchorage, AK, USA",
     type: "Conference",
     date: "May, 2011",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/PID1656687_LACIO.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/chen2011lacio.bib",
@@ -3125,7 +3118,7 @@ const publications: Publication[] = [
       "The IEEE International Parallel and Distributed Processing Symposium (IPDPS' 11), Anchorage, AK, USA",
     type: "Conference",
     date: "May, 2011",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel5/6011824/6012804/06012893.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/zheng2011co.bib",
@@ -3139,7 +3132,7 @@ const publications: Publication[] = [
       "The IEEE International Parallel and Distributed Processing Symposium (IPDPS' 11), Anchorage, AK, USA",
     type: "Conference",
     date: "May, 2011",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/wei-ipdps-11.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/tang2011reducing.bib",
@@ -3154,7 +3147,7 @@ const publications: Publication[] = [
       "The 11th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid'11), Newport Beach, CA, USA",
     type: "Conference",
     date: "May, 2011",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/Hybrid-Poster-ccgrid.pdf",
     },
@@ -3167,7 +3160,7 @@ const publications: Publication[] = [
       "The 11th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid'11), Newport Beach, CA, USA",
     type: "Conference",
     date: "May, 2011",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/fine-grained_layout_ccgrid.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/song2011segment.bib",
@@ -3182,7 +3175,7 @@ const publications: Publication[] = [
       "The 11th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid'11), Newport Beach, CA, USA",
     type: "Conference",
     date: "May, 2011",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/kzhangccgrid11.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/zhang2011pac.bib",
@@ -3197,7 +3190,7 @@ const publications: Publication[] = [
       "The 9th IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA'11), Busan, Korea",
     type: "Conference",
     date: "May, 2011",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/Hybrid-Song-ispa11.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/song2011hybrid.bib",
@@ -3212,7 +3205,7 @@ const publications: Publication[] = [
       "The 11th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid'11), Newport Beach, CA, USA",
     type: "Conference",
     date: "May, 2011",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/PID1705069.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/jin2011performance.bib",
@@ -3226,7 +3219,7 @@ const publications: Publication[] = [
       "The 2nd International Conference on Cloud Computing, Indianapolis, IN, USA",
     type: "Conference",
     date: "November, 2010",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/cloudcom-Jin.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/jin2010remem.bib",
@@ -3241,7 +3234,7 @@ const publications: Publication[] = [
       "The 5th Petascale Data Storage Workshop, in conjunction with SuperComputing 2010, New Orleans, LA, USA",
     type: "Workshop",
     date: "November, 2010",
-    tags: [""],
+    tags: [],
     links: {
       bibtex: "http://cs.iit.edu/~scs/assets/files/song2010trace.bib",
       citation: "http://cs.iit.edu/~scs/assets/files/song2010trace.txt",
@@ -3254,7 +3247,7 @@ const publications: Publication[] = [
       "The ACM/IEEE SuperComputing Conference (SC'10), New Orleans, LA, USA",
     type: "Conference",
     date: "November, 2010",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -3264,7 +3257,7 @@ const publications: Publication[] = [
       "The IEEE International Conference on Cluster Computing 2010 (Cluster10), Heraklion, Greece",
     type: "Conference",
     date: "September, 2010",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/cluster10.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/chen2010improving.bib",
@@ -3278,7 +3271,7 @@ const publications: Publication[] = [
       "The 39th International Conference on Parallel Processing (ICPP'2010), San Diego, CA, USA",
     type: "Conference",
     date: "September, 2010",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/icpp-jin.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/jin2010optimizing.bib",
@@ -3286,14 +3279,14 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["Y. Chen", "H. Zhu", "H. Jin and X.-H. Sun"],
+    authors: ["Y. Chen", "H. Zhu", "H. Jin", "X.-H. Sun"],
     title:
       "Improving the Effectiveness of Context-based Prefetching with Multi-order Analysis",
     venue:
       "The 3rd International Workshop on Parallel Programming Models and Systems Software for High-End Computing (P2S2), San Diego, CA, USA",
     type: "Workshop",
     date: "September, 2010",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/p2s2-Chen.pdf" },
   },
   {
@@ -3303,7 +3296,7 @@ const publications: Publication[] = [
       "The 24th International Conference on Supercomputing (ICS'10), Tsukuba, Japan",
     type: "Conference",
     date: "June, 2010",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/ICS_220.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/zhu2010timing.bib",
@@ -3318,7 +3311,7 @@ const publications: Publication[] = [
       "Journal of Parallel and Distributed Computing, vol. 70, pp. 630-643",
     type: "Journal",
     date: "June, 2010",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://www.sciencedirect.com/science/article/pii/S0743731510000377",
       bibtex: "http://cs.iit.edu/~scs/assets/files/lan2010study.bib",
@@ -3326,14 +3319,14 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["Z. Zheng", "Z. Lan", "R. Gupta", "S. Coghlan", "Peter Beckman"],
+    authors: ["Z. Zheng", "Z. Lan", "R. Gupta", "S. Coghlan", "P. Beckman"],
     title:
       "A Practical Failure Prediction with Location and Lead Time for Blue Gene/P",
     venue:
       "The Fault-Tolerance at Extreme Scale workshop (in conjunction with DSN'10), Chicago, IL, USA",
     type: "Workshop",
     date: "June, 2010",
-    tags: [""],
+    tags: [],
     links: {
       bibtex: "http://cs.iit.edu/~scs/assets/files/zheng2010practical.bib",
       citation: "http://cs.iit.edu/~scs/assets/files/zheng2010practical.txt",
@@ -3346,7 +3339,7 @@ const publications: Publication[] = [
       "The High Performance Distributed Computing (HPDC-2010), Chicago, IL, USA",
     type: "Workshop",
     date: "June, 2010",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://www.researchgate.net/profile/Huaiming_Song/publication/220717222_A_layout-aware_optimization_strategy_for_collective_IO/links/004635294810aadedb000000.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/chen2010layout.bib",
@@ -3360,7 +3353,7 @@ const publications: Publication[] = [
       "The 10th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid'10), Melbourne, Australia",
     type: "Conference",
     date: "May, 2010",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/ccgrid10-adaptpf.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/chen2010adaptive.bib",
@@ -3375,7 +3368,7 @@ const publications: Publication[] = [
       "The 6th workshop on high performance power-aware computing in conjunction with the 24th IEEE International Parallel and Distributed Processing Symposium, Atlanta, GA, USA",
     type: "Workshop",
     date: "April, 2010",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://www.researchgate.net/profile/Xizhou_Feng/publication/220950980_Characterizing_energy_efficiency_of_IO_intensive_parallel_applications_on_power-aware_clusters/links/0fcfd511907cc29784000000.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/ge2010characterizing.bib",
@@ -3389,7 +3382,7 @@ const publications: Publication[] = [
     venue: "The IPDPS'10, Atlanta, GA, USA",
     type: "Conference",
     date: "April, 2010",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel5/5465899/5470342/05470474.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/tang2010analyzing.bib",
@@ -3403,7 +3396,7 @@ const publications: Publication[] = [
       "Journal of Parallel and Distributed Computing, vol. 70, no. 2, pp. 183-188",
     type: "Journal",
     date: "February, 2010",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/Reevaluating%20Amdahl's%20Law.pdf",
       slides: "http://cs.iit.edu/~scs/assets/files/Amdahl-law.pdf",
@@ -3418,7 +3411,7 @@ const publications: Publication[] = [
       "IEEE Transactions on Parallel and Distributed Systems, vol. 21, no. 2, pp. 174 - 187",
     type: "Journal",
     date: "February, 2010",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "https://ieeexplore.ieee.org/iel5/71/5372118/04815224.pdf",
       bibtex: "http://cs.iit.edu/~scs/assets/files/lan2010toward.bib",
@@ -3426,13 +3419,13 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["X.-H. Sun", "S. Byna", "D. Holmgren"],
+    authors: ["X.-H. Sun", "S. Byna", "D. J. Holmgren"],
     title: "Modeling Data Access Contention in Multicore Architectures",
     venue:
       "The Fifteenth International Conference on Parallel and Distributed Systems (ICPADS'09), Shenzhen, China",
     type: "Conference",
     date: "December, 2009",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -3442,7 +3435,7 @@ const publications: Publication[] = [
       "Workshop on Internet-based Virtual Computing Environment (in conjunction with ICPADS'09), Shenzhen, China",
     type: "Workshop",
     date: "December, 2009",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -3452,7 +3445,7 @@ const publications: Publication[] = [
       "The 4th Petascale Data Storage Workshop (in conjunction with ACM/IEEE SC'09), Portland, OR, USA",
     type: "Workshop",
     date: "November, 2009",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/pdsw09.pdf" },
   },
   {
@@ -3462,7 +3455,7 @@ const publications: Publication[] = [
     venue: "The ACM/IEEE SuperComputing Conference(SC'09), Portland, OR, USA",
     type: "Conference",
     date: "November, 2009",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/sc09_jin.pdf" },
   },
   {
@@ -3472,7 +3465,7 @@ const publications: Publication[] = [
       "The Workshop on Web 2.0 on e-Research Infrastructure, Services and Applications (in conjunction with Cluster'09), New Orleans, LA, USA",
     type: "Workshop",
     date: "August, 2009",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -3482,7 +3475,7 @@ const publications: Publication[] = [
     venue: "The IEEE Cluster'09, New Orleans, LA, USA",
     type: "Conference",
     date: "August, 2009",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -3491,7 +3484,7 @@ const publications: Publication[] = [
     venue: "The IEEE Cluster'09, New Orleans, LA, USA",
     type: "Conference",
     date: "August, 2009",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -3501,7 +3494,7 @@ const publications: Publication[] = [
       "The IEEE/IFIP International Conference on Dependable Systems and Networks (DSN'09), Estoril, Lisbon, Portugal",
     type: "Conference",
     date: "June, 2009",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -3511,7 +3504,7 @@ const publications: Publication[] = [
       "The IEEE/ACM International Symposium on Cluster Computing and the Grid (CCGrid'09), Shanghai, China",
     type: "Conference",
     date: "May, 2009",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/3622a236.pdf" },
   },
   {
@@ -3521,7 +3514,7 @@ const publications: Publication[] = [
       "The IEEE International Parallel & Distributed Processing Symposium (IPDPS'09), Rome, Italy",
     type: "Conference",
     date: "May, 2009",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/IPDPS-1569163069-paper-1.pdf",
       slides: "http://cs.iit.edu/~scs/assets/files/CoreAwareMemoryAccess.pdf",
@@ -3534,7 +3527,7 @@ const publications: Publication[] = [
       "Journal of Computer Science and Technology, vol. 24, no. 3, pp. 405-417",
     type: "Journal",
     date: "May, 2009",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/4192.pdf" },
   },
   {
@@ -3544,19 +3537,19 @@ const publications: Publication[] = [
       "IEEE Transactions on Parallel and Distributed Systems, vol. 20, no. 4, pp. 460-473",
     type: "Journal",
     date: "April, 2009",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/fault_aware_runtime_strategies.pdf",
     },
   },
   {
-    authors: ["M. Wu", "Xian-He Sun"],
+    authors: ["M. Wu", "X.-H. Sun"],
     title: "QoS of Grid Computing",
     venue:
       "Grid Technologies and Utility Computing: Concepts for Managing Large-Scale Applications (Encyclopedia of Grid Computing Technologies and Applications), Igi Global, 2009, pp 59-74, ISBN-10: 1605661848, ISBN-13: 978-1605661841",
     type: "Journal",
     date: "January, 2009",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -3566,7 +3559,7 @@ const publications: Publication[] = [
       "Grid Computing: Infrastructure, Service, and Application (Hardcover), CRC, 2009, pp 405-431, ISBN-10: 1420067664, ISBN-13: 978-1420067668",
     type: "Journal",
     date: "January, 2009",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -3580,36 +3573,36 @@ const publications: Publication[] = [
       "N. Seenu",
       "A. G. Singh",
       "S. Byna",
-      "D. Holmgren",
+      "D. J. Holmgren",
     ],
     title: "Lattice QCD Workflows: A Case Study",
     venue:
       "3rd International Workshop on Scientific Workflows and Business Workflow Standards in e-Science (SWBES)",
     type: "Workshop",
     date: "December, 2008",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/piccoli-LatticeWorkflow.pdf",
     },
   },
   {
-    authors: ["Y. Chen", "S. Byna", "X.-H. Sun", "R. Thakur", "W. Gropp"],
+    authors: ["Y. Chen", "S. Byna", "X.-H. Sun", "R. Thakur", "W. D. Gropp"],
     title:
       "Hiding I/O Latency with Pre-execution Prefetching for Parallel Applications",
     venue:
       "The ACM/IEEE SuperComputing Conference (SC'08) Best paper award finalist",
     type: "Conference",
     date: "November, 2008",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/sc08_prex.pdf" },
   },
   {
-    authors: ["S. Byna", "Y. Chen", "X.-H. Sun", "R. Thakur", "W. Gropp"],
+    authors: ["S. Byna", "Y. Chen", "X.-H. Sun", "R. Thakur", "W. D. Gropp"],
     title: "Parallel I/O Prefetching Using MPI File Caching and I/O Signatures",
     venue: "The ACM/IEEE SuperComputing Conference (SC'08)",
     type: "Conference",
     date: "November, 2008",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/pap297s4.pdf" },
   },
   {
@@ -3619,16 +3612,16 @@ const publications: Publication[] = [
       "The International Symposium on Parallel Algorithms, Architectures and Programming (PAAP'08)",
     type: "Conference",
     date: "September, 2008",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
-    authors: ["Y. Chen", "S. Byna", "X.-H. Sun", "R. Thakur", "W. Gropp"],
+    authors: ["Y. Chen", "S. Byna", "X.-H. Sun", "R. Thakur", "W. D. Gropp"],
     title: "Exploring Parallel I/O Concurrency with Speculative Prefetching",
     venue: "The 37th International Conference on Parallel Processing (ICPP'08)",
     type: "Conference",
     date: "September, 2008",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -3638,23 +3631,23 @@ const publications: Publication[] = [
       "Z. Lan",
       "J. White",
       "E. Hocks",
-      "B-H. Park",
+      "B.-H. Park",
     ],
     title:
       "Dynamic Meta-Learning for Failure Prediction in Large-scale Systems: A Case Study",
     venue: "The 37th International Conference on Parallel Processing (ICPP'08)",
     type: "Conference",
     date: "September, 2008",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
-    authors: ["L. Piccoli", "J. Simone", "J. Kowalkowski", "et.al"],
+    authors: ["L. Piccoli", "J. N. Simone", "J. Kowalkowski"],
     title: "Tracking LQCD Workflows",
     venue: "Lattice 2008",
     type: "Poster",
     date: "July, 2008",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/LAT08-Poster.pdf" },
   },
   {
@@ -3664,7 +3657,7 @@ const publications: Publication[] = [
     venue: "The DSN'08",
     type: "Conference",
     date: "June, 2008",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/dsn08_dccs.pdf" },
   },
   {
@@ -3674,18 +3667,18 @@ const publications: Publication[] = [
       "The International Symposium on Parallel Architectures, Algorithms, and Networks (I-SPAN)",
     type: "Conference",
     date: "May, 2008",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/bynas-PrefetchingSurvey.pdf",
     },
   },
   {
-    authors: ["Z. Lan", "Y.Li", "Z. Zheng", "P. Gujrati"],
+    authors: ["Z. Lan", "Y. Li", "Z. Zheng", "P. Gujrati"],
     title: "Enhancing Application Robustness through Adaptive Fault Tolerance",
     venue: "The NSFNGS Workshop (in conjunction with IPDPS'08)",
     type: "Workshop",
     date: "April, 2008",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -3694,7 +3687,7 @@ const publications: Publication[] = [
     venue: "The High Availability and Performance Computing Workshop (HAPCW)",
     type: "Workshop",
     date: "March, 2008",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/hapcw_2008.pdf" },
   },
   {
@@ -3704,7 +3697,7 @@ const publications: Publication[] = [
       "Journal of Parallel and Distributed Computing, vol. 68, pp. 1403-1412",
     type: "Journal",
     date: "January, 2008",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/YJPDC2552.pdf" },
   },
   {
@@ -3714,19 +3707,19 @@ const publications: Publication[] = [
     venue: "IEEE Transactions on Computers, vol. 57, no. 12, pp. 1647-1660",
     type: "Journal",
     date: "January, 2008",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/adaptive_fault_management.pdf",
     },
   },
   {
-    authors: ["L. Piccoli", "X.-H. Sun", "J. Simone", "et. al."],
+    authors: ["L. Piccoli", "X.-H. Sun", "J. N. Simone"],
     title:
       "The LQCD Workflow Experience: What We Have Learned (Poster Presentation)",
     venue: "The ACM/IEEE SuperComputing Conf. 2007 (SC'07)",
     type: "Conference",
     date: "November, 2007",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/SC07Poster.pdf" },
   },
   {
@@ -3735,7 +3728,7 @@ const publications: Publication[] = [
     venue: "The ACM/IEEE SuperComputing Conf. 2007 (SC'07)",
     type: "Conference",
     date: "November, 2007",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/SC07_wu.pdf" },
   },
   {
@@ -3745,7 +3738,7 @@ const publications: Publication[] = [
     venue: "The ACM/IEEE SuperComputing Conf. 2007 (SC'07)",
     type: "Conference",
     date: "November, 2007",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/SC07_DAHC.pdf" },
   },
   {
@@ -3754,7 +3747,7 @@ const publications: Publication[] = [
     venue: "The IEEE Cluster'07",
     type: "Conference",
     date: "September, 2007",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -3764,7 +3757,7 @@ const publications: Publication[] = [
     venue: "The 2007 International Conference on Parallel Processing (ICPP'07)",
     type: "Conference",
     date: "September, 2007",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -3774,7 +3767,7 @@ const publications: Publication[] = [
     venue: "The 2007 International Conference on Parallel Processing (ICPP'07)",
     type: "Conference",
     date: "September, 2007",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -3784,7 +3777,7 @@ const publications: Publication[] = [
       "The 6th International Conference on Grid and Cooperative Computing(GCC'07)",
     type: "Conference",
     date: "August, 2007",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/GCC-SunWu-07.pdf" },
   },
   {
@@ -3794,7 +3787,7 @@ const publications: Publication[] = [
     venue: "The TeraGrid'07",
     type: "Workshop",
     date: "June, 2007",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -3810,7 +3803,7 @@ const publications: Publication[] = [
     venue: "The TeraGrid'07",
     type: "Workshop",
     date: "June, 2007",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -3829,7 +3822,7 @@ const publications: Publication[] = [
       "The 3rd International Workshop on Software Engineering for Secure Systems (SESS'07)",
     type: "Workshop",
     date: "May, 2007",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -3839,7 +3832,7 @@ const publications: Publication[] = [
       "The IEEE International Symposium on Cluster Computing and the Grid 2007, Rio de Janeiro, Brazil",
     type: "Conference",
     date: "May, 2007",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/du-DynamicMigration.pdf",
     },
@@ -3851,7 +3844,7 @@ const publications: Publication[] = [
       "The NSF Next Generation Software Program Workshop (in conjunction with IPDPS '07)",
     type: "Workshop",
     date: "March, 2007",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/ngs07-sbc-.pdf" },
   },
   {
@@ -3862,7 +3855,7 @@ const publications: Publication[] = [
       "Journal of Computer Science and Technology (JCST), vol. 22, no. 5, pp. 641-652",
     type: "Journal",
     date: "January, 2007",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/jcst-07.pdf" },
   },
   {
@@ -3872,7 +3865,7 @@ const publications: Publication[] = [
     venue: "IEEE Trans. on Computer, vol. 56, no. 3, pp. 314-327",
     type: "Journal",
     date: "January, 2007",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/04079515-IEEEComputer.pdf",
     },
@@ -3883,18 +3876,18 @@ const publications: Publication[] = [
     venue: "The IEEE Service Computing Conference (SCC) 2006, Chicago",
     type: "Conference",
     date: "September, 2006",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/byna_scc-06.pdf" },
   },
   {
-    authors: ["S. Byna", "X.-H. Sun", "R. Thakur", "W. Gropp"],
+    authors: ["S. Byna", "X.-H. Sun", "R. Thakur", "W. D. Gropp"],
     title:
       "Automatic Memory Optimizations for Improving MPI Derived Datatype Performance",
     venue:
       "13th The European PVM/MPI Conference, Bonn, Germany, Lecture Notes in Computer Science, Springer",
     type: "Conference",
     date: "September, 2006",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/suren-mpi-06.pdf" },
   },
   {
@@ -3904,7 +3897,7 @@ const publications: Publication[] = [
       "The 6th IEEE International Symposium on Cluster Computing and the Grid, Singapore",
     type: "Conference",
     date: "May, 2006",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/wusunchen-QoSReservation.pdf",
     },
@@ -3916,7 +3909,7 @@ const publications: Publication[] = [
       "The 6th IEEE International Symposium on Cluster Computing and the Grid, Singapore",
     type: "Conference",
     date: "May, 2006",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/sun-mitten.pdf" },
   },
   {
@@ -3927,7 +3920,7 @@ const publications: Publication[] = [
       "The 6th IEEE International Symposium on Cluster Computing and the Grid, Singapore",
     type: "Conference",
     date: "May, 2006",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/CCGrid06NBPCameraReady.pdf",
     },
@@ -3939,7 +3932,7 @@ const publications: Publication[] = [
       "Journal of Parallel and Distributed Computing, vol. 66, no. 10, pp. 1322-1337, 2006. (ACM Computing Review)",
     type: "Journal",
     date: "January, 2006",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/GHS-JPDC2006.pdf" },
   },
   {
@@ -3949,7 +3942,7 @@ const publications: Publication[] = [
       "The IEEE International conference on Cluster Computing 2006(Cluster2006)",
     type: "Conference",
     date: "January, 2006",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/chen-STAS(final-version).pdf",
     },
@@ -3962,7 +3955,7 @@ const publications: Publication[] = [
       "The IEEE/ACM International Symposium on Cluster Computing and the Grid (CCGrid06) , Singapore",
     type: "Conference",
     date: "January, 2006",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -3972,7 +3965,7 @@ const publications: Publication[] = [
       "The IEEE Conference on Dependable Systems and networks (Fast Abstract)",
     type: "Conference",
     date: "January, 2006",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -3983,7 +3976,7 @@ const publications: Publication[] = [
       "The NSF Next Generation Software Program Workshop (in conjunction with IPDPS06), IEEE CS press",
     type: "Workshop",
     date: "January, 2006",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/GHS-ngs-Sun.pdf" },
   },
   {
@@ -3993,18 +3986,18 @@ const publications: Publication[] = [
       "The 34rd International Conference on Parallel Processing, Oslo, Norway",
     type: "Conference",
     date: "June, 2005",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/sunxh_scalability.pdf" },
   },
   {
-    authors: ["V. Gurbani", "A. Brusilovsky", "X.-H. Sun"],
+    authors: ["V. K. Gurbani", "A. Brusilovsky", "X.-H. Sun"],
     title:
       "Ubiquitous Services in the Next Generation Network: Constraining and Facilitating Forces",
     venue:
       "The Eurescom Summit 2005: Ubiquitous Services and Applications Exploiting the Potential, Heidelberg, Germany",
     type: "Conference",
     date: "April, 2005",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/Eurescom-2005.pdf" },
   },
   {
@@ -4015,7 +4008,7 @@ const publications: Publication[] = [
       "The 19th International Parallel and Distributed Processing Symposium (IPDPS05), Denver, Colorado",
     type: "Conference",
     date: "April, 2005",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/AlakSunWuIPDPS2005.pdf",
     },
@@ -4028,17 +4021,17 @@ const publications: Publication[] = [
       "The 19th International Parallel and Distributed Processing Symposium (IPDPS05), Denver, Colorado",
     type: "Conference",
     date: "April, 2005",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
-    authors: ["X.-H. Sun", "M. Wu", "GHS"],
+    authors: ["X.-H. Sun", "M. Wu"],
     title: "GHS, A Performance System of Grid Computing",
     venue:
       "The NSF Next Generation Software Program Workshop ( in conjunction with IPDPS05), Denver, Colorado",
     type: "Workshop",
     date: "April, 2005",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/ngs-ipdps05.pdf" },
   },
   {
@@ -4048,7 +4041,7 @@ const publications: Publication[] = [
     venue: "IEEE Network, pp: 26-32",
     type: "Workshop",
     date: "February, 2005",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/IEEE-Network-2005.pdf" },
   },
   {
@@ -4057,7 +4050,7 @@ const publications: Publication[] = [
     venue: "Parallel Processing Letters, vol. 15, no. 4, pp. 357-365",
     type: "Journal",
     date: "January, 2005",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/ppl_mem_isolate.pdf" },
   },
   {
@@ -4066,7 +4059,7 @@ const publications: Publication[] = [
     venue: "J. Comput. Sci. Technol. vol. 20, no. 1, pp. 141-143",
     type: "Journal",
     date: "January, 2005",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/caa.pdf" },
   },
   {
@@ -4076,7 +4069,7 @@ const publications: Publication[] = [
     venue: "IEEE Communications, vol. 43, no. 9",
     type: "Journal",
     date: "January, 2005",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/IEEE-ComMag-2005.pdf" },
   },
   {
@@ -4085,17 +4078,17 @@ const publications: Publication[] = [
     venue: "Lecture Notes in Computer Science, vol. 3795, pp. 394 - 405",
     type: "Conference",
     date: "January, 2005",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/gcc-05.pdf" },
   },
   {
-    authors: ["V. Gurbani", "X.-H. Sun"],
+    authors: ["V. K. Gurbani", "X.-H. Sun"],
     title:
       "Extensions to an Internet signaling protocol to support telecommunication services",
     venue: "The IEEE Global Telecommunications Conference, Dallars, TX.",
     type: "Conference",
     date: "November, 2004",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/VijaySunGlobecome04.pdf",
     },
@@ -4108,16 +4101,16 @@ const publications: Publication[] = [
       "The 5th IEEE/ACM International Workshop on Grid Computing (in conjunction with SC 2004), pp. 138-145, Pittsburgh",
     type: "Workshop",
     date: "November, 2004",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/mwu-memory.pdf" },
   },
   {
-    authors: ["S. Byna", "X.-H. Sun", "W. Gropp", "R. Thakur"],
+    authors: ["S. Byna", "X.-H. Sun", "W. D. Gropp", "R. Thakur"],
     title: "Predicting the Memory-Access Cost Based on Data Access Patterns",
     venue: "The IEEE International Conference on Cluster Computing, San Diego",
     type: "Conference",
     date: "September, 2004",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/cluster04-camera-90.pdf",
     },
@@ -4129,7 +4122,7 @@ const publications: Publication[] = [
       "The 33rd International Conference on Parallel Processing, Montreal, Quebec, Canada, Aug. 15-18",
     type: "Conference",
     date: "August, 2004",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/sunx_rescheduling.pdf" },
   },
   {
@@ -4139,7 +4132,7 @@ const publications: Publication[] = [
     venue: "IEEE Trans. on Computers, vol. 53, no. 10, pp. 1260-1273",
     type: "Journal",
     date: "January, 2004",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/01327577.pdf" },
   },
   {
@@ -4148,18 +4141,18 @@ const publications: Publication[] = [
     venue: "ACM/IEEE Trans. on Networking, vol. 12, no. 4, pp. 571-581",
     type: "Journal",
     date: "January, 2004",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/VijaySunNetworking04.pdf",
     },
   },
   {
-    authors: ["X.-H. Sun", "A.-R. Blatecky"],
+    authors: ["X.-H. Sun", "A. R. Blatecky"],
     title: "Middleware: the key to next generation computing",
     venue: "J. Parallel Distrib. Comput. 64(6): 689-691",
     type: "Journal",
     date: "January, 2004",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/sunmiddleware.pdf" },
   },
   {
@@ -4170,7 +4163,7 @@ const publications: Publication[] = [
       "IEEE Trans. on Parallel and Distributed Systems, vol. 15, no. 2, pp. 97-106",
     type: "Journal",
     date: "January, 2004",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/sunzhang04IPDS.pdf" },
   },
   {
@@ -4181,20 +4174,20 @@ const publications: Publication[] = [
       "International Journal of High Performance Computing and Networking , vol. 2, no. 2/3/4, pp. 186-197",
     type: "Journal",
     date: "January, 2004",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/IJHPCN-wusun-final.pdf",
     },
   },
   {
-    authors: ["S. Byna", "W. Gropp", "X.-H. Sun", "R. Thakur"],
+    authors: ["S. Byna", "W. D. Gropp", "X.-H. Sun", "R. Thakur"],
     title:
       "Improving the Performance of MPI Derived Datatypes by Optimizing Memory-Access Cost",
     venue:
       "The IEEE International Conference on Cluster Computing, 2003, Hong Kong",
     type: "Conference",
     date: "December, 2003",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/135_byna_s.pdf" },
   },
   {
@@ -4205,7 +4198,7 @@ const publications: Publication[] = [
       "The IEEE International Conference on Cluster Computing, 2003, Hong Kong",
     type: "Conference",
     date: "December, 2003",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/192_Du_C.pdf" },
   },
   {
@@ -4216,17 +4209,17 @@ const publications: Publication[] = [
       "The IEEE International Conference on Cluster Computing, 2003, Hong Kong",
     type: "Conference",
     date: "December, 2003",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/cluster03_wusun.pdf" },
   },
   {
-    authors: ["V. Gurbani", "X.-H. Sun"],
+    authors: ["V. K. Gurbani", "X.-H. Sun"],
     title: "Accessing telephony services from the Internet",
     venue:
       "The IEEE International Conference on Computer Communications and Networks} (ICCCN03), Dallars, TX.",
     type: "Conference",
     date: "October, 2003",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/GuSuICCCN03.pdf" },
   },
   {
@@ -4236,7 +4229,7 @@ const publications: Publication[] = [
       "The 2003 DoD Monterey Workshop, Software Engineering for Embedded Systems: From Requirements to Implementation, Chicago",
     type: "Workshop",
     date: "September, 2003",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4252,7 +4245,7 @@ const publications: Publication[] = [
       "The 2003 International Conference on Communications in Computing, Las Vegas, Nevada",
     type: "Conference",
     date: "June, 2003",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/coalloc.pdf" },
   },
   {
@@ -4269,17 +4262,17 @@ const publications: Publication[] = [
       "The 2003 International Conference on Parallel and Distributed Processing Techniques and Applications, Las Vegas, Nevada",
     type: "Conference",
     date: "June, 2003",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/alunbeu--gridftp.pdf" },
   },
   {
-    authors: ["V. Gurbani", "X.-H. Sun"],
+    authors: ["V. K. Gurbani", "X.-H. Sun"],
     title: "Services spanning heterogeneous networks",
     venue:
       "The 2003 IEEE International Conference on Communications (ICC 2003), Anchorage, Alaska",
     type: "Conference",
     date: "May, 2003",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/GuSuIcc03.pdf" },
   },
   {
@@ -4289,17 +4282,17 @@ const publications: Publication[] = [
       "The 2003 IEEE International Parallel and Distributed Processing Symposium (IPDPS 2003), Nice, France",
     type: "Conference",
     date: "April, 2003",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/KSipdps03.PDF" },
   },
   {
-    authors: ["V. Gurbani", "X.-H. Sun"],
+    authors: ["V. K. Gurbani", "X.-H. Sun"],
     title: "Internet Service Execution for Telephony Events",
     venue:
       "The IEEE International Conference for Intelligence in Next Generation Networks (ICIN) 2003, Bordeaux, France",
     type: "Conference",
     date: "April, 2003",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/GuSuIcin03.pdf" },
   },
   {
@@ -4310,7 +4303,7 @@ const publications: Publication[] = [
       "The 2003 IEEE International Parallel and Distributed Processing Symposium (IPDPS 2003), Nice, France",
     type: "Conference",
     date: "April, 2003",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/SWipdps03.PDF" },
   },
   {
@@ -4320,7 +4313,7 @@ const publications: Publication[] = [
       "Journal of Computer Science and Technology, Special Issue on Grid Computing, 18(4)",
     type: "Journal",
     date: "January, 2003",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/jcst_XHe-5-28.pdf" },
   },
   {
@@ -4330,7 +4323,7 @@ const publications: Publication[] = [
       "The International Workshop on Grid and Cooperative Computing (GCC02), Hainan, Chian",
     type: "Workshop",
     date: "December, 2002",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/GCC02_XHe.pdf" },
   },
   {
@@ -4340,7 +4333,7 @@ const publications: Publication[] = [
     venue: "IEEE Trans. on Computers, Vol 51, No 9, pp. 1041-1055",
     type: "Journal",
     date: "September, 2002",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/perf2002.pdf" },
   },
   {
@@ -4351,7 +4344,7 @@ const publications: Publication[] = [
       "The 2002 workshops of International Conference on Parallel Processing Workshop on Compile and Runtime Techniques for Parallel Computing, IEEE CS Press, Vancouver, Canada",
     type: "Workshop",
     date: "August, 2002",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4361,7 +4354,7 @@ const publications: Publication[] = [
     venue: "SIAM Journal on Scientific Computing , Vol. 24, No. 1, 335-358",
     type: "Journal",
     date: "July, 2002",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/ZhSu02ST.pdf" },
   },
   {
@@ -4371,7 +4364,7 @@ const publications: Publication[] = [
     venue: "SOFTWARE--PRACTICE AND EXPERIENCE, 32:1-27",
     type: "Journal",
     date: "April, 2002",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/spe464.pdf" },
   },
   {
@@ -4382,7 +4375,7 @@ const publications: Publication[] = [
       "The 2002 International Parallel and Distributed Processing Symposium (IPDPS 2002), Fort Lauderdale, FL",
     type: "Conference",
     date: "April, 2002",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/sunzhang02.pdf" },
   },
   {
@@ -4392,7 +4385,7 @@ const publications: Publication[] = [
       "Journal of Parallel and Distributed Computing, Vol. 62, No. 2, pp. 173-192",
     type: "Journal",
     date: "February, 2002",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/scalability2002.pdf" },
   },
   {
@@ -4402,7 +4395,7 @@ const publications: Publication[] = [
       "International Journal of High Performance Computing Applications (IJHPCA), Vol. 16, No. 4, Autumn 2002",
     type: "Journal",
     date: "January, 2002",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/HPC031071.pdf" },
   },
   {
@@ -4412,7 +4405,7 @@ const publications: Publication[] = [
     venue: "Cluster Computing, 5, 365-375, 2002",
     type: "Conference",
     date: "January, 2002",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/5093440.pdf" },
   },
   {
@@ -4422,7 +4415,7 @@ const publications: Publication[] = [
     venue: "The SuperComputing 2001 (SC2001), Denver",
     type: "Conference",
     date: "November, 2001",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/seidd.pdf" },
   },
   {
@@ -4433,7 +4426,7 @@ const publications: Publication[] = [
       "The 2001 the International Conference on Parallel Processing (ICPP 2001) Best Paper Award",
     type: "Conference",
     date: "September, 2001",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/commobile.pdf" },
   },
   {
@@ -4444,7 +4437,7 @@ const publications: Publication[] = [
       "Journal of Performance Evaluation, Volume 45, Issue 1, May 2001, Pages 1-18",
     type: "Journal",
     date: "May, 2001",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/adaptive.pdf" },
   },
   {
@@ -4455,7 +4448,7 @@ const publications: Publication[] = [
       "The 21st International Conference on Distributed Computing Systems (ICDCS 2001)",
     type: "Conference",
     date: "April, 2001",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/icdcs01.pdf" },
   },
   {
@@ -4466,7 +4459,7 @@ const publications: Publication[] = [
       "International Journal of Computer Research, Vol. 10, No. 1, 2001, pp. 89-98.",
     type: "Journal",
     date: "January, 2001",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/scala01.pdf" },
   },
   {
@@ -4475,7 +4468,7 @@ const publications: Publication[] = [
     venue: "Journal of Computational Physics, Vol. 171, pp. 79-94 (2001).",
     type: "Journal",
     date: "January, 2001",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/highorder2001.pdf" },
   },
   {
@@ -4486,7 +4479,7 @@ const publications: Publication[] = [
       "The 2001 International Parallel and Distributed Processing Symposium (IPDPS 2001).",
     type: "Conference",
     date: "January, 2001",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/ippds01.pdf" },
   },
   {
@@ -4496,7 +4489,7 @@ const publications: Publication[] = [
       "International Journal on Advances in Engineering Software, Vol. 31, pp. 717-722",
     type: "Journal",
     date: "September, 2000",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/dnasa.pdf" },
   },
   {
@@ -4507,7 +4500,7 @@ const publications: Publication[] = [
       "The Second ACM International Workshop on Software and Performance (WOSP'2000)",
     type: "Workshop",
     date: "September, 2000",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4518,7 +4511,7 @@ const publications: Publication[] = [
       "The Euro-Par 2000, Lecture Notes in Computer Science 1900, Springer",
     type: "Conference",
     date: "September, 2000",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/europar.pdf" },
   },
   {
@@ -4529,7 +4522,7 @@ const publications: Publication[] = [
       "International Journal on Advances in Engineering Software, Vol. 31, pp. 585-592",
     type: "Journal",
     date: "August, 2000",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/nasa00.ps" },
   },
   {
@@ -4539,7 +4532,7 @@ const publications: Publication[] = [
       "The Workshop on High Performance Scientific and Engineering Computing with Applications (HPSECA-00), August, 2000, IEEE Computer Press",
     type: "Workshop",
     date: "August, 2000",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4549,7 +4542,7 @@ const publications: Publication[] = [
       "The IEEE Fourth International Conference/Exhibition on High Performance Computing in Asia-Pacific Region (HPC-ASIA 2000)",
     type: "Conference",
     date: "May, 2000",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4558,7 +4551,7 @@ const publications: Publication[] = [
     venue: "Lecture Notes in Computer Science, Springer",
     type: "Conference",
     date: "April, 2000",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/pdrsf.pdf" },
   },
   {
@@ -4569,7 +4562,7 @@ const publications: Publication[] = [
       "The Newsletter of the IEEE Technical Committee on Distributed Processing",
     type: "Journal",
     date: "January, 2000",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4580,7 +4573,7 @@ const publications: Publication[] = [
       "International Journal of High Speed Computing, Vol. 11, No. 1, pp. 15-36",
     type: "Journal",
     date: "January, 2000",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4591,7 +4584,7 @@ const publications: Publication[] = [
       "The The 11th ISASTED Interantional Conference on Parallel and Distributed Computing and Systems, Nov. 1999, Cambridge, Massachusetts",
     type: "Conference",
     date: "November, 1999",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/pdcs99.pdf" },
   },
   {
@@ -4601,7 +4594,7 @@ const publications: Publication[] = [
       "The 5th NASA National Symposium on Large-Scale Analysis, Design and Intelligent Synthesis Environments",
     type: "Conference",
     date: "October, 1999",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4612,7 +4605,7 @@ const publications: Publication[] = [
       "The 5th NASA National Symposium on Large-Scale Analysis, Design and Intelligent Synthesis Environments",
     type: "Conference",
     date: "October, 1999",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4622,16 +4615,16 @@ const publications: Publication[] = [
       "Journal of Simulation Practice and Theory, Vol.7, May, 1999, pp 251-278",
     type: "Journal",
     date: "May, 1999",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/simupac.pdf" },
   },
   {
-    authors: ["X.-H. Sun", "M. Pantano", "Thomas Fahringer"],
+    authors: ["X.-H. Sun", "M. Pantano", "T. Fahringer"],
     title: "Integrated Range Comparison for Data-Parallel Compilation Systems",
     venue: "IEEE Trans. on Parallel and Distributed Processing",
     type: "Journal",
     date: "May, 1999",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/range.pdf" },
   },
   {
@@ -4641,7 +4634,7 @@ const publications: Publication[] = [
     venue: "The IEEE Int'l Symposium on Parallel and Distributed Processing",
     type: "Conference",
     date: "April, 1999",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4652,7 +4645,7 @@ const publications: Publication[] = [
       "The 4-th Workshop on High-Level Parallel Programming Models & Supportive Environments in Lecture Notes in Computer Science , No. 1586, Springer",
     type: "Workshop",
     date: "April, 1999",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/llncs.ps" },
   },
   {
@@ -4661,7 +4654,7 @@ const publications: Publication[] = [
     venue: "The IEEE Int'l Parallel Processing Symposium'99",
     type: "Conference",
     date: "April, 1999",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4671,7 +4664,7 @@ const publications: Publication[] = [
     venue: "The SIAM Conf. on Parallel Processing for Scientific Computing",
     type: "Workshop",
     date: "March, 1999",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4681,7 +4674,7 @@ const publications: Publication[] = [
     venue: "The 1999 SIAM Parallel Processing Conference",
     type: "Conference",
     date: "March, 1999",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/siam99.ps" },
   },
   {
@@ -4691,7 +4684,7 @@ const publications: Publication[] = [
       "Journal of Parallel and Distributed Computing and Practice, Vol. 2, No. 4",
     type: "Journal",
     date: "January, 1999",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4700,7 +4693,7 @@ const publications: Publication[] = [
     venue: "The International Conference on Parallel Processing",
     type: "Conference",
     date: "August, 1998",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/icpp98.pdf" },
   },
   {
@@ -4711,7 +4704,7 @@ const publications: Publication[] = [
       "The International Conference on Parallel and Distributed Processing Techniques and Applications",
     type: "Conference",
     date: "July, 1998",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4722,7 +4715,7 @@ const publications: Publication[] = [
       "International Journal on Advances in Engineering Software, pp. 325-330, Vol. 29, No. 3-6",
     type: "Journal",
     date: "July, 1998",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/spacial98.pdf" },
   },
   {
@@ -4731,7 +4724,7 @@ const publications: Publication[] = [
     venue: "Lecture Notes in Computer Science, No. 1388, Springer-Verlag",
     type: "Conference",
     date: "March, 1998",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/mmcbs.pdf" },
   },
   {
@@ -4741,7 +4734,7 @@ const publications: Publication[] = [
     venue: "The 12th International Parallel Processing Symposium",
     type: "Conference",
     date: "March, 1998",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/ipps98.pdf" },
   },
   {
@@ -4750,18 +4743,18 @@ const publications: Publication[] = [
     venue: "The Int'l Conf. on Parallel and Distributed Computing Systems",
     type: "Conference",
     date: "October, 1997",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
-    authors: ["S.T. Leutenegger", "X.-H. Sun"],
+    authors: ["S. T. Leutenegger", "X.-H. Sun"],
     title:
       "Limitations of Cycle Stealing of Parallel Processing on a Network of Homogeneous Workstations",
     venue:
       "Journal of Parallel and Distributed Computing, Vol.43, No. 3, pp.169-178",
     type: "Journal",
     date: "January, 1997",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/limitation.pdf" },
   },
   {
@@ -4771,7 +4764,7 @@ const publications: Publication[] = [
     venue: "Concurrency: Practice and Experience, pp.1-21, Vol. 8(10)",
     type: "Journal",
     date: "January, 1997",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4780,7 +4773,7 @@ const publications: Publication[] = [
     venue: "The International Conference on Parallel Processing",
     type: "Conference",
     date: "August, 1996",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4789,7 +4782,7 @@ const publications: Publication[] = [
     venue: "The IEEE International Parallel Processing Symposium'96",
     type: "Conference",
     date: "April, 1996",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4799,7 +4792,7 @@ const publications: Publication[] = [
     venue: "IEEE Parallel and Distributed Technology, Vol 4, pp. 36-49, Winter",
     type: "Conference",
     date: "January, 1996",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/performancePre1996.pdf",
     },
@@ -4812,7 +4805,7 @@ const publications: Publication[] = [
       "International Journal of High Speed Computing, Vol.7, No.4, pp. 547-576",
     type: "Journal",
     date: "December, 1995",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4821,7 +4814,7 @@ const publications: Publication[] = [
     venue: "IEEE Trans. on Parallel and Distributed Systems",
     type: "Journal",
     date: "November, 1995",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/ieee95.pdf" },
   },
   {
@@ -4831,7 +4824,7 @@ const publications: Publication[] = [
     venue: "Parallel Computing",
     type: "Journal",
     date: "August, 1995",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/pdd95.pdf" },
   },
   {
@@ -4840,7 +4833,7 @@ const publications: Publication[] = [
     venue: "The 28th Hawaii International Conference on System Sciences",
     type: "Conference",
     date: "January, 1995",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4850,18 +4843,18 @@ const publications: Publication[] = [
     venue: "The 23rd International Conf. on Parallel Processing (ICPP'94)",
     type: "Conference",
     date: "August, 1994",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
-    authors: ["X.-H. Sun", "and J. Rosendale"],
+    authors: ["X.-H. Sun", "J. Rosendale"],
     title:
       "A Green's Function Approach to Distributed Solution of Tridiagonal Systems",
     venue:
       "The 14th IMACS World Congress on Computational and Applied Mathematics, Atlanta",
     type: "Conference",
     date: "July, 1994",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4870,7 +4863,7 @@ const publications: Publication[] = [
     venue: "IEEE Trans. on Parallel and Distributed Systems",
     type: "Journal",
     date: "May, 1994",
-    tags: [""],
+    tags: [],
     links: { pdf: "http://cs.iit.edu/~scs/assets/files/scalability94.pdf" },
   },
   {
@@ -4880,7 +4873,7 @@ const publications: Publication[] = [
       "The IEEE International Parallel Processing Symposium'94, pp. 637-643",
     type: "Conference",
     date: "April, 1994",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4891,7 +4884,7 @@ const publications: Publication[] = [
       "The Mardi Gras Conference'94: Toward Teraflop Computing and New Grand Challenge Applications",
     type: "Conference",
     date: "February, 1994",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4900,7 +4893,7 @@ const publications: Publication[] = [
     venue: "Journal of Network and Computer Applications, Vol. 17, pp. 135-146",
     type: "Journal",
     date: "January, 1994",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4909,7 +4902,7 @@ const publications: Publication[] = [
     venue: "Journal of Parallel and Distributed Computing, Vol. 19, pp.27-37",
     type: "Journal",
     date: "September, 1993",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/Sun_and_Ni_JPDC1993.pdf",
     },
@@ -4920,7 +4913,7 @@ const publications: Publication[] = [
     venue: "Information Systems, Vol. 17, No.6, pp.465-475",
     type: "Journal",
     date: "November, 1992",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4931,7 +4924,7 @@ const publications: Publication[] = [
       "International Journal of Computer Systems Science and Engineering, Vol. 7, No. 4, pp.229-235",
     type: "Journal",
     date: "October, 1992",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4940,7 +4933,7 @@ const publications: Publication[] = [
     venue: "IEEE Trans. on Computers, Vol. 41, No. 3, pp.286-296",
     type: "Journal",
     date: "March, 1992",
-    tags: [""],
+    tags: [],
     links: {},
   },
   {
@@ -4949,19 +4942,19 @@ const publications: Publication[] = [
     venue: "Parallel Computing, Vol. 17, pp.1093-1109",
     type: "Journal",
     date: "December, 1991",
-    tags: [""],
+    tags: [],
     links: {
       pdf: "http://cs.iit.edu/~scs/assets/files/sun_perfmetric_parallelcomputing91.pdf",
     },
   },
   {
-    authors: ["T.Y. Li", "H. Zhang", "X.-H. Sun"],
+    authors: ["T. Y. Li", "H. Zhang", "X.-H. Sun"],
     title:
       "Parallel Homotopy Algorithm for Symmetric Tridiagonal Eigenvalue Problem",
     venue: "SIAM Journal of Scientific and Statistical Computing, Vol. 5",
     type: "Journal",
     date: "May, 1991",
-    tags: [""],
+    tags: [],
     links: {},
   },
 ];
