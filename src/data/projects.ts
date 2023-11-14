@@ -58,6 +58,17 @@ const projects: Project[] = [
     type: "funded",
   },
   {
+    id: "labios",
+    name: "Labios",
+    title: "LABIOS: A Distributed Label-Based I/O System",
+    shortDescription:
+      "HPC and Big Data environments have diverged over the years, resulting in diverging and even conflicting I/O requirements. Labios aims to address the challenges vital to HPC + Big Data Convergence",
+    link: "/research/projects/labios",
+    isFeatured: true,
+    isOurs: true,
+    researchStatus: "r&d",
+  },
+  {
     id: "dtio",
     name: "DTIO",
     title: "DTIO: A Data Task I/O Runtime",
