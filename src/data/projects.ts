@@ -65,7 +65,7 @@ const projects: Project[] = [
     shortDescription:
       "HPC and Big Data environments have diverged over the years, resulting in diverging and even conflicting I/O requirements. Labios aims to address the challenges vital to HPC + Big Data Convergence",
     link: "/research/projects/labios",
-    isFeatured: true,
+    isFeatured: false,
     isOurs: true,
     researchStatus: "r&d",
     status: "active",
@@ -78,7 +78,7 @@ const projects: Project[] = [
     shortDescription:
       "In partnership with Argonne National Laboratory, DTIO investigates the use of a task framework for unifying complex I/O stacks and providing features such as resilience, fault-tolerance, and task replay.",
     link: "/research/projects/dtio",
-    isFeatured: true,
+    isFeatured: false,
     isOurs: true,
     researchStatus: "testing",
     status: "active",
