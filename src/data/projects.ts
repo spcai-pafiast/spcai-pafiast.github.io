@@ -114,6 +114,21 @@ const projects: Project[] = [
     status: "active",
     type: "funded",
   },
+  {
+    id: "wisio",
+    name: "WisIO",
+    title:
+      "WisIO: Automated I/O Bottleneck Detection via Multi-Perspective Views for HPC Workloads",
+    shortDescription:
+      "Explore WisIO, an automated I/O bottleneck detection tool with multi-perspective views for I/O trace data analysis. Overcoming large-scale I/O challenges, WisIO utilizes distributed computing and an extensible rule engine for tailored solutions. Elevate your I/O analysis in HPC environments with WisIO.",
+    link: "/research/projects/wisio",
+    isFeatured: false,
+    isOpenSource: false,
+    isOurs: true,
+    researchStatus: "r&d",
+    status: "active",
+    type: "student",
+  },
 ];
 
 export default projects;

@@ -32,7 +32,9 @@ export type ProjectId =
   | "hermes"
   | "iris"
   | "dtio"
-  | "labios";
+  | "labios"
+  | "viper"
+  | "wisio";
 
 export type Project = {
   id: ProjectId;
