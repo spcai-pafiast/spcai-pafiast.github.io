@@ -357,6 +357,7 @@ export type PublicationTag =
   | "Data Analytics"
   | "Data Centers"
   | "Data Compression"
+  | "Data Drilling"
   | "Data Integration"
   | "Data Layout"
   | "Data Pipeline"
@@ -412,11 +413,13 @@ export type PublicationTag =
   | "Hybrid Parallel File System"
   | "I/O"
   | "I/O Acceleration"
+  | "I/O Analysis"
   | "I/O Behavior"
   | "I/O Bottleneck"
   | "I/O Bottleneck Detection"
   | "I/O Buffering"
   | "I/O Characterization"
+  | "I/O Metrics"
   | "I/O Optimization"
   | "Integrated Workflow"
   | "Intelligent Selection"
@@ -444,6 +447,7 @@ export type PublicationTag =
   | "Middleware"
   | "Modeling"
   | "Multi-Tiered"
+  | "Out-of-Core Analysis"
   | "Parallel File System (PFS)"
   | "Parallel I/O"
   | "Parallel Computing"
@@ -488,6 +492,7 @@ export type PublicationTag =
   | "Tools"
   | "Utilization"
   | "Virtualization"
+  | "WisIO"
   | "Workflow Priorities"
   | "Workflow-Aware";
 
@@ -499,6 +504,7 @@ export type PublicationType =
   | "Poster"
   | "Technical Report"
   | "Thesis"
+  | "WIP"
   | "Workshop";
 
 export type Publication = {
