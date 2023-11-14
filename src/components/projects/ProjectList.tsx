@@ -5,13 +5,20 @@ import ProjectItem from "./ProjectItem";
 
 type ProjectListProps = {
   data: Project[];
+  isSorted?: boolean;
 };
 
-export default function ProjectList({ data }: ProjectListProps) {
+export default function ProjectList({
+  data,
+  isSorted = false,
+}: ProjectListProps) {
   return (
     <div className="container">
       <div className="row">
-        {data.map((project) => (
+        {(isSorted
+          ? data.sort((p1, p2) => p1.name.localeCompare(p2.name))
+          : data
+        ).map((project) => (
           <ProjectItem key={project.id} project={project} />
         ))}
       </div>
