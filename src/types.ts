@@ -5,7 +5,13 @@ export type Affiliation = {
   url: string;
 };
 
-export type MemberLinkType = "website" | "email" | "github" | "linkedin" | "twitter" | "scholar";
+export type MemberLinkType =
+  | "website"
+  | "email"
+  | "github"
+  | "linkedin"
+  | "twitter"
+  | "scholar";
 
 export type Member = {
   affiliation?: string;
@@ -19,7 +25,16 @@ export type Member = {
   type: "researcher" | "engineer" | "visiting";
 };
 
-export type ProjectId = "chronolog" | "coeus" | "hermes" | "iris" | "dtio";
+export type ProjectId =
+  | "chronolog"
+  | "coeus"
+  | "dayu"
+  | "hermes"
+  | "iris"
+  | "dtio"
+  | "labios"
+  | "viper"
+  | "wisio";
 
 export type Project = {
   id: ProjectId;
@@ -42,6 +57,7 @@ export type PublicationAuthor =
   | "A. Eswaradass"
   | "A. Fleck"
   | "A. G. Singh"
+  | "A. Geist"
   | "A. Gentile"
   | "A. Haider"
   | "A. Kougkas"
@@ -117,7 +133,7 @@ export type PublicationAuthor =
   | "J. B. Kowalkowski"
   | "J. Bent"
   | "J. Brandt"
-  | "J. C. Garcia"
+  | "J. Cernuda"
   | "J. Dennis"
   | "J. Firoz"
   | "J. Gawor"
@@ -289,6 +305,7 @@ export type PublicationAuthor =
   | "Y. Fan"
   | "Y. Han"
   | "Y. Li"
+  | "Y. Liu"
   | "Y. Lu"
   | "Y. Luo"
   | "Y. Wang"
@@ -329,6 +346,7 @@ export type PublicationTag =
   | "Clouds and Distributed Computing"
   | "Column store"
   | "Compression"
+  | "Computer Architecture"
   | "Computing Education"
   | "Concurrent Average Memory Access Time"
   | "Concurrent Memory Access"
@@ -342,6 +360,7 @@ export type PublicationTag =
   | "Data Analytics"
   | "Data Centers"
   | "Data Compression"
+  | "Data Drilling"
   | "Data Integration"
   | "Data Layout"
   | "Data Pipeline"
@@ -382,6 +401,7 @@ export type PublicationTag =
   | "Filesystems"
   | "Flash Memory"
   | "GPU"
+  | "Graph Applications"
   | "HDF5"
   | "HPC"
   | "HPC Data Containers"
@@ -397,11 +417,13 @@ export type PublicationTag =
   | "Hybrid Parallel File System"
   | "I/O"
   | "I/O Acceleration"
+  | "I/O Analysis"
   | "I/O Behavior"
   | "I/O Bottleneck"
   | "I/O Bottleneck Detection"
   | "I/O Buffering"
   | "I/O Characterization"
+  | "I/O Metrics"
   | "I/O Optimization"
   | "Integrated Workflow"
   | "Intelligent Selection"
@@ -429,6 +451,7 @@ export type PublicationTag =
   | "Middleware"
   | "Modeling"
   | "Multi-Tiered"
+  | "Out-of-Core Analysis"
   | "Parallel File System (PFS)"
   | "Parallel I/O"
   | "Parallel Computing"
@@ -473,6 +496,7 @@ export type PublicationTag =
   | "Tools"
   | "Utilization"
   | "Virtualization"
+  | "WisIO"
   | "Workflow Priorities"
   | "Workflow-Aware";
 
@@ -484,6 +508,7 @@ export type PublicationType =
   | "Poster"
   | "Technical Report"
   | "Thesis"
+  | "WIP"
   | "Workshop";
 
 export type Publication = {
