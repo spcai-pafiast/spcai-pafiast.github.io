@@ -1,5 +1,11 @@
 # Main Scenario
 
+:::info
+
+Hermes **1.1.0** is now available! [Download now](https://github.com/HDFGroup/hermes/releases) for the latest features and improvements. For more information, visit the [Hermes project page](/research/projects/hermes).
+
+:::
+
 ![Deep Distributed Storage Hierarchy (DDSH)](images/Hermes_hierachy.jpg)
 
 Consider an HPC cluster equipped with a deep, distributed [storage

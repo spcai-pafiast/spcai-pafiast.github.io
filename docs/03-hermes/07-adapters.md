@@ -1,6 +1,6 @@
 # Adapters
 
-[[../images/Hermes_Ecosystem.jpg|Hermes Adapters]]
+![Hermes Ecosystem](images/Hermes_Ecosystem.jpg)
 
 Instead of the [Hermes primitives](05-programming.md), existing applications
 use I/O libraries and middleware such as the C standard I/O library,
@@ -9,10 +9,9 @@ buffering solution, a set of _adapters_ is provided in the form of
 `LD_PRELOAD`-able shared libraries. These adapters perform the task of
 mapping between the application view of I/O primitives (e.g., files)
 and the Hermes primitives. An exemplary discussion of such mappings
-can be found in [_Enosis: Bridging the Semantic Gap between File-based
-and Object-based Data Models_](http://www.cs.iit.edu/~scs/assets/files/Enosis.pdf) and
-[_Syndesis: Mapping Objects to Files for a Unified Data Access
-System_](http://www.cs.iit.edu/~scs/assets/files/Syndesis.pdf).
+can be found in [Enosis: Bridging the Semantic Gap between File-based
+and Object-based Data Models](http://www.cs.iit.edu/~scs/assets/files/Enosis.pdf) and [Syndesis: Mapping Objects to Files for a Unified Data Access
+System](http://www.cs.iit.edu/~scs/assets/files/Syndesis.pdf).
 
 Another important task of Hermes adapters is to collect I/O profiling
 that supports the detection of I/O patterns.
@@ -69,7 +68,7 @@ The PubSub adapter for Hermes stands a bit different from other adapters due to 
 
 A simple example of, one of, the ZeroMQ C++ API.
 
-```
+```cpp
 #include <string>
 #include <zmq.hpp>
 int main()
@@ -84,7 +83,7 @@ int main()
 
 And an example of the Kafka C++ API.
 
-```
+```cpp
 #include "kafka/KafkaProducer.h"
 #include <iostream>
 #include <string>
@@ -114,7 +113,7 @@ In all functions `hapi` stands for objects under the `hermes::api` namespace.
 
 #### `connect`
 
-```
+```cpp
 hapi::Status connect(const std::string &config_file);
 hapi::Status connect();
     - Connects to the Hermes instance
@@ -124,7 +123,7 @@ hapi::Status connect();
 
 #### `attach`
 
-```
+```cpp
 hapi::Status attach(const std::string& topic);
     - Attaches to a topic, creating it if it doesn't exist
     - topic: The name of the topic
@@ -132,7 +131,7 @@ hapi::Status attach(const std::string& topic);
 
 #### `detach`
 
-```
+```cpp
 hapi::Status detach(const std::string& topic);
     - Detaches from the topic cleaning up all client-local metadata
     - topic: The name of the topic
@@ -141,7 +140,7 @@ hapi::Status detach(const std::string& topic);
 
 #### `publish`
 
-```
+```cpp
 hapi::Status publish(const std::string& topic,  const std::vector<unsigned char>& message);
     - Puts a message to a topic
     - topic: The name of the topic
@@ -151,7 +150,7 @@ hapi::Status publish(const std::string& topic,  const std::vector<unsigned char>
 
 #### `subscribe`
 
-```
+```cpp
  std::pair<std::vector<unsigned char>, hapi::Status> subscribe( const std::string& topic);
     - Retrieves the next message from the topic
     - topic: The name of the topic
