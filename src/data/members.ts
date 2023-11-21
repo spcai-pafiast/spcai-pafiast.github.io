@@ -101,7 +101,10 @@ export default [
     links: {
       email: "bli70@hawk.iit.edu",
     },
-    researchInterests: ["Memory Performance Modeling", "Memory Performance Optimization"],
+    researchInterests: [
+      "Memory Performance Modeling",
+      "Memory Performance Optimization",
+    ],
     type: "researcher",
   },
   {
@@ -114,7 +117,11 @@ export default [
       linkedin: "https://www.linkedin.com/in/neeraj-rajesh-8248b29a/",
       website: "https://about.stax.xyz/neeraj",
     },
-    researchInterests: ["Parallel and Distributed Systems", "HPC", "ML-Assisted Systems"],
+    researchInterests: [
+      "Parallel and Distributed Systems",
+      "HPC",
+      "ML-Assisted Systems",
+    ],
     type: "researcher",
   },
   {
@@ -163,7 +170,11 @@ export default [
       github: "https://github.com/Jye-525",
       linkedin: "https://www.linkedin.com/in/jie-ye-275b08252/",
     },
-    researchInterests: ["Distributed Storage", "Parallel and Distributed Systems", "Parallel I/O"],
+    researchInterests: [
+      "Distributed Storage",
+      "Parallel and Distributed Systems",
+      "Parallel I/O",
+    ],
     type: "researcher",
   },
   {
@@ -179,20 +190,122 @@ export default [
       twitter: "https://twitter.com/izzetcyildirim",
       website: "https://izzet.dev/",
     },
-    researchInterests: ["HPC", "Distributed Storage", "I/O Characterization", "Containerization"],
+    researchInterests: [
+      "HPC",
+      "Distributed Storage",
+      "I/O Characterization",
+      "Containerization",
+    ],
     type: "researcher",
   },
   {
     name: "Dr. Harry Agyropoylos",
     title: "Senior Researcher",
-    advisor: "Dr. Xian-He Sun",
     affiliation: "University of Piraeus, Greece",
     image: require("@site/static/img/members/agyropoylos.jpg").default,
     links: {
-      email: "hagyropoylos@unipi.gr ",
-      linkedin: "https://www.linkedin.com/in/harrisagyropoulos/ ",
+      email: "hagyropoylos@unipi.gr",
+      linkedin: "https://www.linkedin.com/in/harrisagyropoulos/",
     },
-    researchInterests: ["Computational Finance", "Computational Econometrics", "HPC"],
+    researchInterests: [
+      "Computational Finance",
+      "Computational Econometrics",
+      "HPC",
+    ],
     type: "visiting",
+  },
+  {
+    name: "Dr. Hariharan Devarajan",
+    title: "Computer Scientist",
+    affiliation: "Lawrence Livermore National Laboratory",
+    image: require("@site/static/img/members/devarajan.jpg").default,
+    links: {
+      email: "hariharandev1@llnl.gov",
+      scholar: "https://scholar.google.com/citations?user=3B6sHUcAAAAJ&hl=en",
+    },
+    researchInterests: [
+      "High Performance Computing",
+      "I/O Performance",
+      "Distributed Storage",
+    ],
+    type: "external",
+  },
+  {
+    name: "Dr. Gerd Heber",
+    title: "Executive Director",
+    affiliation: "The HDF Group",
+    image: require("@site/static/img/members/heber.jpg").default,
+    links: {
+      email: "gheber@hdfgroup.org",
+      scholar: "https://scholar.google.com/citations?user=HRxQJx8AAAAJ&hl=en",
+    },
+    researchInterests: [
+      "Data Modeling",
+      "Data Integration",
+      "Large-Scale Data Management",
+      "HDF5",
+    ],
+    type: "external",
+  },
+  {
+    name: "Dr. Jay Lofstead",
+    title: "Principal Scientist",
+    affiliation: "Sandia National Laboratories",
+    image: require("@site/static/img/members/lofstead.jpg").default,
+    links: {
+      email: "gflofst@sandia.gov",
+      scholar: "https://scholar.google.com/citations?user=oZQTwfsAAAAJ&hl=en",
+    },
+    researchInterests: [
+      "High Performance Computing",
+      "I/O Performance",
+      "Portability",
+    ],
+    type: "external",
+  },
+  {
+    name: "Dr. Kathryn Mohror",
+    title: "Group Leader",
+    affiliation: "Lawrence Livermore National Laboratory",
+    image: require("@site/static/img/members/mohror.png").default,
+    links: {
+      email: "mohror1@llnl.gov",
+      scholar: "https://scholar.google.com/citations?user=O9xR5EYAAAAJ&hl=en",
+    },
+    researchInterests: [
+      "High Performance Computing",
+      "I/O Performance",
+      "Portability",
+    ],
+    type: "external",
+  },
+  {
+    name: "Dr. Bogdan Nicolae",
+    title: "Computer Scientist",
+    affiliation: "Argonne National Laboratory",
+    image: require("@site/static/img/members/nicolae.jpg").default,
+    links: {
+      email: "bogdan.nicolae@acm.org",
+      scholar: "https://scholar.google.com/citations?user=HMNY1JIAAAAJ&hl=en",
+    },
+    researchInterests: [
+      "Parallel and Distributed Computing",
+      "High Performance Computing",
+      "Fault Tolerance",
+      "Storage",
+    ],
+    type: "external",
+  },
+  {
+    name: "Dr. Nathan Tallent",
+    title: "Group Leader",
+    affiliation: "Pacific Northwest National Laboratory",
+    image: require("@site/static/img/members/tallent.jpg").default,
+    links: {
+      email: "nathan.tallent@pnnl.gov",
+      scholar: "https://scholar.google.com/citations?user=cnEIj_kAAAAJ&hl=en",
+    },
+    researchInterests: ["High Performance Computing", "Performance Analysis"],
+    type: "external",
   },
 ] as Member[];

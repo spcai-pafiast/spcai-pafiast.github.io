@@ -15,14 +15,14 @@ export type MemberLinkType =
 
 export type Member = {
   affiliation?: string;
-  advisor: string;
+  advisor?: string;
   bio?: string;
   image: string;
   links?: Record<MemberLinkType, string>;
   name: string;
   researchInterests?: string[];
   title: string;
-  type: "researcher" | "engineer" | "visiting";
+  type: "researcher" | "engineer" | "visiting" | "external";
 };
 
 export type ProjectId =
