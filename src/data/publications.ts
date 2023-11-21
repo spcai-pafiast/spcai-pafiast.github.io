@@ -27,7 +27,11 @@ const publications: Publication[] = [
     type: "Workshop",
     date: "November, 2023",
     tags: ["I/O Analysis", "Out-of-Core Analysis", "Data Drilling", "WisIO"],
-    links: {},
+    links: {
+      pdf: "http://cs.iit.edu/~scs/assets/files/yildirim2023iomax.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yildirim2023iomax.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yildirim2023iomax.txt",
+    },
   },
   {
     authors: [
@@ -44,7 +48,14 @@ const publications: Publication[] = [
     type: "Poster",
     date: "November, 2023",
     tags: ["I/O Analysis", "I/O Metrics", "I/O Bottleneck Detection", "WisIO"],
-    links: {},
+    links: {
+      poster:
+        "http://cs.iit.edu/~scs/assets/files/yildirim2023mmetrics_poster.pdf",
+      "extended abstract":
+        "http://cs.iit.edu/~scs/assets/files/yildirim2023mmetrics_abstract.pdf",
+      bibtex: "http://cs.iit.edu/~scs/assets/files/yildirim2023mmetrics.bib",
+      citation: "http://cs.iit.edu/~scs/assets/files/yildirim2023mmetrics.txt",
+    },
   },
   {
     authors: [
@@ -1464,7 +1475,13 @@ const publications: Publication[] = [
     },
   },
   {
-    authors: ["A. Kougkas", "H. Eslami", "R. Thakur", "W. D. Gropp", "X.-H. Sun"],
+    authors: [
+      "A. Kougkas",
+      "H. Eslami",
+      "R. Thakur",
+      "W. D. Gropp",
+      "X.-H. Sun",
+    ],
     title: "Rethinking Key Value Store for Parallel I/O Optimization",
     venue:
       "International Journal of High Performance Applications,2017. vol. 31, no. 4, pp. 335-356",
