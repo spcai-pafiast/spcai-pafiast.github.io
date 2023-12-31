@@ -332,6 +332,7 @@ export type PublicationAuthor =
 
 export type PublicationTag =
   | "Access Pattern"
+  | "AI for I/O"
   | "Apache Arrow"
   | "Bandwidth"
   | "Benchmark"
@@ -425,6 +426,7 @@ export type PublicationTag =
   | "I/O Characterization"
   | "I/O Metrics"
   | "I/O Optimization"
+  | "I/O Stack Tuning"
   | "Integrated Workflow"
   | "Intelligent Selection"
   | "KVS"

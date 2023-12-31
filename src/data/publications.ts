@@ -2,6 +2,23 @@ import { ProjectId, Publication, PublicationTag } from "../types";
 
 const publications: Publication[] = [
   {
+    authors: [
+      "N. Rajesh",
+      "K. Bateman",
+      "S. Byna",
+      "J. L. Bez",
+      "A. Kougkas",
+      "X.-H. Sun",
+    ],
+    title: "TunIO: An AI-powered Framework for Optimizing HPC I/O",
+    venue:
+      "38th IEEE International Parallel & Distributed Processing Symposium (IPDPS 2024)",
+    type: "Conference",
+    date: "May, 2024",
+    tags: ["AI for I/O", "I/O Stack Tuning"],
+    links: {},
+  },
+  {
     authors: ["X. Lu", "H. Najafi", "J. Liu", "X.-H. Sun"],
     title:
       "CHROME: Concurrency-Aware Holistic Cache Management Framework with Online Reinforcement Learning",
