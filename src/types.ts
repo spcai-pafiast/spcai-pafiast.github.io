@@ -5,6 +5,18 @@ export type Affiliation = {
   url: string;
 };
 
+export type Job = {
+  applicationLink: string;
+  detailLink?: string;
+  detailText?: string;
+  location?: string;
+  postedAt?: string;
+  shortDescription: string;
+  status: "open" | "closed";
+  title: string;
+  // type: "full-time" | "part-time" | "internship";
+};
+
 export type MemberLinkType =
   | "website"
   | "email"

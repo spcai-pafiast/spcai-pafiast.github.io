@@ -149,6 +149,11 @@ const config = {
             label: "Publications",
             position: "left",
           },
+          {
+            to: "/jobs",
+            label: "Job Opportunities",
+            position: "left",
+          },
           // {
           //   to: "/blog",
           //   label: "Blog",
@@ -200,10 +205,10 @@ const config = {
                 label: "ChronoLog",
                 to: "/research/projects/chronolog",
               },
-	      {
-		label: "Labios",
-		to: "/research/projects/labios",
-	      },
+              {
+                label: "Labios",
+                to: "/research/projects/labios",
+              },
               {
                 label: "Coeus",
                 to: "/research/projects/coeus",
