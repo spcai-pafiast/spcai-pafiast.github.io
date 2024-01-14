@@ -5,6 +5,18 @@ export type Affiliation = {
   url: string;
 };
 
+export type Job = {
+  applicationLink: string;
+  detailLink?: string;
+  detailText?: string;
+  location?: string;
+  postedAt?: string;
+  shortDescription: string;
+  status: "open" | "closed";
+  title: string;
+  // type: "full-time" | "part-time" | "internship";
+};
+
 export type MemberLinkType =
   | "website"
   | "email"
@@ -332,6 +344,7 @@ export type PublicationAuthor =
 
 export type PublicationTag =
   | "Access Pattern"
+  | "AI for I/O"
   | "Apache Arrow"
   | "Bandwidth"
   | "Benchmark"
@@ -425,6 +438,7 @@ export type PublicationTag =
   | "I/O Characterization"
   | "I/O Metrics"
   | "I/O Optimization"
+  | "I/O Stack Tuning"
   | "Integrated Workflow"
   | "Intelligent Selection"
   | "KVS"
