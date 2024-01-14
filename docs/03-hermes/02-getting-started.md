@@ -1,4 +1,4 @@
-# Building Hermes
+# 1. Building Hermes
 
 There are several ways to obtain a working Hermes installation. Information on
 dependencies can be found in the [README](https://github.com/HDFGroup/hermes/blob/master/README.md).
@@ -6,7 +6,7 @@ dependencies can be found in the [README](https://github.com/HDFGroup/hermes/blo
 - [Docker Image](https://hub.docker.com/r/hdfgroup/hermes)
   - We also maintain Dockerfiles for [Hermes
     development](https://github.com/HDFGroup/hermesblob/master/dev.Dockerfile) and [Hermes
-    dependencies](https://github.com/HDFGroup/hermesblob/master/deps.Dockerfile)
+    dependencies](https://github.com/HDFGroup/hermes/blob/master/docker/deps.Dockerfile)
 - CMake
   - Instructions can be found in the [README](https://github.com/HDFGroup/hermes/blob/master/README.md)
 - Spack
@@ -16,298 +16,294 @@ If you get stuck, the root of the repository contains a `ci` folder where we
 keep the scripts we use to build and test Hermes in a Github Actions workflow.
 The workflow file itself is [here](https://github.com/HDFGroup/hermes/blob/master/.github/workflows/main.yml).
 
-## Deploying Resources
-
-Hermes is an _application extension_. Storage resources are deployed under
-Hermes control by
-
-1. [Configuring Hermes](04-configuration.md) for your system _and_ application
-2. Making your application "Hermes-aware"
-
-An application can be made aware of Hermes in at least three different ways:
-
-- Through [Hermes Adapters](07-adapters.md), `LD_PRELOAD`-able shared libraries
-  which intercept common I/O middleware calls such as UNIX STDIO, POSIX, and
-  MPI-IO (NOTE: when Hermes is compiled with DHERMES_USE_ADDRESS_SANITIZER=ON,
-  which is ON by default, you must also ensure that libasan is preloaded first,
-  before anything else)
-
-[//]: # "- Through an [HDF5 virtual file driver (VFD)](./HDF5-Hermes-VFD)"
-
-- By directly targeting the Hermes native API
-
-These options represent different use cases and trade-offs, for example, with
-respect to expected performance gains and required code change.
-
-## Adapters
-
-When using the `STDIO` adapter (intercepting `fopen`, `fwrite`, etc.) and the
-`POSIX` adapter (intercepting `open`, `write`, etc.), there are multiple ways to
-deploy Hermes with an existing application.
-
-> **NOTE:** The `MPI-IO` adapter is still experimental, and only supports MPICH
-> at this time.
-
-### A note about Address Sanitization (libasan)
-
-If you compile hermes with DHERMES_USE_ADDRESS_SANITIZER=ON,
-you must LD_PRELOAD the libasan
-used to build Hermes, in addition to the interceptor. To locate libasan,
-run the following command:
-
-```bash
-gcc -print-file-name=libasan.so
-```
-
-Note that libasan will detect memory leaks and errors in the program
-linking to hermes as well. To avoid detecting memory leaks in the
-client program, do the following:
-
-```bash
-# Create or modify a file for storing libasan exclusions:
-nano ${HERMES_ROOT}/test/data/asan.supp
-
-# Set the libasan environment variable to point to the file
-LSAN_OPTIONS=suppressions=${HERMES_ROOT}/test/data/asan.supp
-```
-
-Check the example in the section below (Hermes services running in same process
-as the application) to see how to use hermes + asan together.
-
-### Deploying an Application with Hermes
+## 2. Configuring + Deploying Hermes
 
 The Hermes daemon is responsible for tracking various metadata, and it is
 required to be launched before your application. There should only be
-one Hermes daemon per node. This can be accomplished using SSH or MPI.
-The following example uses MPICH to deploy hermes on a cluster of two nodes.
-We then use MPICH to finalize the daemon and flush all remaining content
-back to the PFS.
+one Hermes daemon per node. We recommend
+[Jarvis](https://github.com/grc-iit/jarvis-cd.git) for deploying Hermes.
+Jarvis is a framework that configures and deploys complex applications and
+services. Jarvis will automatically set various environment variables
+that Hermes expects in order for applications to be deployed. We have
+also integrated several applications into Jarvis that can be seamlessly
+deployed with Hermes.
+
+### 2.1. Install Jarvis
+
+To install jarvis, do the following:
+```bash
+export JARVIS_PATH=${PWD}/jarvis-cd
+git clone https://github.com/grc-iit/jarvis-cd.git ${JARVIS_PATH}
+cd ${JARVIS_PATH}
+pip install -e . -r requirements.txt
+```
+
+### 2.2. Initialize Jarvis
+
+After installing, Jarvis MUST be configured for your specific system. The first
+step is to define places for storing Jarvis configuration data. Note that large data
+objects are **never** intended to be stored in these directories.
+
+There are three places where configuration data is stored:
+* CONFIG_DIR: A directory where jarvis metadata for pkgs and pipelines are stored. This
+directory can be anywhere that the current user can access.
+* PRIVATE_DIR: A directory which is common across all machines, but stores data locally to the
+machine. Some jarvis pkgs require certain data to be stored per-machine. /tmp
+would be an example.
+* SHARED_DIR: A directory which is common across all machines, where each machine has the same
+view of data in the directory. In a supercomputing site, this would typically be
+in your home directory.
 
 ```bash
-# We must start one and only one Hermes daemon on each node.
-# This job is started in the background so the terminal doesn't block forever
-# HERMES_CONF is the configuration of the server.
-mpirun -n 2 -ppn 1 \
-  -genv PATH=${PATH} \
-  -genv LD_LIBRARY_PATH=${LD_LIBRARY_PATH} \
-  -genv HERMES_CONF=/path/to/hermes.yaml \
-  ${HERMES_INSTALL_DIR}/bin/hermes_daemon &
-
-# Now we can start our application
-# HERMES_CONF is the same as the one when spawning the daemon
-# HERMES_CLIENT_CONF contains any parameters relevant to the specific program
-mpirun -n 4 -ppn 2 \
-  -genv PATH=${PATH} \
-  -genv LD_LIBRARY_PATH=${LD_LIBRARY_PATH} \
-  -genv LD_PRELOAD=${HERMES_INSTALL_DIR}/lib/libhermes_posix.so \
-  -genv HERMES_CLIENT_CONF=/path/to/hermes_client.yaml \
-  -genv HERMES_CONF=/path/to/hermes_server.yaml \
-  ./my_app
-
-# Now we can finalize
-# This will automatically flush all dirty data remaining back to the PFS
-HERMES_CONF=/path/to/hermes.yaml \
-${HERMES_INSTALL_DIR}/bin/finalize_hermes
+jarvis init ${CONFIG_DIR} ${PRIVATE_DIR} ${SHARED_DIR}
 ```
 
-# Hermes Tutorial
+### 2.3. Build a Resource Graph
 
-Here we will walk through an entire example of using Hermes with
-[IOR](https://github.com/hpc/ior). IOR supports several I/O APIs (`-a` option),
-including POSIX, MPI-IO, and HDF5. Hermes has adapters for POSIX, MPI-IO, and HDF5.
-For serial (single process) HDF5, the Hermes VFD can be enabled via environment variable
-as described [here](https://github.com/HDFGroup/hermes/tree/master/adapter/vfd#method-3-dynamically-loaded-by-environment-variable). Parallel HDF5 can use the MPI-IO adapter.
-For this tutorial, we'll focus on POSIX. We assume you already have working
-Hermes and IOR installations. See the [README](https://github.com/HDFGroup/hermes/blob/master/README.md) for
-Hermes installation details.
+A resource graph contains the storage and networking configuration
+of the machines you intend to deploy Hermes on.
 
-## Workload
+#### 2.3.1. Bootstrapping from an existing machine
 
-We will simulate a checkpoint/restart workload in which a group of processes
-each write a checkpoint file, and then another group of processes on different
-nodes reads the checkpoint files. In the default case, the checkpoint files will
-be written to and then read from the parallel file system. When running with
-Hermes, the data will be buffered in fast, local media resulting in a nice
-speedup with no code changes required.
+We have several resource graphs for different machines, located under
+``${JARVIS_PATH}/builtin/resource_graph``. There are resource graphs
+for different machines spanning IIT, PNNL, and Argonne. To view the
+set of preconfigured machines, run:
 
-## Target system
-
-### Clients
-
-I'm running on a cluster with 8 client nodes, each with the following
-characteristics:
-
-```
-Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
-40 cores (Hyperthreading enabled)
-46 GiB DRAM
-40 Gbps ethernet with RoCE capability
+```bash
+ls ${JARVIS_PATH}/builtin/resource_graph
 ```
 
-### Storage Tiers
+If one of your machines is there, then do:
+```bash
+jarvis bootstrap from [MY_MACHINE]
+```
 
-| Name | Description                                        | Measured Write Bandwidth |
-| ---- | -------------------------------------------------- | ------------------------ |
-| PFS  | OrangeFS running on 8 server nodes, backed by HDDs | 536 MiB/s                |
-| NVMe | Node-local NVMe attached SSDs.                     | 1918 MiB/s               |
-| RAM  | Node-local DRAM.                                   | 79,061 MiB/s             |
+For example, ares is one of the machines:
+```bash
+jarvis bootstrap from ares
+```
 
-## Hermes configuration
+#### 2.3.2. Building a new resource graph
 
-Here we describe the Hermes configuration format. Hermes has two configurations:
-one for the daemon and one for the client program. We will briefly discuss
-each here.
-See [Configuration](04-configuration.md) for more details.
+If a resource graph for your machine is not available, you will have to
+define one manually.
 
-### Daemon (server) configuration
+The resource graph **must** be created at exactly the following path:
+```bash
+${JARVIS_PATH}/config/resource_graph.yaml
+```
 
-For a documented example of how to create a Hermes configuration, please
-check the [default configuration](https://github.com/HDFGroup/hermes/blob/master/config/hermes_server_default.yaml).
-Note, the default config is designed for single-node cases. We use YAML to
-define the Hermes configuration format.
-
-#### Defining the buffering locations
-
-First, we should define the kind of storage devices that are targeted for
-intermediate buffering.
-
+For storage devices, the required parameters are as follows:
 ```yaml
-devices:
-  ram:
-    mount_point: ""
-    capacity: 50MB
-    block_size: 4KB
-    slab_sizes: [4KB, 16KB, 64KB, 1MB]
-    bandwidth: 6000MBps
-    latency: 15us
-    is_shared_device: false
-    borg_capacity_thresh: [0.0, 1.0]
-  nvme:
-    mount_point: "/mnt/nvme/hermes_nvme"
-    capacity: 100MB
-    block_size: 4KB
-    slab_sizes: [4KB, 16KB, 64KB, 1MB]
-    bandwidth: 1GBps
-    latency: 600us
-    is_shared_device: false
-    borg_capacity_thresh: [0.0, 1.0]
-  pfs:
-    mount_point: "${HOME}/hermes_pfs"
-    capacity: 100MB
-    block_size: 64KB # The stripe size of PFS
-    slab_sizes: [4KB, 16KB, 64KB, 1MB]
-    bandwidth: 100MBps # Per-device bandwidth
-    latency: 200ms
-    is_shared_device: true
-    borg_capacity_thresh: [0.0, 1.0]
+fs:
+- avail: 500G        # Available capacity of the device (Suffix: K,G,T,P)
+  dev_type: ssd      # Type of storage hardware (hdd, ssd, nvme, pmem)
+  mount: /mnt/ssd/${USER}  # Where to place data on the device
+  shared: false            # Is this shared across nodes (e.g., a PFS?)
 ```
 
-Here we have a YAML dictionary called devices. A semantic name is then provided
-for each device targeted for buffering. To tell Hermes a device is considered
-RAM, we use mount_point being the empty string. For other devices, this is
-can be a path to a directory located on a filesystem.
+For networks, the parameters are as follows:
+```yaml
+net:
+- domain: lo             # Domain of network. Can be null.
+  fabric: 127.0.0.1/32  
+  provider: tcp;ofi_rxm
+  shared: false          # Is this network shared across nodes. E.g., localhost is not
+  speed: 40G
+```
+This information can be discovered using tools such as ``fi_info`` provided
+by libfabric.
 
-####
+### 2.4. Building an Environment
 
-## Running
+We will now load all necessary environment variables and build a
+Jarvis environment named hermes_env:
+```bash
+spack load hermes
+jarvis env build hermes_env
+```
 
-### IOR Baseline
+hermes_env will store all important environment variables, including PATH,
+LD_LIBRARY_PATH, etc. in a YAML file.
+
+### 2.5. Set the active Hostfile
+
+The hostfile contains the set of nodes that the pipeline will run over.
+This is structured the same way as a traditional MPI hostfile.
+
+An example hostfile:
+```txt
+ares-comp-20
+ares-comp-[21-25]
+```
+
+To set the active hostfile, run:
+```bash
+jarvis hostfile set /path/to/hostfile
+```
+
+Note that every time you change the hostfile, you will need to update the
+pipeline. Jarvis does not automatically detect changes to this file.
+```bash
+jarvis pipeline update
+```
+
+#### 2.6. Create an empty pipeline:
+```bash
+jarvis pipeline create hermes
+```
+hermes is the name of the pipeline. It doesn't need to be hermes,
+it can be any name.
+
+#### 2.7. Copy the environment cache:
+```bash
+jarvis pipeline env copy hermes_env
+```
+This will use the hermes_env environment that was previously created in
+
+#### 2.8. Add Hermes runtime
 
 ```bash
-mpirun -n 48 -ppn 12 \
-  ior -w -r -o /PFS/USER/ior.out -t 1m -b 128m -F -e -Y -C -O summaryFormat=CSV
+jarvis pipeline append hermes_run
+jarvis pkg configure hermes_run \
+sleep=5 \
+include=${HOME}/ior_data
 ```
 
-Here we launch 48 IOR processes across 4 nodes. The IOR options are explained in
-the following table.
-
-| Flag             | Description                                                             |
-| ---------------- | ----------------------------------------------------------------------- |
-| -w               | Perform write                                                           |
-| -r               | Perform read                                                            |
-| -o               | Output/Input file                                                       |
-| -t               | Size per write                                                          |
-| -b               | Total I/O size per rank                                                 |
-| -F               | Create one file for each process                                        |
-| -e               | Call `fsync` on file close.                                             |
-| -Y               | Call `fsync` after each write.                                          |
-| -C               | Shuffle ranks so that they read from different nodes than they wrote to |
-| -O summaryFormat | Show the output in a compact, CSV format                                |
-
-Some of these options require justification.
-
-- `-Y`: We do direct (non-buffered) I/O in order to simulate a situation with
-  high RAM pressure. If the application is using most of the RAM, then the OS
-  page cache will have less RAM available for buffering.
-- `-C`: This option simulates a situation where different nodes read the
-  checkpoint than the ones that wrote it, resulting in a situation where the
-  checkpoint cannot be read from the page cache, and forcing the app to go to
-  the PFS.
-
-Here are the results:
+Jarvis will automatically produce a Hermes client and server configuration that
+contains all storage devices and fastest available network defined in the
+resource graph. These configurations will be located in:
 
 ```
-access,bw(MiB/s),IOPS,Latency,block(KiB),xfer(KiB),open(s),wr/rd(s),close(s),total(s),numTasks,iter
-write,30.3120,30.3795,1.5543,131072.0000,1024.0000,15.0489,202.2413,35.0600,202.6921,48,0
-read,2012.0224,2026.8185,0.0158,131072.0000,1024.0000,0.4558,3.0314,1.0307,3.0536,48,0
+$(jarvis path +shared)/hermes_run/hermes_server.yaml
+$(jarvis path +shared)/hermes_run/hermes_client.yaml
 ```
 
-Our write bandwidth is 30 MiB/s and our read bandwidth is 2012 MiB/s.
+## 2.9. Starting + Stopping Hermes
 
-### IOR with Hermes
+To start Hermes:
+```bash
+jarvis pipeline start
+```
 
-To enable Hermes with an IOR checkpoint/restart workload, we must start a
-daemon, `LD_PRELOAD` a Hermes adapter and set some environment variables.
+## 2.10. Stopping and Killing Hermes
 
-> **NOTE**: As a temporary workaround to [issue #258](https://github.com/HDFGroup/hermes/issues/258) we must
-> comment out the line `backend->close(fd, params->backend_options);` in
-> `ior.c:TestIoSys` before compiling IOR. This change is implemented in the `chogan/hermes` branch of the IOR fork [here](https://github.com/ChristopherHogan/ior/tree/chogan/hermes).
+To gracefully stop Hermes and flush data back to the PFS:
+```bash
+jarvis pipeline stop
+```
 
-We spawn a daemon on each node, then run our app with the appropriate
-environment variables, similar to the process described above.
+To kill a Hermes deployment that isn't stopping gracefully:
+```bash
+jarvis pipeline kill
+```
+
+## 2.11. Cleanup
+
+To erase data produced by the pipeline:
+```bash
+jarvis pipeline clean
+```
+
+To destroy the pipeline:
+```bash
+jarvis pipeline destroy
+```
+
+## 3. Configuring + Deploying Hermes with an Application
+
+As previously stated, Jarvis can be used to deploy and application
+with Hermes. This will automatically set environment variables
+(e.g., LD_PRELOAD) that will be necessary for the application to
+run.
+
+### 3.1. Build an Environment
+
+We will now load all necessary environment variables and build a
+Jarvis environment named hermes_env:
+```bash
+spack load hermes
+spack load ior
+jarvis env build hermes_ior_env
+```
+
+hermes_ior_env will store all important environment variables, including PATH,
+LD_LIBRARY_PATH, etc. in a YAML file.
+
+### 3.2. Create an empty pipeline:
+```bash
+jarvis pipeline create hermes_ior
+```
+
+### 3.3. Copy the environment cache:
+```bash
+jarvis pipeline env copy hermes_ior_env
+```
+
+### 3.4. Set the active hostfile
+```bash
+jarvis hostfile set /path/to/hostfile
+```
+
+### 3.5. Add Hermes runtime
 
 ```bash
-HERMES_CONF_PATH=/absolute/path/to/hermes.yaml
-
-# Start one daemon on each node
-mpirun -n 4 -ppn 1 \
-  -genv HERMES_CONF ${HERMES_CONF_PATH} \
-  ${HERMES_INSTALL_DIR}/bin/hermes_daemon &
-
-# Give the daemons a chance to initialize
-sleep 3
-
-# Start "checkpoint" app
-mpirun -n 48 -ppn 12 \
-  -genv LD_PRELOAD ${HERMES_INSTALL_DIR}/lib/libhermes_posix.so \
-  -genv HERMES_CONF ${HERMES_CONF_PATH} \
-  -genv HERMES_CLIENT 1 \
-  -genv ADAPTER_MODE SCRATCH \
-  -genv HERMES_STOP_DAEMON 0 \
-  ior -w -k -o ${CHECKPOINT_FILE} -t 1m -b 128m -F -e -Y -O summaryFormat=CSV
-
-# Start the "restart" app
-mpirun -n 48 -ppn 8 \
-  -genv LD_PRELOAD ${HERMES_INSTALL_DIR}/lib/libhermes_posix.so \
-  -genv HERMES_CONF ${HERMES_CONF_PATH} \
-  -genv HERMES_CLIENT 1 \
-  -genv ADAPTER_MODE SCRATCH \
-  ior -r -o ${CHECKPOINT_FILE} -t 1m -b 128m -F -e -O summaryFormat=CSV
+jarvis pipeline append hermes_run
+jarvis pkg configure hermes_run \
+sleep=5 \
+include=${HOME}/ior_data
 ```
 
-Results:
+This will ensure that if a Hermes interceptor is used, it will intercept
+all paths in ``${HOME}/ior_data``.
 
+### 3.6. Add Hermes MPI-IO interceptor
+
+```bash
+jarvis pipeline append hermes_api
+jarvis pkg configure hermes_api +mpi
 ```
-access,bw(MiB/s),IOPS,Latency,block(KiB),xfer(KiB),open(s),wr/rd(s),close(s),total(s),numTasks,iter
-write,1748.0946,1928.3122,0.0122,131072,1024,1.9385,3.1862,0.8167,3.5147
-read,2580.2756,2861.2635,0.0074,131072,1024,0.1923,2.1473,1.7458,2.3811
+
+This will automatically locate the interceptor library by
+traversing various environment variables. This will ensure
+that MPI-IO is intercepted by Hermes.
+
+### 3.7. Add IOR
+
+```bash
+jarvis pipeline append ior
+jarvis pkg configure ior \
+xfer=1m \
+block=1g \
+nprocs=64 \
+ppn=16 \
++write +read \
+out=${HOME}/ior_data/ior.bin \
+api=mpiio
 ```
 
-We get a nice boost in write bandwidth, and a modest speedup in read bandwidth,
-all with no code changes.
+This IOR will perform 1GB of I/O per-process (block) in units of 1m (xfer) and
+produce a single output file ``${HOME}/ior_data/ior.bin``(out) using MPI-IO
+(api). The total amount of I/O performed will be 64GB spread across 4 nodes.
 
-![Checkpoint-Restart Results](./images/IOR_Checkpoint_Restart.png)
+### 3.8. Run the Pipeline
 
-We haven't done any performance optimization yet, so I expect to bridge the gap
-significantly between the 2.5 GiB read speed of Hermes and the baseline speed of
-reading from RAM (tmpfs on /dev/shm) with IOR of 60 GiB.
+To run the pipeline:
+```bash
+jarvis pipeline run
+```
+
+This will launch Hermes, execute IOR, and then stop Hermes. It is equivalent
+to:
+```bash
+jarvis pipeline start
+jarvis pipeline stop
+```
+
+### 3.9. Cleanup
+
+The following will delete intermediate data generated by Hermes + IOR:
+```bash
+jarvis pipeline clean
+```

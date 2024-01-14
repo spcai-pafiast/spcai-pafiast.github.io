@@ -2,28 +2,31 @@
 
 :::info
 
-Hermes **1.1.0** is now available! [Download now](https://github.com/HDFGroup/hermes/releases) for the latest features and improvements. For more information, visit the [Hermes project page](/research/projects/hermes).
+Hermes **1.1.0** is now available! [Download
+now](https://github.com/HDFGroup/hermes/releases) for the latest features and
+improvements. For more information, visit the [Hermes project
+page](/research/projects/hermes).
 
 :::
 
-![Deep Distributed Storage Hierarchy (DDSH)](images/Hermes_hierachy.jpg)
+![Deep Memory and Storage Hierarchy (DMSH)](images/Hermes_hierachy.jpg)
 
-Consider an HPC cluster equipped with a deep, distributed [storage
-hierarchy](06-components/10-examples.md) (DDSH), the bottom layer of
-which is typically a parallel file system (PFS). DDSH was introduced to
+Consider an HPC cluster equipped with a [deep memory and storage
+hierarchy](06-components/10-examples.md) (DMSH), the bottom layer of
+which is typically a parallel file system (PFS). DMSH was introduced to
 boost or to at least improve the I/O (POSIX, MPI-IO, HDF5, ...)
 performance of applications performing poorly otherwise. Unfortunately,
-DDSH is not a turn-key solution and difficult to use from a developer's or user's
+DMSH is not a turn-key solution and difficult to use from a developer's or user's
 perspective. It seems that users are expected to
-take control, to learn all the necessary DDSH details, and to make the
+take control, to learn all the necessary DMSH details, and to make the
 necessary code changes. Even if successful, this is a distraction from
 solving domain problems and, worse, it will be harder to maintain and
 port the application to other or future systems.
 
 The goal of the Hermes project is to provide a _seamless_ solution that
-utilizes DDSH without or requiring only minor application changes.
+utilizes DMSH none or minimal changes to applications.
 
-(Even without a deep DDSH, determined users have created original
+(Even without a deep DMSH, determined users have created original
 solutions to overcome I/O performance challenges. See use cases for an example. Many of them can be
 considered custom, i.e., application-specific, I/O buffering systems.)
 
@@ -45,19 +48,19 @@ with the following characteristics:
 - Users express I/O priorities, constraints, and hints via buffering policies.
 - Given individual or batches of I/O operations (writes and reads),
   the **main challenge** for such a buffering system is to determine
-  where in DDSH a given data item is <b>best/well/optimally-</b>placed at
+  where in DMSH a given data item is <b>best/well/optimally-</b>placed at
   that point in time.
 - To that end, the system consists of the following major components:
   - [Strategies and algorithms](06-components/04-data-placement.md) that
     implement policies and facilitate
     data placement decisions. Speculative data
     placement for read operations is also known as
-    [prefetching](06-components/09-prefetcher.md).
+    [Prefetching](06-components/09-prefetcher.md).
   - These strategies work with (dynamic) sets of [buffering
     target](06-components/03-buffering-target.md)s and are applicable more
     broadly.
   - The physical buffering resources are managed in a distributed
-    [buffer pool](06-components/02-buffer-pool.md) (see also Batching
+    [Buffer Pool](06-components/02-buffer-pool.md) (see also Batching
     System).
   - [Buffer Organizer](06-components/01-buffer-organizer.md)
   - Profiler
@@ -81,11 +84,11 @@ multiple applications "communicating" via the PFS. Another important
 scenario and set of use cases include applications that operate in a
 more **transient mode**: they tend to produce massive amounts of
 temporary data that need not be persisted in a PFS after the application
-completes. With DDSH, the use of PFS appears as a matter of last resort
+completes. With DMSH, the use of PFS appears as a matter of last resort
 ("out-of-core"), and an I/O buffering system might offer a more
 performant solution.
 
-DDSH are by no means limited to HPC clusters. Today, cloud-based VMs
+DMSH are by no means limited to HPC clusters. Today, cloud-based VMs
 from major providers offer half a dozen or more storage options and
 multiple interconnects. Since customers/users have the ability to
 customize the target system, it may seem that good I/O performance might
