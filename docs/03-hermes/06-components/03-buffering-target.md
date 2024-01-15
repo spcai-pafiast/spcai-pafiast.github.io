@@ -91,48 +91,62 @@ means a local target list will consist of 3 targets, a neighborhood target list 
 ## Kitchen Sink
 
 <table>
-<tbody>
-<tr class="odd">
-<td><p>From the <a href="https://www.cut.ac.cy/digitalAssets/122/122275_100sigmod.pdf">OctopusFS paper</a>:</p>
-<ul>
-<li>Tiers <span class="math inline"><em>T</em><sub>1</sub>, …, <em>T</em><sub><em>k</em></sub></span></li>
-<li>Media <span class="math inline"><em>m</em><sub><em>i</em></sub></span>
-<ul>
-<li><span class="math inline"><em>T</em><em>i</em><em>e</em><em>r</em>[<em>m</em><sub><em>i</em></sub>]</span> - the tier of medium <span class="math inline"><em>m</em><sub><em>i</em></sub></span></li>
-<li><span class="math inline"><em>C</em><em>a</em><em>p</em>[<em>m</em><sub><em>i</em></sub>]</span> - the total capacity of medium <span class="math inline"><em>m</em><sub><em>i</em></sub></span></li>
-<li><span class="math inline"><em>R</em><em>e</em><em>m</em>[<em>m</em><sub><em>i</em></sub>]</span> - the remaining capacity of medium <span class="math inline"><em>m</em><sub><em>i</em></sub></span></li>
-<li><span class="math inline"><em>N</em><em>r</em><em>C</em><em>o</em><em>n</em><em>n</em>[<em>m</em><sub><em>i</em></sub>]</span> - the number of active I/O connections to medium <span class="math inline"><em>m</em><sub><em>i</em></sub></span></li>
-<li><span class="math inline"><em>W</em><em>T</em><em>h</em><em>r</em><em>u</em>[<em>m</em><sub><em>i</em></sub>]</span> - the sustained write throughput of medium <span class="math inline"><em>m</em><sub><em>i</em></sub></span></li>
-<li><span class="math inline"><em>R</em><em>T</em><em>h</em><em>r</em><em>u</em>[<em>m</em><sub><em>i</em></sub>]</span> - the sustained read throughput of medium <span class="math inline"><em>m</em><sub><em>i</em></sub></span></li>
-</ul></li>
-<li>Workers <span class="math inline"><em>W</em><sub>1</sub>, …, <em>W</em><sub><em>n</em></sub></span>
-<ul>
-<li>Slightly different concept
-<ul>
-<li>Stores and manages file blocks on storage media</li>
-<li>Serves read and write requests from clients</li>
-<li>Block creation, deletion, replication (instructed by name nodes HDFS...)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><p>From <a href="https://www.wrike.com/open.htm?id=416733774">Wrike</a>:</p>
-<ul>
-<li><span class="math inline"><em>W</em><sub><em>i</em></sub> =  &lt; <em>n</em><em>o</em><em>d</em><em>e</em>, <em>t</em><em>i</em><em>e</em><em>r</em>&gt;</span></li>
-<li>Workers are a dedicated thread per tier available on the node</li>
-<li>Worker characteristics:
-<ul>
-<li>Capacity</li>
-<li>BW</li>
-<li>Latency</li>
-<li>Energy consumption</li>
-<li>Concurrency (expressed as the number of lanes of the bus e.g., PCIex8 or SATA)</li>
-<li>Queue pressure (outstanding requests)
-<ul>
-<li>Aggregate data size in queue</li>
-<li>Number of pending requests</li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
+   <tbody>
+      <tr class="odd">
+         <td>
+            <p>From the <a href="https://www.cut.ac.cy/digitalAssets/122/122275_100sigmod.pdf">OctopusFS paper</a>:</p>
+            <ul>
+               <li>Tiers <span class="math inline"><em>T</em><sub>1</sub>, …, <em>T</em><sub><em>k</em></sub></span></li>
+               <li>
+                  Media <span class="math inline"><em>m</em><sub><em>i</em></sub></span>
+                  <ul>
+                     <li><span class="math inline"><em>T</em><em>i</em><em>e</em><em>r</em>[<em>m</em><sub><em>i</em></sub>]</span> - the tier of medium <span class="math inline"><em>m</em><sub><em>i</em></sub></span></li>
+                     <li><span class="math inline"><em>C</em><em>a</em><em>p</em>[<em>m</em><sub><em>i</em></sub>]</span> - the total capacity of medium <span class="math inline"><em>m</em><sub><em>i</em></sub></span></li>
+                     <li><span class="math inline"><em>R</em><em>e</em><em>m</em>[<em>m</em><sub><em>i</em></sub>]</span> - the remaining capacity of medium <span class="math inline"><em>m</em><sub><em>i</em></sub></span></li>
+                     <li><span class="math inline"><em>N</em><em>r</em><em>C</em><em>o</em><em>n</em><em>n</em>[<em>m</em><sub><em>i</em></sub>]</span> - the number of active I/O connections to medium <span class="math inline"><em>m</em><sub><em>i</em></sub></span></li>
+                     <li><span class="math inline"><em>W</em><em>T</em><em>h</em><em>r</em><em>u</em>[<em>m</em><sub><em>i</em></sub>]</span> - the sustained write throughput of medium <span class="math inline"><em>m</em><sub><em>i</em></sub></span></li>
+                     <li><span class="math inline"><em>R</em><em>T</em><em>h</em><em>r</em><em>u</em>[<em>m</em><sub><em>i</em></sub>]</span> - the sustained read throughput of medium <span class="math inline"><em>m</em><sub><em>i</em></sub></span></li>
+                  </ul>
+               </li>
+               <li>
+                  Workers <span class="math inline"><em>W</em><sub>1</sub>, …, <em>W</em><sub><em>n</em></sub></span>
+                  <ul>
+                     <li>
+                        Slightly different concept
+                        <ul>
+                           <li>Stores and manages file blocks on storage media</li>
+                           <li>Serves read and write requests from clients</li>
+                           <li>Block creation, deletion, replication (instructed by name nodes HDFS...)</li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </td>
+         <td>
+            <p>From <a href="https://www.wrike.com/open.htm?id=416733774">Wrike</a>:</p>
+            <ul>
+               <li><span class="math inline"><em>W</em><sub><em>i</em></sub> =  &lt; <em>n</em><em>o</em><em>d</em><em>e</em>, <em>t</em><em>i</em><em>e</em><em>r</em>&gt;</span></li>
+               <li>Workers are a dedicated thread per tier available on the node</li>
+               <li>
+                  Worker characteristics:
+                  <ul>
+                     <li>Capacity</li>
+                     <li>BW</li>
+                     <li>Latency</li>
+                     <li>Energy consumption</li>
+                     <li>Concurrency (expressed as the number of lanes of the bus e.g., PCIex8 or SATA)</li>
+                     <li>
+                        Queue pressure (outstanding requests)
+                        <ul>
+                           <li>Aggregate data size in queue</li>
+                           <li>Number of pending requests</li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </td>
+      </tr>
+   </tbody>
 </table>

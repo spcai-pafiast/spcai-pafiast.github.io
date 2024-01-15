@@ -47,7 +47,7 @@ inline std::string GetFilenameFromFD(int fd) {
 
 ## Can I run Hermes on Chameleon JupyterLab Server?
 
-Maybe. However, installation with Spack will fail due to timeout. For older (<0.8) Hermes, Google OR-Tools installation will fail.
+Maybe. However, installation with Spack will fail due to timeout. For older (< 0.8) Hermes, Google OR-Tools installation will fail.
 
 ## Why do I get `mercury->fatal` error when I use `rpc_protocol = "ofi+verbs";` in configuration file?
 

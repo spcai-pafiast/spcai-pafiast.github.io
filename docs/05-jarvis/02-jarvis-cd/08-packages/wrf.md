@@ -138,7 +138,7 @@ export NETCDF=$DIR
 ```
 
 4. Build NetCDF fortran library links with NETCDF-C, after successful installation,
-   netcdf.inc will be ${NETCDF}/include file.
+   netcdf.inc will be `${NETCDF}/include` file.
    For sometimes, it will show C compiler stop working, Please check the environment variable in
    LIBS="-lnetcdf -lhdf5_hl -lhdf5 -lz", make sure netcdf and hdf5 path in the environment variables.
 

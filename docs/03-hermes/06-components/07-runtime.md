@@ -64,7 +64,7 @@ A Task Library implements the following concepts:
    released as a shared object.
 3. **Task Client**: A class responsible for submitting tasks to the hermes runtime. This is released as a header file, which is included by the client program.
 
-To easily bootstrap a task lib, Hermes provides a python-based code generator called make_task. This script assumes a Linux system at this time (Windows has a different pathing system). Let's say you want to create a new task lib named "compress" for creating a factory of compression libraries. The task lib is located in the task repo ${HOME}/my_task_repo.
+To easily bootstrap a task lib, Hermes provides a python-based code generator called make_task. This script assumes a Linux system at this time (Windows has a different pathing system). Let's say you want to create a new task lib named "compress" for creating a factory of compression libraries. The task lib is located in the task repo `${HOME}/my_task_repo`.
 
 ```bash
 codegen/make_task ${HOME}/my_task_repo/compress

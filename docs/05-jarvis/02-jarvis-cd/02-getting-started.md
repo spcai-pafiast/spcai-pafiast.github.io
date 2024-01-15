@@ -42,9 +42,7 @@ To begin polling the system, run:
 jarvis resource-graph build +walkthrough
 ```
 
-This information will be stored under ${JARVIS_ROOT}/config/resource_graph.yaml.
-The command uses SSH to connect to all pkgs. It will use the
-hostfile from the previous command and scan those pkgs.
+This information will be stored under `${JARVIS_ROOT}/config/resource_graph.yaml`. The command uses SSH to connect to all pkgs. It will use the hostfile from the previous command and scan those pkgs.
 
 ## Create an empty pipeline
 
