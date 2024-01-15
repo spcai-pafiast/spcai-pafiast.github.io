@@ -2,18 +2,6 @@ import { Member } from "../types";
 
 export default [
   {
-    name: "Wiam Amine",
-    title: "PhD Student",
-    advisor: "Dr. Xian-He Sun",
-    image: require("@site/static/img/members/amine.jpg").default,
-    links: {
-      email: "wamine@hawk.iit.edu",
-      linkedin: "https://www.linkedin.com/in/wiam-amine-98b074179/",
-    },
-    researchInterests: ["HPC", "Distributed Storage"],
-    type: "researcher",
-  },
-  {
     name: "Keith Bateman",
     title: "PhD Candidate",
     advisor: "Dr. Xian-He Sun",
