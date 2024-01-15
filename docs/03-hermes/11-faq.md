@@ -10,10 +10,10 @@ If Python throws `AttributeError: 'NoneType' object has no attribute 'version'` 
 
 1. try add `-d` option for `spack -d install hermes`.
 2. try to remove these two packages:
-   - mochi-spack-packages/packages/flamestore
-   - mochi-spack-packages/packages/py-mochi-tmci
+   - `mochi-spack-packages/packages/flamestore`
+   - `mochi-spack-packages/packages/py-mochi-tmci`
 3. try `spack install or-tools  ^abseil-cpp@20200225.2` if OR-Tools installation fails.
-   - gcc-11.2 can't build abseil-cpp@20200225.2.
+   - `gcc-11.2 can't build abseil-cpp@20200225.2`.
 
 ## Does Spack install HDF5 VFD for Hermes?
 
@@ -25,10 +25,10 @@ To use the latest 1.13 development version of HDF5, add `^hdf5@develop-1.13` (e.
 
 No. macOS lacks several system calls that Hermes components use:
 
-- fopen64 / fseeko64
-- O_DIRECT / O_TMPFILE
-- gethostbyname_r
-- \_STAT_VER
+- `fopen64` / `fseeko64`
+- `O_DIRECT` / `O_TMPFILE`
+- `gethostbyname_r`
+- `_STAT_VER`
 
 ## Does Hermes run on Linux only?
 
@@ -47,8 +47,7 @@ inline std::string GetFilenameFromFD(int fd) {
 
 ## Can I run Hermes on Chameleon JupyterLab Server?
 
-Maybe. However, installation with Spack will fail due to timeout.
-For older (< 0.8) Hermes, Google OR-Tools installation will fail.
+Maybe. However, installation with Spack will fail due to timeout. For older (<0.8) Hermes, Google OR-Tools installation will fail.
 
 ## Why do I get `mercury->fatal` error when I use `rpc_protocol = "ofi+verbs";` in configuration file?
 
@@ -56,6 +55,4 @@ Such error occurs when `libfabric` is not compiled with `verbs` support. Try `sp
 
 ## Why does MPI Adapter fail to compile?
 
-The MPI-IO adapter only supports MPICH.
-Use `spack install mpi ^mpich` to install mpi.
-Load it with `spack load mpi`.
+The MPI-IO adapter only supports MPICH. Use `spack install mpi ^mpich` to install mpi. Load it with `spack load mpi`.
