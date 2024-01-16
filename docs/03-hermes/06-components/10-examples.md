@@ -2,9 +2,9 @@
 
 ## Ares (IIT)
 
-[[../images/Ares_simplified_structure.png|Ares - simplified structure]]
+![Ares - simplified structure](../images/Ares_simplified_structure.png)
 
-[[../images/Network_topology.png|Ares - network topology]]
+![Ares - network topology](../images/Network_topology.png)
 
 <table>
 <tr>
@@ -59,7 +59,7 @@
 
 RDMA max bandwidth is around 37 Gb/s.
 
-[[../images/RDMA_bandwidth.png|ARES RDMA Bandwidth]]
+![ARES RDMA Bandwidth](../images/RDMA_bandwidth.png)
 
 Memory bandwidth ([STREAM
 benchmark](https://www.cs.virginia.edu/stream/)):
@@ -121,7 +121,7 @@ from](https://docs.google.com/spreadsheets/d/1bngw2dXIamtT7rvPcultBxF5lyhubNCmK2
 The Chameleon architecture consists of a set of standard cloud units
 (SCUs).
 
-[[../images/Chameleon_Hardware_Summary.png|Chameleon - One Unit of SCU Hardware Summary]]
+![Chameleon - One Unit of SCU Hardware Summary](../images/Chameleon_Hardware_Summary.png)
 
 ### Standard Cloud Units
 
