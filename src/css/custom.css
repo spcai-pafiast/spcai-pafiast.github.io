@@ -37,6 +37,10 @@
   text-align: justify;
 }
 
+.mdx-page a p {
+  margin-bottom: 0;
+}
+
 .mdx-page center p {
   text-align: center;
 }
