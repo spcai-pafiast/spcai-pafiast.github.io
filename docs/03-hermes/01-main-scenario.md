@@ -12,7 +12,7 @@ page](/research/projects/hermes).
 ![Deep Memory and Storage Hierarchy (DMSH)](images/Hermes_hierachy.jpg)
 
 Consider an HPC cluster equipped with a [deep memory and storage
-hierarchy](06-components/10-examples.md) (DMSH), the bottom layer of
+hierarchy](components/examples) (DMSH), the bottom layer of
 which is typically a parallel file system (PFS). DMSH was introduced to
 boost or to at least improve the I/O (POSIX, MPI-IO, HDF5, ...)
 performance of applications performing poorly otherwise. Unfortunately,
@@ -51,24 +51,24 @@ with the following characteristics:
   where in DMSH a given data item is <b>best/well/optimally-</b>placed at
   that point in time.
 - To that end, the system consists of the following major components:
-  - [Strategies and algorithms](06-components/04-data-placement.md) that
+  - [Strategies and algorithms](components/data-placement) that
     implement policies and facilitate
     data placement decisions. Speculative data
     placement for read operations is also known as
-    [Prefetching](06-components/09-prefetcher.md).
+    [Prefetching](components/prefetcher).
   - These strategies work with (dynamic) sets of [buffering
-    target](06-components/03-buffering-target.md)s and are applicable more
+    target](components/buffering-target)s and are applicable more
     broadly.
   - The physical buffering resources are managed in a distributed
-    [Buffer Pool](06-components/02-buffer-pool.md) (see also Batching
+    [Buffer Pool](components/buffer-pool) (see also Batching
     System).
-  - [Buffer Organizer](06-components/01-buffer-organizer.md)
+  - [Buffer Organizer](components/buffer-organizer)
   - Profiler
   - To separate concerns and for portability, system buffers are
     **not** directly exposed to applications. There is a set of
     intermediate primitives targeted by
-    [adapters](07-adapters.md) for different I/O libraries. A
-    generic [metadata manager](06-components/08-distributed-metadata.md) (MDM),
+    [adapters](adapters) for different I/O libraries. A
+    generic [metadata manager](components/distributed-metadata) (MDM),
     supports the bookkeeping needs of the various components.
 - The whole system is deployed in a server-less fashion.
 
