@@ -78,6 +78,11 @@ export default function JobItem({
             </Link>
           )}
         </div>
+        {!isOpen && (
+          <small className={styles.smallNote}>
+            Please check back for future opportunities.
+          </small>
+        )}
       </div>
     </div>
   );
