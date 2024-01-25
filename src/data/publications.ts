@@ -31,6 +31,26 @@ const publications: Publication[] = [
   },
   {
     authors: [
+      "Z. Dang",
+      "S. He",
+      "X. Zhang",
+      "P. Hong",
+      "Z. Li",
+      "X. Chen",
+      "H. Song",
+      "X.-H. Sun",
+      "G. Chen",
+    ],
+    title:
+      "PMAlloc: A Holistic Approach to Improving Persistent Memory Allocation",
+    venue: "ACM Transactions on Computer Systems (TOCS'24)",
+    type: "Journal",
+    date: "January, 2024",
+    tags: ["Persistent Memory", "Memory Management"],
+    links: {},
+  },
+  {
+    authors: [
       "I. Yildirim",
       "H. Devarajan",
       "A. Kougkas",
