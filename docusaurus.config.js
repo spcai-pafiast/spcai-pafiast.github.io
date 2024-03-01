@@ -26,7 +26,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "grc-iit", // Usually your GitHub org/user name.
+  organizationName: "spcai-pafiast", // Usually your GitHub org/user name.
   projectName: "website", // Usually your repo name.
 
   onBrokenLinks: "throw",
